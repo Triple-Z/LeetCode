@@ -18,6 +18,7 @@ LeetCode 练习仓库。
 |9| Palindrome Number | [Python3](py3/9.py) | Easy |
 |13| Roman to Integer | [Python3](py3/13.py) | Easy |
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
+|21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 
 # Copyright
 
