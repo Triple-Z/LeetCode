@@ -17,6 +17,7 @@ LeetCode 练习仓库。
 |7| Reverse Integer | [Python3](py3/7.py) | Easy |
 |9| Palindrome Number | [Python3](py3/9.py) | Easy |
 |13| Roman to Integer | [Python3](py3/13.py) | Easy |
+|14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 
 # Copyright
 
