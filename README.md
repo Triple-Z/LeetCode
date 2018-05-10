@@ -14,6 +14,9 @@ LeetCode 练习仓库。
 |4| Median of Two Sorted Arrays |[Python3](py3/4.py)|Hard|
 |5| Longest Palindromic Substring | [Python3](py3/5.py) | Medium|
 |6| ZigZag Conversion |[Python3](py3/6.py) | Medium|
+|7| Reverse Integer | [Python3](py3/7.py) | Easy |
+|9| Palindrome Number | [Python3](py3/9.py) | Easy |
+|13| Roman to Integer | [Python3](py3/13.py) | Easy |
 
 # Copyright
 
