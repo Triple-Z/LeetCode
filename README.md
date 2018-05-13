@@ -20,6 +20,9 @@ LeetCode 练习仓库。
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
+|160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
+|226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
+
 
 # Copyright
 
