@@ -24,6 +24,8 @@ LeetCode 练习仓库。
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
 |104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
+|136| Single Number | [Python3](py3/136.py) | Easy |
+|141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
