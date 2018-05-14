@@ -16,6 +16,7 @@ LeetCode 练习仓库。
 |6| ZigZag Conversion |[Python3](py3/6.py) | Medium|
 |7| Reverse Integer | [Python3](py3/7.py) | Easy |
 |9| Palindrome Number | [Python3](py3/9.py) | Easy |
+|10| Regular Expression Matching | [Python3](py3/10.py) | Hard |
 |13| Roman to Integer | [Python3](py3/13.py) | Easy |
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
