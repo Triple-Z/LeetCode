@@ -21,6 +21,10 @@ LeetCode 练习仓库。
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
+|53| Maximum Subarray | [Python3](py3/53.py) | Easy |
+|66| Plus One | [Python3](py3/66.py) | Easy |
+|67| Add Binary | [Python3](py3/67.py) | Easy |
+|69| Sqrt(x) | [Python3](py3/69.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
 |104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
