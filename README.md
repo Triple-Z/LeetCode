@@ -21,6 +21,9 @@ LeetCode 练习仓库。
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
+|101| Symmetric Tree | [Python3](py3/101.py) | Easy |
+|104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
+|121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
