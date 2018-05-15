@@ -33,6 +33,7 @@ LeetCode 练习仓库。
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
+|461| Hamming Distance | [Python3](py3/461.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 
 
