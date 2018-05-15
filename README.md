@@ -32,10 +32,13 @@ LeetCode 练习仓库。
 |136| Single Number | [Python3](py3/136.py) | Easy |
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
+|169| Majority Element | [Python3](py3/169.py) | Easy |
+|206| Reverse Linked List | [Python3](py3/206.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
+|538| Convert BST to Greater Tree | [Python3](py3/538.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 
 
