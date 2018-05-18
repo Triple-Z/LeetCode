@@ -39,6 +39,8 @@ LeetCode 练习仓库。
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
 |538| Convert BST to Greater Tree | [Python3](py3/538.py) | Easy |
+|543| Diameter of Binary Tree | [Python3](py3/543.py) | Easy |
+|572| Subtree of Another Tree | [Python3](py3/572.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 
 
