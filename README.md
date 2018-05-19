@@ -31,14 +31,16 @@ LeetCode 练习仓库。
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
 |136| Single Number | [Python3](py3/136.py) | Easy |
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
+|155| Min Stack | [Python3](py3/155.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
 |169| Majority Element | [Python3](py3/169.py) | Easy |
 |198| House Robber | [Python3](py3/198.py) | Easy |
 |206| Reverse Linked List | [Python3](py3/206.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
-|226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
+|234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
+|438| Find All Anagrams in a String | []() | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
 |538| Convert BST to Greater Tree | [Python3](py3/538.py) | Easy |
 |543| Diameter of Binary Tree | [Python3](py3/543.py) | Easy |
