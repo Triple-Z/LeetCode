@@ -40,11 +40,12 @@ LeetCode 练习仓库。
 |234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
-|438| Find All Anagrams in a String | []() | Easy |
+|438| Find All Anagrams in a String | [Python3](py3/438.py) | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
 |538| Convert BST to Greater Tree | [Python3](py3/538.py) | Easy |
 |543| Diameter of Binary Tree | [Python3](py3/543.py) | Easy |
 |572| Subtree of Another Tree | [Python3](py3/572.py) | Easy |
+|581| Shortest Unsorted Continuous Subarray | [Python3](py3/581.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 
 
