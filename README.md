@@ -41,6 +41,7 @@ LeetCode 练习仓库。
 |234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |338| Counting Bits | [Python3](py3/338.py) | Easy |
+|406| Queue Reconstruction by Height | [Python3](py3/406.py) | Easy |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
 |438| Find All Anagrams in a String | [Python3](py3/438.py) | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
