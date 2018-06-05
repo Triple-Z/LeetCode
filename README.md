@@ -39,9 +39,10 @@ LeetCode 练习仓库。
 |206| Reverse Linked List | [Python3](py3/206.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
+|238| Product of Array Except Self | [Python3](py3/238.py) | Medium |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
-|338| Counting Bits | [Python3](py3/338.py) | Easy |
-|406| Queue Reconstruction by Height | [Python3](py3/406.py) | Easy |
+|338| Counting Bits | [Python3](py3/338.py) | Medium |
+|406| Queue Reconstruction by Height | [Python3](py3/406.py) | Medium |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
 |438| Find All Anagrams in a String | [Python3](py3/438.py) | Easy |
 |448| Find All Numbers Disappeared in an Array | [Python3](py3/448.py) | Easy |
@@ -50,6 +51,7 @@ LeetCode 练习仓库。
 |572| Subtree of Another Tree | [Python3](py3/572.py) | Easy |
 |581| Shortest Unsorted Continuous Subarray | [Python3](py3/581.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
+|647| Palindromic Substrings | [Python3](py3/647.py) | Medium |
 
 
 # Copyright
