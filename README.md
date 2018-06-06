@@ -27,6 +27,7 @@ LeetCode 练习仓库。
 |67| Add Binary | [Python3](py3/67.py) | Easy |
 |69| Sqrt(x) | [Python3](py3/69.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
+|94| Binary Tree Inorder Traversal | [Python3](py3/94.py) | Medium |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
 |104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
@@ -42,6 +43,7 @@ LeetCode 练习仓库。
 |238| Product of Array Except Self | [Python3](py3/238.py) | Medium |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |338| Counting Bits | [Python3](py3/338.py) | Medium |
+|347| Top K Frequent Elements | [Python3](py3/347.py) | Medium |
 |406| Queue Reconstruction by Height | [Python3](py3/406.py) | Medium |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
 |438| Find All Anagrams in a String | [Python3](py3/438.py) | Easy |
