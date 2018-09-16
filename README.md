@@ -6,8 +6,8 @@ LeetCode 练习仓库。
 
 ## Algorithms
 
-|#| Title|Solution|Difficulty|
-|:----:|:----:|:----:|:----:|
+|#| Title|Solution|Difficulty| Tags |
+|:----:|:----:|:----:|:----:|:----: |
 |1 | Two Sum | [Python3](py3/1.py) | Easy|
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
 |3 |Longest Substring Without Repeating Characters | [Python3](py3/3.py) | Medium |
@@ -21,6 +21,7 @@ LeetCode 练习仓库。
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
+|22| Generate Parentheses | [Python3](py3/22.py) | Easy |
 |35| Search Insert Position | [Python3](py3/35.py) | Easy |
 |53| Maximum Subarray | [Python3](py3/53.py) | Easy |
 |66| Plus One | [Python3](py3/66.py) | Easy |
@@ -28,6 +29,7 @@ LeetCode 练习仓库。
 |69| Sqrt(x) | [Python3](py3/69.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
 |94| Binary Tree Inorder Traversal | [Python3](py3/94.py) | Medium |
+|100| Same Tree | [Python3](py3/100.py) | Easy | `DFS` |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
 |104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
