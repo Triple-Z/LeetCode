@@ -6,7 +6,7 @@ LeetCode 练习仓库。
 
 ## Algorithms
 
-|#| Title|Solution|Difficulty| Tags |
+|#| Title|Solution|Difficulty| Topics |
 |:----:|:----:|:----:|:----:|:----: |
 |1 | Two Sum | [Python3](py3/1.py) | Easy|
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
@@ -56,7 +56,7 @@ LeetCode 练习仓库。
 |581| Shortest Unsorted Continuous Subarray | [Python3](py3/581.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 |647| Palindromic Substrings | [Python3](py3/647.py) | Medium |
-
+|905| Sort Array By Parity | [C++](cpp/src/905.cpp) | Easy |`Array` |
 
 # Copyright
 
