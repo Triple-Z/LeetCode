@@ -1,21 +1,21 @@
-CC = gcc
+CC = g++
 CFLAGS = -I$(INCDIR)
 
-INCDIR = include
-BINDIR = bin
-OBJDIR = obj
+INCDIR = ../include
+BINDIR = ../bin
+OBJDIR = ../obj
 
-ALL = 
+ALL = 905
 
-$(OBJDIR)/%.o: %.c
+$(OBJDIR)/%.o: %.cpp
 	@[ -d $(OBJDIR) ] || mkdir $(OBJDIR)
-	$(CC) -c -o $@ $< $(CFLAGS)
+	$(CC) -c -g -o $@ $< $(CFLAGS)
 
 all: $(ALL)
 
-add: $(patsubst %, $(OBJDIR)/%, add.o)
+905: $(patsubst %, $(OBJDIR)/%, 905.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
-	$(CC) -o $(BINDIR)/$@ $^ $(CFLAGS)
+	$(CC) -g -o $(BINDIR)/$@ $^ $(CFLAGS)
 
 run-%: $(BINDIR)/%
 	$^
