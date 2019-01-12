@@ -56,6 +56,7 @@ LeetCode 练习仓库。
 |581| Shortest Unsorted Continuous Subarray | [Python3](py3/581.py) | Easy |
 |617| Merge Two Binary Trees | [Python3](py3/617.py) | Easy |
 |647| Palindromic Substrings | [Python3](py3/647.py) | Medium |
+|832| Flipping an Image | [C++](cpp/src/832.cpp) | Easy | `Array` |
 |905| Sort Array By Parity | [C++](cpp/src/905.cpp) | Easy |`Array` |
 
 # Copyright
