@@ -15,16 +15,16 @@ all: $(ALL)
 
 905: $(patsubst %, $(OBJDIR)/%, 905.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
-	$(CC) -g -o $(BINDIR)/$@ $^ $(CFLAGS)
+	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
 
-run-%: $(BINDIR)/%
+run-%: $(BINDIR)/%.out
 	$^
 
 runall: all
 	@echo -e
 	@for exe in $(ALL); do \
-		echo "$(BINDIR)/$$exe"; \
-		$(BINDIR)/$$exe; \
+		echo "$(BINDIR)/$$exe.out"; \
+		$(BINDIR)/$$exe.out; \
 		echo -e; \
 	done
 
