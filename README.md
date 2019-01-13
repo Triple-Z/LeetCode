@@ -6,9 +6,9 @@ LeetCode 练习仓库。
 
 ### Algorithms
 
-|#| Title|Solution|Difficulty| Topics |
-|:----:|:----:|:----:|:----:|:----: |
-|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) | Easy| `Array`, `Hash Table` |
+|#| Title|Solution|Difficulty| Topics | Docs |
+|:----:|:----:|:----:|:----:|:----: | :----: |
+|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/"1. Two Sum.md") |
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
 |3 |Longest Substring Without Repeating Characters | [Python3](py3/3.py) | Medium |
 |4| Median of Two Sorted Arrays |[Python3](py3/4.py)|Hard|
