@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -I$(INCDIR) -Wall -Wextra
+CFLAGS = -I$(INCDIR) -std=c++11 -Wall -Wextra
 
 INCDIR = ../include
 BINDIR = ../bin
@@ -12,6 +12,10 @@ $(OBJDIR)/%.o: %.cpp
 	$(CC) -c -g -o $@ $< $(CFLAGS)
 
 all: $(ALL)
+
+1: $(patsubst %, $(OBJDIR)/%, 1.o)
+	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
+	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
 
 832: $(patsubst %, $(OBJDIR)/%, 832.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)

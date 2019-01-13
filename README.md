@@ -2,13 +2,13 @@
 
 LeetCode 练习仓库。
 
-# Problems
+## Problems
 
-## Algorithms
+### Algorithms
 
 |#| Title|Solution|Difficulty| Topics |
 |:----:|:----:|:----:|:----:|:----: |
-|1 | Two Sum | [Python3](py3/1.py) | Easy|
+|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) | Easy| `Array`, `Hash Table` |
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
 |3 |Longest Substring Without Repeating Characters | [Python3](py3/3.py) | Medium |
 |4| Median of Two Sorted Arrays |[Python3](py3/4.py)|Hard|
@@ -59,6 +59,6 @@ LeetCode 练习仓库。
 |832| Flipping an Image | [C++](cpp/src/832.cpp) | Easy | `Array` |
 |905| Sort Array By Parity | [C++](cpp/src/905.cpp) | Easy |`Array` |
 
-# Copyright
+## Copyright
 
 Copyright &copy; 2018 [TripleZ](https://github.com/Triple-Z)
