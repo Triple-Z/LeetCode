@@ -13,6 +13,11 @@ $(OBJDIR)/%.o: %.cpp
 
 all: $(ALL)
 
+15: $(patsubst %, $(OBJDIR)/%, 15.o)
+	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
+	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
+
+
 1: $(patsubst %, $(OBJDIR)/%, 1.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
 	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
@@ -27,6 +32,9 @@ all: $(ALL)
 
 run-%: $(BINDIR)/%.out
 	$^
+
+debug-%: $(BINDIR)/%.out
+	gdb $^
 
 runall: all
 	@echo -e

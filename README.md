@@ -2,10 +2,14 @@
 
 LeetCode 练习仓库。
 
+<!-- TOC depthFrom:2 -->
+
 - [LeetCode](#leetcode)
   - [Problems](#problems)
     - [Algorithms](#algorithms)
   - [License](#license)
+
+<!-- /TOC -->
 
 ## Problems
 
@@ -24,6 +28,7 @@ LeetCode 练习仓库。
 |10| Regular Expression Matching | [Python3](py3/10.py) | Hard |
 |13| Roman to Integer | [Python3](py3/13.py) | Easy |
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
+|15| 3Sum |  | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/15.%203Sum.md) |
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |22| Generate Parentheses | [Python3](py3/22.py) | Easy |
