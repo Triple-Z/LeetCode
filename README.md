@@ -2,6 +2,11 @@
 
 LeetCode 练习仓库。
 
+- [LeetCode](#leetcode)
+  - [Problems](#problems)
+    - [Algorithms](#algorithms)
+  - [License](#license)
+
 ## Problems
 
 ### Algorithms
