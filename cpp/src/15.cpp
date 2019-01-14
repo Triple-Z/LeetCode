@@ -26,14 +26,19 @@ public:
             while (it_j < it_h) {
                 auto sum = *it_i + *it_j + *it_h;
                 if (sum > 0) {
+                    while(it_j < it_h && *it_h == *(it_h-1)) it_h--;
                     it_h--;
                 } else if (sum < 0) {
+                    while(it_j < it_h && *it_j == *(it_j+1)) it_j++;
                     it_j++;
                 } else {
                     // find a triplet
                     vector<int> triplet = {*it_i, *it_j, *it_h};
                     ret.insert(triplet);
+                    while(it_j < it_h && *it_j == *(it_j+1)) it_j++;
+                    while(it_j < it_h && *it_h == *(it_h-1)) it_h--;
                     it_j++;
+                    it_h--;
                 }
             }
         }
