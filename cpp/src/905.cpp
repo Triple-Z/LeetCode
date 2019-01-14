@@ -27,7 +27,7 @@ public:
 };
 
 
-int main(int argc, char const *argv[]) {
+int main() {
     Solution solution = Solution();
 
     vector<int> A = {4,5,6,7,8};
