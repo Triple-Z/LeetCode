@@ -13,10 +13,13 @@ $(OBJDIR)/%.o: %.cpp
 
 all: $(ALL)
 
-15: $(patsubst %, $(OBJDIR)/%, 15.o)
+16: $(patsubst %, $(OBJDIR)/%, 16.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
 	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
 
+15: $(patsubst %, $(OBJDIR)/%, 15.o)
+	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
+	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
 
 1: $(patsubst %, $(OBJDIR)/%, 1.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
