@@ -34,6 +34,7 @@ LeetCode 练习仓库。
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |22| Generate Parentheses | [Python3](py3/22.py) | Easy |
+|26| Remove Duplicates from Sorted Array | [C++](cpp/src/26.cpp) | Easy | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 |35| Search Insert Position | [Python3](py3/35.py) | Easy |
 |53| Maximum Subarray | [Python3](py3/53.py) | Easy |
 |66| Plus One | [Python3](py3/66.py) | Easy |
