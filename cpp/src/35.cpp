@@ -8,12 +8,19 @@ using namespace std;
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
-        for (auto it = nums.begin(); it != nums.end(); it++) {
-            if (*it < target) continue;
-            else return it-nums.begin();
+        int low = 0, high = nums.size() - 1;
+        
+        while (low <= high) {
+            int mid = low + (high-low)/2;
+            
+            if (target <= nums[mid]) {
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
         }
         
-        return nums.size();
+        return low;
     }
 };
 
