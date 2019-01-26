@@ -26,6 +26,7 @@ LeetCode 练习仓库。
 |7| Reverse Integer | [Python3](py3/7.py) | Easy |
 |9| Palindrome Number | [Python3](py3/9.py) | Easy |
 |10| Regular Expression Matching | [Python3](py3/10.py) | Hard |
+|11| Container With Most Water | [C++](cpp/src/11.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/11.%20Container%20With%20Most%20Water.md) |
 |13| Roman to Integer | [Python3](py3/13.py) | Easy |
 |14| Longest Common Prefix | [Python3](py3/14.py) | Easy |
 |15| 3Sum | [C++](cpp/src/15.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/15.%203Sum.md) |
@@ -34,12 +35,15 @@ LeetCode 练习仓库。
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |22| Generate Parentheses | [Python3](py3/22.py) | Easy |
+|26| Remove Duplicates from Sorted Array | [C++](cpp/src/26.cpp) | Easy |  `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
+|27| Remove Element | [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 |35| Search Insert Position | [Python3](py3/35.py), [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md)
 |53| Maximum Subarray | [Python3](py3/53.py) | Easy |
 |66| Plus One | [Python3](py3/66.py) | Easy |
 |67| Add Binary | [Python3](py3/67.py) | Easy |
 |69| Sqrt(x) | [Python3](py3/69.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
+|80| Remove Duplicates from Sorted Array II | [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md)
 |94| Binary Tree Inorder Traversal | [Python3](py3/94.py) | Medium |
 |100| Same Tree | [Python3](py3/100.py) | Easy | `DFS` |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
