@@ -34,7 +34,7 @@ LeetCode 练习仓库。
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
 |21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
 |22| Generate Parentheses | [Python3](py3/22.py) | Easy |
-|35| Search Insert Position | [Python3](py3/35.py) | Easy |
+|35| Search Insert Position | [Python3](py3/35.py), [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md)
 |53| Maximum Subarray | [Python3](py3/53.py) | Easy |
 |66| Plus One | [Python3](py3/66.py) | Easy |
 |67| Add Binary | [Python3](py3/67.py) | Easy |
