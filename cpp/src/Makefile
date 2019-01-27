@@ -5,13 +5,17 @@ INCDIR = ../include
 BINDIR = ../bin
 OBJDIR = ../obj
 
-ALL = 905 832 1 15 16 18 26 27 80 11 35
+ALL = 905 832 1 15 16 18 26 27 80 11 35 53
 
 $(OBJDIR)/%.o: %.cpp
 	@[ -d $(OBJDIR) ] || mkdir $(OBJDIR)
 	$(CC) -c -g -o $@ $< $(CFLAGS)
 
 all: $(ALL)
+
+53: $(patsubst %, $(OBJDIR)/%, 53.o)
+	@[ -d $(BINDIR) ] || mkdir $(BINDIR)
+	$(CC) -g -o $(BINDIR)/$@.out $^ $(CFLAGS)
 
 35: $(patsubst %, $(OBJDIR)/%, 35.o)
 	@[ -d $(BINDIR) ] || mkdir $(BINDIR)

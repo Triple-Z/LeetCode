@@ -38,7 +38,7 @@ LeetCode 练习仓库。
 |26| Remove Duplicates from Sorted Array | [C++](cpp/src/26.cpp) | Easy |  `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 |27| Remove Element | [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 |35| Search Insert Position | [Python3](py3/35.py), [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md)
-|53| Maximum Subarray | [Python3](py3/53.py) | Easy |
+|53| Maximum Subarray | [Python3](py3/53.py), [C++](cpp/src/53.cpp) | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_faing_up:](docs/53.%20Maximum%20Subarray.md) |
 |66| Plus One | [Python3](py3/66.py) | Easy |
 |67| Add Binary | [Python3](py3/67.py) | Easy |
 |69| Sqrt(x) | [Python3](py3/69.py) | Easy |
