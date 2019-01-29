@@ -48,7 +48,7 @@ LeetCode 练习仓库。
 |100| Same Tree | [Python3](py3/100.py) | Easy | `DFS` |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
 |104| Maximum Depth of Binary Tree | [Python3](py3/104.py) | Easy |
-|121| Best Time to Buy and Sell Stock | [Python3](py3/121.py) | Easy |
+|121| Best Time to Buy and Sell Stock | [Python3](py3/121.py), [C++](cpp/src/121.cpp) | Easy | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 |136| Single Number | [Python3](py3/136.py) | Easy |
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |155| Min Stack | [Python3](py3/155.py) | Easy |
