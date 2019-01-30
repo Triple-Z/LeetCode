@@ -15,7 +15,7 @@ LeetCode 练习仓库。
 
 ### Algorithms
 
-|#| Title|Solution|Difficulty| Topics | Docs |
+|#| Title|Solution|Difficulty| Topics | Doc |
 |:----:|:----:|:----:|:----:|:----: | :----: |
 |1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
