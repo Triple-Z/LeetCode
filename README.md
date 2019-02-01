@@ -43,7 +43,8 @@ LeetCode 练习仓库。
 |67| Add Binary | [Python3](py3/67.py) | Easy |
 |69| Sqrt(x) | [Python3](py3/69.py) | Easy |
 |70| Climbing Stairs | [Python3](py3/70.py) | Easy |
-|80| Remove Duplicates from Sorted Array II | [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md)
+|80| Remove Duplicates from Sorted Array II | [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
+|88| Merge Sorted Array | [C++](cpp/src/88.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array.md) |
 |94| Binary Tree Inorder Traversal | [Python3](py3/94.py) | Medium |
 |100| Same Tree | [Python3](py3/100.py) | Easy | `DFS` |
 |101| Symmetric Tree | [Python3](py3/101.py) | Easy |
