@@ -4,10 +4,10 @@ LeetCode 练习仓库。
 
 <!-- TOC depthFrom:2 -->
 
-- [LeetCode](#leetcode)
-  - [Problems](#problems)
-    - [Algorithms](#algorithms)
-  - [License](#license)
+- [LeetCode](#LeetCode)
+  - [Problems](#Problems)
+    - [Algorithms](#Algorithms)
+  - [License](#License)
 
 <!-- /TOC -->
 
@@ -17,7 +17,7 @@ LeetCode 练习仓库。
 
 |#| Title|Solution|Difficulty| Topics | Doc |
 |:----:|:----:|:----:|:----:|:----: | :----: |
-|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
+|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp) [Java](java/src/1.java) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
 |3 |Longest Substring Without Repeating Characters | [Python3](py3/3.py) | Medium |
 |4| Median of Two Sorted Arrays |[Python3](py3/4.py)|Hard|
