@@ -17,13 +17,13 @@ LeetCode 练习仓库。
 
 |#| Title|Solution|Difficulty| Topics | Doc |
 |:----:|:----:|:----:|:----:|:----: | :----: |
-|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp), [Java](java/src/1.java) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
+|1 | Two Sum | [Python3](py3/1.py), [C++](cpp/src/1.cpp), [Java](java/src/TwoSum.java) | Easy| `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
 |2 |Add Two Numbers |[Python3](py3/2.py)| Medium|
 |3 |Longest Substring Without Repeating Characters | [Python3](py3/3.py) | Medium |
 |4| Median of Two Sorted Arrays |[Python3](py3/4.py)|Hard|
 |5| Longest Palindromic Substring | [Python3](py3/5.py) | Medium|
 |6| ZigZag Conversion |[Python3](py3/6.py) | Medium|
-|7| Reverse Integer | [Python3](py3/7.py) | Easy |
+|7| Reverse Integer | [Python3](py3/7.py), [Java](java/src/ReverseInteger.java) | Easy |
 |9| Palindrome Number | [Python3](py3/9.py) | Easy |
 |10| Regular Expression Matching | [Python3](py3/10.py) | Hard |
 |11| Container With Most Water | [C++](cpp/src/11.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/11.%20Container%20With%20Most%20Water.md) |
