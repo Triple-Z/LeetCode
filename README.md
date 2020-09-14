@@ -1,15 +1,11 @@
+<!-- omit in toc -->
 # LeetCode
 
 LeetCode 练习仓库。
 
-<!-- TOC depthFrom:2 -->
-
-* [LeetCode](#leetcode)
-  + [Problems](#problems)
-    - [Algorithms](#algorithms)
-  + [License](#license)
-
-<!-- /TOC -->
+- [Problems](#problems)
+  - [Algorithms](#algorithms)
+- [License](#license)
 
 ## Problems
 
