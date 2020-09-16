@@ -1,24 +1,18 @@
 class Solution {
     public int reverse(int x) {
-        String intString = String.valueOf(x);
-        
-        StringBuilder sb = new StringBuilder();
-        String rtnString = null;
-        if (x < 0) {
-            sb.append(intString.substring(1));
-            sb = sb.reverse();
-            rtnString = '-' + sb.toString();
-        } else {
-            sb.append(intString);
-            sb = sb.reverse();
-            rtnString = sb.toString();
-        }
-        
-        try {
-            return Integer.parseInt(rtnString);
-        } catch (NumberFormatException e) {
-            return 0;
-        }
-        
+        int ans = 0, n = 0;
+
+        do {
+            n = x % 10;
+            x /= 10;
+            
+            // overflow
+            if (ans > Integer.MAX_VALUE / 10 || (ans == Integer.MAX_VALUE / 10 && n > 7)) return 0;
+            if (ans < Integer.MIN_VALUE / 10 || (ans == Integer.MIN_VALUE / 10 && n < -8)) return 0;
+
+            ans = ans * 10 + n;
+        } while (x != 0);
+
+        return ans;
     }
 }
