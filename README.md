@@ -50,6 +50,7 @@ LeetCode 练习仓库。
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py), [C++](cpp/src/121.cpp) | Easy | `Array` , `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 |122| Best Time to Buy and Sell Stock II | [C++](cpp/src/122.cpp) | Easy | `Array` , `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
 |123| Best Time to Buy and Sell Stock III | [C++](cpp/src/123.cpp) | Easy | `Array` , `Dynamic Programming` | [:page_facing_up:](docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md) |
+|125| Valid PalinDrome<br>验证回文字符串 ｜ [Java](java/src/ValidPaliDrome.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20验证回文串.md) |
 |136| Single Number | [Python3](py3/136.py) | Easy |
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |155| Min Stack | [Python3](py3/155.py) | Easy |
@@ -60,10 +61,12 @@ LeetCode 练习仓库。
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
 |238| Product of Array Except Self | [Python3](py3/238.py) | Medium |
+|242| Valid Anagram<br>有效的字母异位词 ｜ [Java](java/src/ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20有效的字母异位词.md) |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |338| Counting Bits | [Python3](py3/338.py) | Medium |
 |344| Reverse String<br>反转字符串 | [Java](java/src/ReverseString.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20反转字符串.md) |
 |347| Top K Frequent Elements | [Python3](py3/347.py) | Medium |
+|387| First Unique Character in a String<br>字符串中第一个唯一字符 | [Java](java/src/FirstUniqueCharacterInAString.java) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20字符串中第一个唯一字符.md) |
 |406| Queue Reconstruction by Height | [Python3](py3/406.py) | Medium |
 |437| Path Sum III | [Python3](py3/437.py) | Easy |
 |438| Find All Anagrams in a String | [Python3](py3/438.py) | Easy |
