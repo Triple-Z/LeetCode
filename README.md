@@ -51,7 +51,7 @@ LeetCode 练习仓库。
 |121| Best Time to Buy and Sell Stock | [Python3](py3/121.py), [C++](cpp/src/121.cpp) | Easy | `Array` , `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 |122| Best Time to Buy and Sell Stock II | [C++](cpp/src/122.cpp) | Easy | `Array` , `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
 |123| Best Time to Buy and Sell Stock III | [C++](cpp/src/123.cpp) | Easy | `Array` , `Dynamic Programming` | [:page_facing_up:](docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md) |
-|125| Valid PalinDrome<br>验证回文字符串 ｜ [Java](java/src/ValidPaliDrome.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20验证回文串.md) |
+|125| Valid PalinDrome<br>验证回文字符串 | [Java](java/src/ValidPaliDrome.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20验证回文串.md) |
 |136| Single Number | [Python3](py3/136.py) | Easy |
 |141| Linked List Cycle | [Python3](py3/141.py) | Easy |
 |155| Min Stack | [Python3](py3/155.py) | Easy |
@@ -62,7 +62,7 @@ LeetCode 练习仓库。
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
 |234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
 |238| Product of Array Except Self | [Python3](py3/238.py) | Medium |
-|242| Valid Anagram<br>有效的字母异位词 ｜ [Java](java/src/ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20有效的字母异位词.md) |
+|242| Valid Anagram<br>有效的字母异位词 | [Java](java/src/ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20有效的字母异位词.md) |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
 |338| Counting Bits | [Python3](py3/338.py) | Medium |
 |344| Reverse String<br>反转字符串 | [Java](java/src/ReverseString.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20反转字符串.md) |
@@ -81,6 +81,7 @@ LeetCode 练习仓库。
 |697| Degree of an Array | [C++](cpp/src/697.cpp) | Easy | `Array` | [:page_facing_up:](docs/697.%20Degree%20of%20an%20Array.md) |
 |832| Flipping an Image | [C++](cpp/src/832.cpp) | Easy | `Array` |
 |905| Sort Array By Parity | [C++](cpp/src/905.cpp) | Easy | `Array` |
+|1114| Print in Order<br>按序打印 | [Java](java/src/1114.%20PrintInOrder.java) | Easy | | [:page_facing_up:](docs/1114.%20Print%20in%20Order%20按序打印.md) |
 
 ## License
 
