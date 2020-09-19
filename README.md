@@ -60,7 +60,7 @@ LeetCode 练习仓库。
 |198| House Robber | [Python3](py3/198.py) | Easy |
 |206| Reverse Linked List | [Python3](py3/206.py) | Easy |
 |226| Invert Binary Tree | [Python3](py3/226.py) | Easy |
-|234| Palindrome Linked List | [Python3](py3/234.py) | Easy |
+|234| Palindrome Linked List<br>回文链表 | [Python3](py3/234.py), [Java](java/src/234.%20PalidromeLinkedList.java) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/234.%20Palindrome%20Linked%20List%20回文链表.md) |
 |238| Product of Array Except Self | [Python3](py3/238.py) | Medium |
 |242| Valid Anagram<br>有效的字母异位词 | [Java](java/src/ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20有效的字母异位词.md) |
 |283| Move Zeroes | [Python3](py3/283.py) | Easy |
