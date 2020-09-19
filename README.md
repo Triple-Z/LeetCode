@@ -9,6 +9,8 @@ LeetCode 练习仓库。
 
 ## Problems
 
+> The following problem table maybe outdated until the [#2](https://github.com/Triple-Z/LeetCode/issues/2) issue resolved, searching the file directly instead.
+
 ### Algorithms
 
 |#| Title|Solution|Difficulty| Topics | Doc |
