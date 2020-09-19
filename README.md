@@ -53,7 +53,7 @@ LeetCode 练习仓库。
 |123| Best Time to Buy and Sell Stock III | [C++](cpp/src/123.cpp) | Easy | `Array` , `Dynamic Programming` | [:page_facing_up:](docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md) |
 |125| Valid PalinDrome<br>验证回文字符串 | [Java](java/src/ValidPaliDrome.java) | Easy | `Two Pointers` , `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20验证回文串.md) |
 |136| Single Number | [Python3](py3/136.py) | Easy |
-|141| Linked List Cycle | [Python3](py3/141.py) | Easy |
+|141| Linked List Cycle<br>环形链表 | [Python3](py3/141.py), [Java](java/src/141.%20LinkedListCycle.java) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20环形链表.md) |
 |155| Min Stack | [Python3](py3/155.py) | Easy |
 |160| Intersection of Two Linked Lists | [Python3](py3/160.py) | Easy |
 |169| Majority Element | [Python3](py3/169.py) | Easy |
