@@ -30,7 +30,7 @@ LeetCode 练习仓库。
 |16| 3Sum Closest | [C++](cpp/src/16.cpp) | Medium | `Array` , `Two Pointers` | [:page_facing_up:](docs/16.%203Sum%20Closest.md) |
 |18| 4Sum | [C++](cpp/src/18.cpp) | Medium | `Array` , `Hash Table` , `Two Pointers` | [:page_facing_up:](docs/18.%204Sum.md) |
 |20| Valid Parentheses | [Python3](py3/20.py) | Easy |
-|21| Merge Two Sorted Lists | [Python3](py3/21.py) | Easy |
+|21| Merge Two Sorted Lists<br>合并两个有序列表 | [Python3](py3/21.py), [Java](java/src/21.%20MergeTwoSortedLists.java) | Easy | `Linked List` | [:page_facing_up:](docs/21.%20Merge%20Two%20Sorted%20Lists%20合并两个有序链表.md) |
 |22| Generate Parentheses | [Python3](py3/22.py) | Easy |
 |26| Remove Duplicates from Sorted Array | [C++](cpp/src/26.cpp) | Easy | `Array` , `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
 |27| Remove Element | [C++](cpp/src/27.cpp) | Easy | `Array` , `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
