@@ -37,3 +37,7 @@
 - Reservoir Sampling
 - Memoization
 
+- Database
+- Shell
+- Concurrency
+

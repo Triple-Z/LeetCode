@@ -5,7 +5,7 @@ class Problem:
         self.title_en = None
         self.title_zh = None
         self.difficulty = None
-        self.topics = []
+        self.topics = None
         self.link = None
         self.java = None
         self.py3 = None
