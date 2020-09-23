@@ -10,8 +10,17 @@ LeetCode 练习仓库。
 
 | # | Title | Solution | Difficulty | Topics | Doc |
 |:----:|:----:|:----:|:----:|:----:|:----:|
-{% for problem in problems_list %}| {% if problem.number is not none %}{{ problem.number }}{% endif %} | {% if problem.title_en is not none %}{{ problem.title_en }}{% endif %}{% if problem.title_zh is not none %}<br>{{ problem.title_zh }}{% endif %} | {% if problem.java is not none %}[Java]({{ problem.java }}){% endif %}{% if problem.py3 is not none %} [Python3]({{ problem.py3 }}){% endif %}{% if problem.cpp is not none %} [C++]({{ problem.cpp }}){% endif %} | {% if problem.difficulty is not none %}{{ problem.difficulty }}{% endif %} | {% if problem.topics is not none %}{{ problem.topics }}{% endif %} | {% if problem.doc is not none %}[:page_facing_up:]({{ problem.doc }}){% endif %} |
+{% for problem in problems_list %}| {% if problem.number is not none %}{{ problem.number }}{% endif %} | {% if problem.link is not none %}[{% if problem.title_en is not none %}{{ problem.title_en }}{% endif %}{% if problem.title_zh is not none %}<br>{{ problem.title_zh }}{% endif %}]({{ problem.link }}){% else %}{% if problem.title_en is not none %}{{ problem.title_en }}{% endif %}{% if problem.title_zh is not none %}<br>{{ problem.title_zh }}{% endif %}{% endif %} | {% if problem.java is not none %}[Java]({{ problem.java }}){% endif %}{% if problem.py3 is not none %} [Python3]({{ problem.py3 }}){% endif %}{% if problem.cpp is not none %} [C++]({{ problem.cpp }}){% endif %} | {% if problem.difficulty is not none %}{{ problem.difficulty }}{% endif %} | {% if problem.topics is not none %}{{ problem.topics }}{% endif %} | {% if problem.doc is not none %}[:page_facing_up:]({{ problem.doc }}){% endif %} |
 {% endfor %}
+
+
+## Statistics
+
+- Total solved problems : {{ problems_list | count }}
+- Total solutions via Java : {{ problems_list | rejectattr("java", "none") | list | count }}
+- Total solutions via Python3 : {{ problems_list | rejectattr("py3", "none") | list | count }}
+- Total solutions via C++ : {{ problems_list | rejectattr("cpp", "none") | list | count }}
+- Total Docs : {{ problems_list | rejectattr("doc", "none") | list | count }}
 
 ## License
 

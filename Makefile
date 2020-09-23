@@ -12,7 +12,7 @@ help:  ## Display this help
 .PHONY: update-generate update-change
 update-generate: ## Generate the new README file
 	@python3 utils/update_readme.py -o README-generated.md
-update-change: ## Replace the README file with novely generated one
+update-change: ## Replace the README file with newly generated one
 	@mv README-generated.md README.md
 	@echo "Changed README file successfully!"
 
