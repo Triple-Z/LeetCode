@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-23 13:26:52.801610 UTC
+> Last updated: 2020-09-23 14:46:31.937580 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -54,6 +54,7 @@ LeetCode 练习仓库。
 | 98 | [Valid Binary Search Tree<br> 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](java/src/98.%20ValidBinarySearchTree.java) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/98.%20Valid%20Binary%20Search%20Tree%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) |
 | 100 |  |  [Python3](py3/100.py) |  |  |  |
 | 101 | [Symmetric Tree<br> 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Java](java/src/101.%20SymmetricTree.java) [Python3](py3/101.py) | Easy | `Tree`, `Depth-first Search`, `Breadth-first Search` | [:page_facing_up:](docs/101.%20Symmetric%20Tree%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
+| 102 | [Binary Tree Level Order Traversal<br> 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/102.%20BinaryTreeLevelOrderTraversal.java) | Medium | `Tree`, `Breadth-first Search` | [:page_facing_up:](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 | 104 | [Maximum Depth of Binary Tree<br> 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](java/src/104.%20MaximumDepthOfBinaryTree.java) [Python3](py3/104.py) | Easy | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/104.%20Maximum%20Depth%20of%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  [Python3](py3/121.py) [C++](cpp/src/121.cpp) | Easy | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  [C++](cpp/src/122.cpp) | Easy | `Array`, `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
@@ -96,11 +97,11 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 76
-- Total solutions via Java : 23
+- Total solved problems : 77
+- Total solutions via Java : 24
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 37
+- Total docs : 38
 
 ## License
 
