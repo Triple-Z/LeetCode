@@ -4,6 +4,7 @@ import re
 import argparse
 import logging
 
+from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
 from problem import Problem
@@ -154,6 +155,7 @@ def main():
     loader = FileSystemLoader(root_dir / 'utils' /'templates')
     env = Environment(loader=loader)
     readme_template = env.get_template('README.md.j2')
+    readme_template.globals['now'] = datetime.utcnow
     readme_generated = readme_template.render(problems_list=problems_list)
     logging.debug(readme_generated)
 

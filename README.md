@@ -3,7 +3,12 @@
 
 LeetCode 练习仓库。
 
+> Last updated: 2020-09-23 05:24:52.978961 UTC
+>
+> Run `make update` to update this file.
+
 - [Problems](#problems)
+- [Statistics](#statistics)
 - [License](#license)
 
 ## Problems
