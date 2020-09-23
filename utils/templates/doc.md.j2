@@ -1,0 +1,27 @@
+# {{ problem.number }}. {{ problem.title_en }}{% if problem.titile_zh is not none %}{{ problem.titile_zh }}{% endif %}
+
+- Difficulty: {{ problem.difficulty }}
+- Topics: {% for topic in problem.topics %}{% if not loop.first %}, {% endif %}`{{ topic }}`{% endfor %}
+- Link: {% if problem.link %}{{ problem.link }}{% endif %}
+
+## Description
+
+Problem description goes here.
+
+## Solution
+
+### Solution 1
+
+1st solution goes here.
+
+```lang
+1st solution code goes here.
+```
+
+### Solution 2
+
+2nd solution goes here.
+
+```lang
+2nd solution code goes here.
+```

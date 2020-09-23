@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-23 05:40:21.054050 UTC
+> Last updated: 2020-09-23 11:39:55.947080 UTC
 >
 > Run `make update` to update this file.
 
@@ -100,7 +100,7 @@ LeetCode 练习仓库。
 - Total solutions via Java : 23
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total Docs : 37
+- Total docs : 37
 
 ## License
 

@@ -19,7 +19,7 @@ def main():
     root_dir = cwd / '..'
     # set argprase
     parser = argparse.ArgumentParser(description='Generate Triple-Z/LeetCode README file automatically.')
-    parser.add_argument('-o', '--output-file', dest='output_file_name', type=str, default='README-generated.,md')
+    parser.add_argument('-o', '--output-file', dest='output_file_name', type=str, default='README-generated.md')
 
     args = parser.parse_args()
     output_file_name = args.output_file_name
@@ -53,10 +53,12 @@ def main():
         if number_problem is None:
             new_problem = Problem()
             new_problem.number = number
+            new_problem.is_solved = True
             new_problem.java = quote(str(rel_java_file))
             problems[number] = new_problem
         else:
             number_problem.java = quote(str(rel_java_file))
+            number_problem.is_solved = True
 
     # add python3 files
     for py3_file in py3_filelist:
@@ -72,10 +74,12 @@ def main():
         if number_problem is None:
             new_problem = Problem()
             new_problem.number = number
+            new_problem.is_solved = True
             new_problem.py3 = quote(str(rel_py3_file))
             problems[number] = new_problem
         else:
             number_problem.py3 = quote(str(rel_py3_file))
+            number_problem.is_solved = True
 
     # add cpp files
     for cpp_file in cpp_filelist:
@@ -90,11 +94,13 @@ def main():
         rel_cpp_file = cpp_file.relative_to(root_dir)
         if number_problem is None:
             new_problem = Problem()
-            new_problem.number = number 
+            new_problem.number = number
+            new_problem.is_solved = True
             new_problem.cpp = quote(str(rel_cpp_file))
             problems[number] = new_problem
         else:
             number_problem.cpp = quote(str(rel_cpp_file))
+            number_problem.is_solved = True
 
     # add docs
     for doc in doc_filelist:

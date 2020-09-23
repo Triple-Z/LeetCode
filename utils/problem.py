@@ -7,6 +7,7 @@ class Problem:
         self.difficulty = None
         self.topics = None
         self.link = None
+        self.is_solved = False
         self.java = None
         self.py3 = None
         self.cpp = None

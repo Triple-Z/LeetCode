@@ -21,11 +21,11 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : {{ problems_list | count }}
+- Total solved problems : {{ problems_list | selectattr("is_solved") | list | count }}
 - Total solutions via Java : {{ problems_list | rejectattr("java", "none") | list | count }}
 - Total solutions via Python3 : {{ problems_list | rejectattr("py3", "none") | list | count }}
 - Total solutions via C++ : {{ problems_list | rejectattr("cpp", "none") | list | count }}
-- Total Docs : {{ problems_list | rejectattr("doc", "none") | list | count }}
+- Total docs : {{ problems_list | rejectattr("doc", "none") | list | count }}
 
 ## License
 
