@@ -4,3 +4,7 @@
 #
 
 make update
+# re-update the file
+git add README.md
+
+exit 0

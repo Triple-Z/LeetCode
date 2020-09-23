@@ -19,6 +19,10 @@ update-change: ## Replace the README file with newly generated one
 .PHONY: update
 update:  update-generate update-change ## Update the README file
 
+.PHONY: install-hooks
+install-hooks: ## Install Git hooks
+	@cp utils/hooks/* .git/hooks/
+
 .PHONY: new-doc ## Create a new doc from template
 new-doc: # TODO
 	@echo "TODO"
