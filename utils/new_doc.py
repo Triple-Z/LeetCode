@@ -12,7 +12,7 @@ from jinja2 import FileSystemLoader, Environment
 
 
 def main():
-    logging.basicConfig(level=logging.DEBUG)
+    logging.basicConfig(level=logging.INFO)
     # get root directory
     cwd = Path(__file__).parents[0]
     root_dir = cwd / '..'
@@ -23,10 +23,78 @@ def main():
     args = parser.parse_args()
     is_interactive = args.is_interactive
 
-    # TODO: interactive input problem info(number, title_en, title_zh, difficulty, topics, link)
+    # interactive input problem info(number, title_en, title_zh, difficulty, topics, link)
     if is_interactive:
-        logging.debug("TODO")
-    # TODO: input via command line
+        problem_number = input('Input the problem number: ')
+        if not problem_number.isdigit():
+            logging.error('The problem number must be digit!')
+            exit(1)
+        
+        title_en = input('Input the problem English title: ')
+        title_zh = input('Input the problem Chinese title: ')
+        topics_str = input('Input the problem topics (sep in comma): ')
+        topics = topics_str.split(',')
+        for i, topic in enumerate(topics):
+            topics[i] = topic.strip()
+        
+        link = input('Input the problem link: ')
+        if not (link.startswith('http://') or link.startswith('https://')):
+            logging.error('The problem link must be start with `http://` or `https://`')
+            exit(1)
+        
+        problem = Problem()
+        problem.number = problem_number
+        problem.title_en = title_en
+        problem.title_zh = title_zh
+        problem.topics = topics
+        problem.link = link
+
+        # using jinja2 render the README file
+        loader = FileSystemLoader(root_dir / 'utils' /'templates')
+        env = Environment(loader=loader)
+        doc_template = env.get_template('doc.md.j2')
+        doc_template.globals['now'] = datetime.utcnow
+        doc_generated = doc_template.render(problem=problem)
+        logging.debug(doc_generated)
+
+        doc_filename = ''
+        if title_zh == '':
+            doc_filename = '{0}. {1}.md'.format(problem_number, title_en)
+        else:
+            doc_filename = '{0}. {1} {2}.md'.format(problem_number, title_en, title_zh)
+        logging.debug(str(root_dir / 'docs' / doc_filename))
+        with open(str(root_dir / 'docs' / doc_filename), 'w') as doc_file:
+            doc_file.write(doc_generated)
+
+        logging.info('Doc has been generated to docs/{}'.format(doc_filename))
+
+        # create new code file
+        code_option = input('''
+Create code file:
+    1: Java
+    2: Python3
+    3: C++
+    others: No need
+        ''')
+        code_path = None
+        if code_option == '1': # java
+            code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.split()))
+        elif code_option == '2': # python3
+            code_path = root_dir / 'py3' / '{}.py'.format(problem_number)
+        elif code_option == '3': # C++
+            code_path = root_dir / 'cpp' / 'src' / '{}.cpp'.format(problem_number)
+        else:
+            logging.info('No need to create code file, exiting...')
+            exit(0)
+        
+        if code_path is not None:
+            code_path.touch()
+            logging.info('Code file created at {}'.format(str(code_path)))
+        
+    else:
+        # TODO: input via command line
+        logging.info('TODO')
+        exit(0)
 
 if __name__ == "__main__":
     main()

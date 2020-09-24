@@ -23,6 +23,10 @@ update:  update-generate update-change ## Update the README file
 install-hooks: ## Install Git hooks
 	@cp utils/hooks/* .git/hooks/
 
-.PHONY: new-doc ## Create a new doc from template
-new-doc: # TODO
-	@echo "TODO"
+.PHONY: new-doc
+new-doc: ## Create a new doc from template (with interactive mode)
+	@python3 utils/new_doc.py -i
+
+.PHONY: new-doc-cli
+new-doc-cli: ## Create a new doc from template (with CLI mode)
+	@python3 utils/new_doc.py
