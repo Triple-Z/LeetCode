@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-23 15:10:09.711496 UTC
+> Last updated: 2020-09-24 05:38:36.013626 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -49,7 +49,7 @@ LeetCode 练习仓库。
 | 69 |  |  [Python3](py3/69.py) |  |  |  |
 | 70 |  |  [Python3](py3/70.py) |  |  |  |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
-| 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |  [C++](cpp/src/88.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array.md) |
+| 88 | [Merge Sorted Array<br> 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](java/src/88.%20MergeSortedArray.java) [C++](cpp/src/88.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md) |
 | 94 |  |  [Python3](py3/94.py) |  |  |  |
 | 98 | [Valid Binary Search Tree<br> 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](java/src/98.%20ValidBinarySearchTree.java) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/98.%20Valid%20Binary%20Search%20Tree%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) |
 | 100 |  |  [Python3](py3/100.py) |  |  |  |
@@ -99,7 +99,7 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 78
-- Total solutions via Java : 25
+- Total solutions via Java : 26
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 - Total docs : 39
