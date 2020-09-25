@@ -32,6 +32,16 @@ def main():
         
         title_en = input('Input the problem English title: ')
         title_zh = input('Input the problem Chinese title: ')
+        difficulty = input('Input the problem difficulty (e:Easy, m:Medium, h:Hard): ')
+        difficulty = {
+            'e': 'Easy',
+            'm': 'Medium',
+            'h': 'Hard',
+        }.get(difficulty)
+        if difficulty is None:
+            logging.error('The difficulty is required!')
+            exit(1)
+        
         topics_str = input('Input the problem topics (sep in comma): ')
         topics = topics_str.split(',')
         for i, topic in enumerate(topics):
@@ -46,6 +56,7 @@ def main():
         problem.number = problem_number
         problem.title_en = title_en
         problem.title_zh = title_zh
+        problem.difficulty = difficulty
         problem.topics = topics
         problem.link = link
 
