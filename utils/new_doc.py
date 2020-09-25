@@ -86,7 +86,7 @@ Create code file:
     2: Python3
     3: C++
     others: No need
-        ''')
+Type your option here: ''')
         code_path = None
         if code_option == '1': # java
             code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.split()))

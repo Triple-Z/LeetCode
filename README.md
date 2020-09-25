@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-25 03:40:15.594887 UTC
+> Last updated: 2020-09-25 05:19:03.305522 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -47,7 +47,7 @@ LeetCode 练习仓库。
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One.md) |
 | 67 |  |  [Python3](py3/67.py) |  |  |  |
 | 69 |  |  [Python3](py3/69.py) |  |  |  |
-| 70 |  |  [Python3](py3/70.py) |  |  |  |
+| 70 | [Climbing Stairs<br> 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/) | [Java](java/src/70.%20ClimbingStairs.java) [Python3](py3/70.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/70.%20Climbing%20Stairs%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
 | 88 | [Merge Sorted Array<br> 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](java/src/88.%20MergeSortedArray.java) [C++](cpp/src/88.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md) |
 | 94 |  |  [Python3](py3/94.py) |  |  |  |
@@ -100,10 +100,10 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 79
-- Total solutions via Java : 27
+- Total solutions via Java : 28
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 40
+- Total docs : 41
 
 ## License
 
