@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-27 15:05:13.705514 UTC
+> Last updated: 2020-09-27 15:22:38.613483 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -63,7 +63,7 @@ LeetCode 练习仓库。
 | 125 | [Valid PalinDrome<br> 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](java/src/125.%20ValidPaliDrome.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md) |
 | 136 |  |  [Python3](py3/136.py) |  |  |  |
 | 141 | [Linked List Cycle<br> 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/141.%20LinkedListCycle.java) [Python3](py3/141.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) |
-| 155 |  |  [Python3](py3/155.py) |  |  |  |
+| 155 | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | 160 |  |  [Python3](py3/160.py) |  |  |  |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
 | 198 | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
@@ -101,10 +101,10 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 80
-- Total solutions via Java : 32
+- Total solutions via Java : 33
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 43
+- Total docs : 44
 
 ## License
 
