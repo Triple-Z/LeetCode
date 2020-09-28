@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-28 15:17:55.315340 UTC
+> Last updated: 2020-09-28 15:30:35.855775 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -105,10 +105,17 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 84
+- Total docs : 49
+
+Group by solution language:
 - Total solutions via Java : 39
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 49
+
+Group by difficulty:
+- Easy: 36
+- Medium: 12
+- Hard: 1
 
 ## License
 
