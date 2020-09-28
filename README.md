@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-28 05:09:51.681908 UTC
+> Last updated: 2020-09-28 05:34:54.206833 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -67,6 +67,7 @@ LeetCode 练习仓库。
 | 160 |  |  [Python3](py3/160.py) |  |  |  |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
 | 198 | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
+| 204 | [Count Primes<br> 计算质数](https://leetcode-cn.com/problems/count-primes/) | [Java](java/src/204.%20CountPrimes.java) | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/204.%20Count%20Primes%20%E8%AE%A1%E7%AE%97%E8%B4%A8%E6%95%B0.md) |
 | 206 | [Reversed Linked List<br> 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](java/src/206.%20ReversedLinkedList.java) [Python3](py3/206.py) | Easy | `Linked List` | [:page_facing_up:](docs/206.%20Reversed%20Linked%20List%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) |
 | 226 |  |  [Python3](py3/226.py) |  |  |  |
 | 234 | [Palindrome Linked List<br> 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [Java](java/src/234.%20PalidromeLinkedList.java) [Python3](py3/234.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/234.%20Palindrome%20Linked%20List%20%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8.md) |
@@ -101,11 +102,11 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 81
-- Total solutions via Java : 34
+- Total solved problems : 82
+- Total solutions via Java : 35
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 45
+- Total docs : 46
 
 ## License
 
