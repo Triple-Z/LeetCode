@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-27 15:22:38.613483 UTC
+> Last updated: 2020-09-28 05:09:51.681908 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -81,6 +81,7 @@ LeetCode 练习仓库。
 | 384 | [Shuffle an Array<br> 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](java/src/384.%20ShuffleanArray.java) | Medium | `Design` | [:page_facing_up:](docs/384.%20Shuffle%20an%20Array%20%E6%89%93%E4%B9%B1%E6%95%B0%E7%BB%84.md) |
 | 387 | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
 | 406 |  |  [Python3](py3/406.py) |  |  |  |
+| 412 | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [Java](java/src/412.%20FizzBuzz.java) | Easy | `Math` | [:page_facing_up:](docs/412.%20Fizz%20Buzz.md) |
 | 437 |  |  [Python3](py3/437.py) |  |  |  |
 | 438 |  |  [Python3](py3/438.py) |  |  |  |
 | 448 |  |  [Python3](py3/448.py) |  |  |  |
@@ -100,11 +101,11 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 80
-- Total solutions via Java : 33
+- Total solved problems : 81
+- Total solutions via Java : 34
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 44
+- Total docs : 45
 
 ## License
 
