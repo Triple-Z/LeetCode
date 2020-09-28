@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-28 14:17:09.842783 UTC
+> Last updated: 2020-09-28 15:17:55.315340 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -88,7 +88,7 @@ LeetCode 练习仓库。
 | 437 |  |  [Python3](py3/437.py) |  |  |  |
 | 438 |  |  [Python3](py3/438.py) |  |  |  |
 | 448 |  |  [Python3](py3/448.py) |  |  |  |
-| 461 |  |  [Python3](py3/461.py) |  |  |  |
+| 461 | [Hamming Distance<br> 汉明距离](https://leetcode-cn.com/problems/hamming-distance/) | [Java](java/src/461.%20HammingDistance.java) [Python3](py3/461.py) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/461.%20Hamming%20Distance%20%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB.md) |
 | 538 |  |  [Python3](py3/538.py) |  |  |  |
 | 543 |  |  [Python3](py3/543.py) |  |  |  |
 | 572 |  |  [Python3](py3/572.py) |  |  |  |
@@ -105,10 +105,10 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 84
-- Total solutions via Java : 38
+- Total solutions via Java : 39
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
-- Total docs : 48
+- Total docs : 49
 
 ## License
 
