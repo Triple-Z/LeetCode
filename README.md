@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-29 06:07:13.108298 UTC
+> Last updated: 2020-09-29 07:04:10.342711 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -77,6 +77,7 @@ LeetCode 练习仓库。
 | 237 | [Delete Node in a Linked List<br> 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [Java](java/src/237.%20DeleteNodeInALinkedList.java) | Easy | `Linked List` | [:page_facing_up:](docs/237.%20Delete%20Node%20in%20a%20Linked%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) |
 | 238 |  |  [Python3](py3/238.py) |  |  |  |
 | 242 | [Valid Anagram<br> 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java](java/src/242.%20ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
+| 268 | [Missing Number<br> 缺失数字](https://leetcode-cn.com/problems/missing-number/) | [Java](java/src/268.%20MissingNumber.java) | Easy | `Bit Manipulation`, `Array`, `Math` | [:page_facing_up:](docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) |
 | 278 | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
 | 283 |  |  [Python3](py3/283.py) |  |  |  |
 | 326 | [Power of Three<br> 3的幂](https://leetcode-cn.com/problems/power-of-three/description/) | [Java](java/src/326.%20PowerofThree.java) | Easy | `Math` | [:page_facing_up:](docs/326.%20Power%20of%20Three%203%E7%9A%84%E5%B9%82.md) |
@@ -106,16 +107,16 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 86
-- Total docs : 53
+- Total solved problems : 87
+- Total docs : 54
 
 Group by solution language:
-- Total solutions via Java : 42
+- Total solutions via Java : 43
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 40
+- Easy: 41
 - Medium: 12
 - Hard: 1
 
