@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-29 05:12:48.068507 UTC
+> Last updated: 2020-09-29 05:35:20.622568 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -32,7 +32,7 @@ LeetCode 练习仓库。
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |  [C++](cpp/src/16.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/16.%203Sum%20Closest.md) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |  [C++](cpp/src/18.cpp) | Medium | `Array`, `Hash Table`, `Two Pointers` | [:page_facing_up:](docs/18.%204Sum.md) |
 | 19 | [Remove Nth Node From End of List<br> 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/19.%20RemoveNthNodeFromEndOfList.java) | Medium | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) |
-| 20 |  |  [Python3](py3/20.py) |  |  |  |
+| 20 | [Valid Parentheses<br> 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/20.%20ValidParentheses.java) [Python3](py3/20.py) | Easy | `Stack`, `String` | [:page_facing_up:](docs/20.%20Valid%20Parentheses%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) |
 | 21 | [Merge Two Sorted Lists<br> 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/21.%20MergeTwoSortedLists.java) [Python3](py3/21.py) | Easy | `Linked List` | [:page_facing_up:](docs/21.%20Merge%20Two%20Sorted%20Lists%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) |
 | 22 |  |  [Python3](py3/22.py) |  |  |  |
 | 26 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array.md) |
@@ -106,15 +106,15 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 85
-- Total docs : 50
+- Total docs : 51
 
 Group by solution language:
-- Total solutions via Java : 40
+- Total solutions via Java : 41
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 37
+- Easy: 38
 - Medium: 12
 - Hard: 1
 
