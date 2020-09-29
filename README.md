@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-09-28 15:30:35.855775 UTC
+> Last updated: 2020-09-29 03:17:32.038390 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -66,6 +66,7 @@ LeetCode 练习仓库。
 | 155 | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | 160 |  |  [Python3](py3/160.py) |  |  |  |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
+| 190 | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | 191 | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
 | 198 | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
 | 204 | [Count Primes<br> 计算质数](https://leetcode-cn.com/problems/count-primes/) | [Java](java/src/204.%20CountPrimes.java) | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/204.%20Count%20Primes%20%E8%AE%A1%E7%AE%97%E8%B4%A8%E6%95%B0.md) |
@@ -104,16 +105,16 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 84
-- Total docs : 49
+- Total solved problems : 85
+- Total docs : 50
 
 Group by solution language:
-- Total solutions via Java : 39
+- Total solutions via Java : 40
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 36
+- Easy: 37
 - Medium: 12
 - Hard: 1
 
