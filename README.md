@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-10-09 06:07:36.728650 UTC
+> Last updated: 2020-10-09 06:10:12.506834 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -28,7 +28,7 @@ LeetCode 练习仓库。
 | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) |  [C++](cpp/src/11.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/11.%20Container%20With%20Most%20Water.md) |
 | 13 | [Roman to Integer<br> 罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [Java](java/src/13.%20RomantoInteger.java) [Python3](py3/13.py) | Easy | `Math`, `String` | [:page_facing_up:](docs/13.%20Roman%20to%20Integer%20%E7%BD%97%E9%A9%AC%E6%95%B0%E5%AD%97%E8%BD%AC%E6%95%B4%E6%95%B0.md) |
 | 14 | [Longest Common Prefix<br> 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [Java](java/src/14.%20LongestCommonPrefix.java) [Python3](py3/14.py) | Easy | `String` | [:page_facing_up:](docs/14.%20Longest%20Common%20Prefix%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md) |
-| 15 | [3Sum](https://leetcode.com/problems/3sum/) | [Java](java/src/15.%203Sum.java) [C++](cpp/src/15.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/15.%203Sum.md) |
+| 15 | [3Sum<br> 三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/15.%203Sum.java) [C++](cpp/src/15.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/15.%203Sum%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |  [C++](cpp/src/16.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/16.%203Sum%20Closest.md) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |  [C++](cpp/src/18.cpp) | Medium | `Array`, `Hash Table`, `Two Pointers` | [:page_facing_up:](docs/18.%204Sum.md) |
 | 19 | [Remove Nth Node From End of List<br> 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/19.%20RemoveNthNodeFromEndOfList.java) | Medium | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) |
