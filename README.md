@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-10-21 05:47:43.471515 UTC
+> Last updated: 2020-10-21 06:16:42.395986 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -17,7 +17,7 @@ LeetCode 练习仓库。
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](java/src/1.%20TwoSum.java) [Python3](py3/1.py) [C++](cpp/src/1.cpp) | Easy | `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
 | 2 |  |  [Python3](py3/2.py) |  |  |  |
-| 3 |  |  [Python3](py3/3.py) |  |  |  |
+| 3 | [Longest Substring Without Repeating Characters<br> 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java) [Python3](py3/3.py) | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` | [:page_facing_up:](docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) |
 | 4 |  |  [Python3](py3/4.py) |  |  |  |
 | 5 |  |  [Python3](py3/5.py) |  |  |  |
 | 6 |  |  [Python3](py3/6.py) |  |  |  |
@@ -110,16 +110,16 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 89
-- Total docs : 56
+- Total docs : 57
 
 Group by solution language:
-- Total solutions via Java : 46
+- Total solutions via Java : 47
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 41
-- Medium: 14
+- Medium: 15
 - Hard: 1
 
 ## License
