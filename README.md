@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-10-21 12:00:09.622667 UTC
+> Last updated: 2020-10-21 14:19:05.942528 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -19,7 +19,7 @@ LeetCode 练习仓库。
 | 2 |  |  [Python3](py3/2.py) |  |  |  |
 | 3 | [Longest Substring Without Repeating Characters<br> 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java) [Python3](py3/3.py) | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` | [:page_facing_up:](docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) |
 | 4 |  |  [Python3](py3/4.py) |  |  |  |
-| 5 |  |  [Python3](py3/5.py) |  |  |  |
+| 5 | [Longest Palindromic Substring<br> 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](java/src/5.%20LongestPalindromicSubstring.java) [Python3](py3/5.py) | Medium | `String`, `Dynamic Programming` | [:page_facing_up:](docs/5.%20Longest%20Palindromic%20Substring%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md) |
 | 6 |  |  [Python3](py3/6.py) |  |  |  |
 | 7 | [Reverse Integer<br> 整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](java/src/7.%20ReverseInteger.java) [Python3](py3/7.py) | Easy | `Math` | [:page_facing_up:](docs/7.%20Reverse%20Integer%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC.md) |
 | 8 | [String to Integer<br> 字符串转换整数(atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](java/src/8.%20StringToInteger.java) | Medium | `Math`, `String` | [:page_facing_up:](docs/8.%20String%20to%20Integer%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0%28atoi%29.md) |
@@ -110,16 +110,16 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 89
-- Total docs : 57
+- Total docs : 58
 
 Group by solution language:
-- Total solutions via Java : 47
+- Total solutions via Java : 48
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 41
-- Medium: 15
+- Medium: 16
 - Hard: 1
 
 ## License
