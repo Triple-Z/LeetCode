@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-10-22 12:18:24.662485 UTC
+> Last updated: 2020-10-22 12:50:52.037334 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -16,7 +16,7 @@ LeetCode 练习仓库。
 | # | Title | Solution | Difficulty | Topics | Doc |
 |:----:|:----:|:----:|:----:|:----:|:----:|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](java/src/1.%20TwoSum.java) [Python3](py3/1.py) [C++](cpp/src/1.cpp) | Easy | `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
-| 2 |  |  [Python3](py3/2.py) |  |  |  |
+| 2 | [Add Two Numbers<br> 两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/) | [Java](java/src/2.%20AddTwoNumbers.java) [Python3](py3/2.py) | Medium | `Linked List`, `Math` | [:page_facing_up:](docs/2.%20Add%20Two%20Numbers%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) |
 | 3 | [Longest Substring Without Repeating Characters<br> 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java) [Python3](py3/3.py) | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` | [:page_facing_up:](docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) |
 | 4 |  |  [Python3](py3/4.py) |  |  |  |
 | 5 | [Longest Palindromic Substring<br> 最长回文子串](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Java](java/src/5.%20LongestPalindromicSubstring.java) [Python3](py3/5.py) | Medium | `String`, `Dynamic Programming` | [:page_facing_up:](docs/5.%20Longest%20Palindromic%20Substring%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2.md) |
@@ -111,16 +111,16 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 90
-- Total docs : 59
+- Total docs : 60
 
 Group by solution language:
-- Total solutions via Java : 49
+- Total solutions via Java : 50
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 41
-- Medium: 17
+- Medium: 18
 - Hard: 1
 
 ## License
