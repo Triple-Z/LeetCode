@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-10-22 06:00:21.478106 UTC
+> Last updated: 2020-10-22 12:18:24.662485 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -83,6 +83,7 @@ LeetCode 练习仓库。
 | 278 | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
 | 283 |  |  [Python3](py3/283.py) |  |  |  |
 | 326 | [Power of Three<br> 3的幂](https://leetcode-cn.com/problems/power-of-three/description/) | [Java](java/src/326.%20PowerofThree.java) | Easy | `Math` | [:page_facing_up:](docs/326.%20Power%20of%20Three%203%E7%9A%84%E5%B9%82.md) |
+| 334 | [Increasing Triplet Subsequence<br> 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) | [Java](java/src/334.%20IncreasingTripletSubsequence.java) | Medium | `Two Pointers` | [:page_facing_up:](docs/334.%20Increasing%20Triplet%20Subsequence%20%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.md) |
 | 338 |  |  [Python3](py3/338.py) |  |  |  |
 | 344 | [Reverse String<br> 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](java/src/344.%20ReverseString.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |
 | 347 |  |  [Python3](py3/347.py) |  |  |  |
@@ -109,17 +110,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 89
-- Total docs : 58
+- Total solved problems : 90
+- Total docs : 59
 
 Group by solution language:
-- Total solutions via Java : 48
+- Total solutions via Java : 49
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 41
-- Medium: 16
+- Medium: 17
 - Hard: 1
 
 ## License
