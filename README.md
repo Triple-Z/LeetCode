@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-02 14:01:01.120859 UTC
+> Last updated: 2020-11-03 14:08:27.811966 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -66,6 +66,7 @@ LeetCode 练习仓库。
 | 125 | [Valid PalinDrome<br> 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](java/src/125.%20ValidPaliDrome.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md) |
 | 136 |  |  [Python3](py3/136.py) |  |  |  |
 | 141 | [Linked List Cycle<br> 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/141.%20LinkedListCycle.java) [Python3](py3/141.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) |
+| 144 | [Binary Tree Preorder Traversal<br> 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/144.%20BinaryTreePreorderTraversal.java) | Medium | `Stack`, `Tree` | [:page_facing_up:](docs/144.%20Binary%20Tree%20Preorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 | 155 | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | 160 | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
@@ -111,17 +112,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 91
-- Total docs : 63
+- Total solved problems : 92
+- Total docs : 64
 
 Group by solution language:
-- Total solutions via Java : 54
+- Total solutions via Java : 55
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 42
-- Medium: 20
+- Medium: 21
 - Hard: 1
 
 ## License
