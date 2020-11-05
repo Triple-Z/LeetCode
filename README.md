@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-04 14:15:25.645354 UTC
+> Last updated: 2020-11-05 11:59:28.045470 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -57,6 +57,7 @@ LeetCode 练习仓库。
 | 100 |  |  [Python3](py3/100.py) |  |  |  |
 | 101 | [Symmetric Tree<br> 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Java](java/src/101.%20SymmetricTree.java) [Python3](py3/101.py) | Easy | `Tree`, `Depth-first Search`, `Breadth-first Search` | [:page_facing_up:](docs/101.%20Symmetric%20Tree%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
 | 102 | [Binary Tree Level Order Traversal<br> 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/102.%20BinaryTreeLevelOrderTraversal.java) | Medium | `Tree`, `Breadth-first Search` | [:page_facing_up:](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
+| 103 | [Binary Tree Zigzag Level Order Traversal<br> 二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Java](java/src/103.%20BinaryTreeZigzagLevelOrderTraversal.java) | Medium | `Stack`, `Tree`, `Breadth-first Search` | [:page_facing_up:](docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.md) |
 | 104 | [Maximum Depth of Binary Tree<br> 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](java/src/104.%20MaximumDepthOfBinaryTree.java) [Python3](py3/104.py) | Easy | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/104.%20Maximum%20Depth%20of%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) |
 | 108 | [Convert Sorted Array to Binary Search Tree<br> 将有序数组转换为二叉树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](java/src/108.%20ConvertSortedArrayToBinarySearchTree.java) | Easy | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
 | 118 | [Pascal's Triangle<br> 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/description/) | [Java](java/src/118.%20PascalsTriangle.java) | Easy | `Array` | [:page_facing_up:](docs/118.%20Pascal%27s%20Triangle%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md) |
@@ -112,17 +113,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 92
-- Total docs : 64
+- Total solved problems : 93
+- Total docs : 65
 
 Group by solution language:
-- Total solutions via Java : 56
+- Total solutions via Java : 57
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 42
-- Medium: 21
+- Medium: 22
 - Hard: 1
 
 ## License
