@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-08 15:56:32.778012 UTC
+> Last updated: 2020-11-08 16:04:51.197333 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -108,21 +108,22 @@ LeetCode 练习仓库。
 | 832 |  |  [C++](cpp/src/832.cpp) |  |  |  |
 | 905 |  |  [C++](cpp/src/905.cpp) |  |  |  |
 | 1114 | [Print in Order<br> 按序打印](https://leetcode-cn.com/problems/print-in-order/) | [Java](java/src/1114.%20PrintInOrder.java) | Easy | `Concurrency` | [:page_facing_up:](docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md) |
+| 1137 | [N-th Tribonacci Number<br> 第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/) | [Java](java/src/1137.%20N-thTribonacciNumber.java) | Easy | `Recursion` | [:page_facing_up:](docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md) |
 
 
 
 ## Statistics
 
-- Total solved problems : 93
-- Total docs : 65
+- Total solved problems : 94
+- Total docs : 66
 
 Group by solution language:
-- Total solutions via Java : 57
+- Total solutions via Java : 58
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 42
+- Easy: 43
 - Medium: 22
 - Hard: 1
 

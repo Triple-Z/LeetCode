@@ -31,10 +31,10 @@ def main():
     cpp_filelist = Path(root_dir).glob('cpp/src/*.cpp')
     doc_filelist = Path(root_dir).glob('docs/*.md')
 
-    java_pattern = re.compile(r'java\/src\/(\d+)\. \w+\.java', re.ASCII)
+    java_pattern = re.compile(r'java\/src\/(\d+)\. [\w\-]+\.java', re.ASCII)
     py3_pattern = re.compile(r'py3\/(\d+)\.py', re.ASCII)
     cpp_pattern = re.compile(r'cpp\/src\/(\d+)\.cpp', re.ASCII)
-    doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)]+)(\s+[\u4e00-\u9fa5\w\d\s\(\)]+)?\.md', re.ASCII)
+    doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-]+)(\s+[\u4e00-\u9fa5\w\d\s\(\)]+)?\.md', re.ASCII)
     problem_info_pattern = re.compile(r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n-\sTopics:\s(`[`\w\d\s\,\-]+`)\s*\n-\sLink:\s((?:http|https):\/\/.*)\s*\n', re.ASCII)
 
     # add java files
