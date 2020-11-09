@@ -89,7 +89,7 @@ Create code file:
 Type your option here: ''')
         code_path = None
         if code_option == '1': # java
-            code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.replace('\'', '').replace('"', '').split()))
+            code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.replace('\'', '').replace('"', '').replace('-', '').split()))
         elif code_option == '2': # python3
             code_path = root_dir / 'py3' / '{}.py'.format(problem_number)
         elif code_option == '3': # C++
