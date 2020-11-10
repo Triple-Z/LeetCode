@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-09 16:35:15.029737 UTC
+> Last updated: 2020-11-10 06:06:13.271978 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -61,6 +61,7 @@ LeetCode 练习仓库。
 | 104 | [Maximum Depth of Binary Tree<br> 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [Java](java/src/104.%20MaximumDepthOfBinaryTree.java) [Python3](py3/104.py) | Easy | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/104.%20Maximum%20Depth%20of%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal<br> 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Java](java/src/105.%20ConstructBinaryTreefromPreorderandInorderTraversal.java) | Medium | `Array`, `Tree`, `Depth-first Search` | [:page_facing_up:](docs/105.%20Construct%20Binary%20Tree%20from%20Preorder%20and%20Inorder%20Traversal%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
 | 108 | [Convert Sorted Array to Binary Search Tree<br> 将有序数组转换为二叉树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](java/src/108.%20ConvertSortedArrayToBinarySearchTree.java) | Easy | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
+| 116 | [Populating Next Right Pointers in Each Node<br> 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Java](java/src/116.%20PopulatingNextRightPointersinEachNode.java) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88.md) |
 | 118 | [Pascal's Triangle<br> 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/description/) | [Java](java/src/118.%20PascalsTriangle.java) | Easy | `Array` | [:page_facing_up:](docs/118.%20Pascal%27s%20Triangle%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md) |
 | 121 | [Best Time to Buy and Sell Stock<br> 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](java/src/121.%20BestTimetoBuyandSellStock.java) [Python3](py3/121.py) [C++](cpp/src/121.cpp) | Easy | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md) |
 | 122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  [C++](cpp/src/122.cpp) | Easy | `Array`, `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
@@ -115,17 +116,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 95
-- Total docs : 67
+- Total solved problems : 96
+- Total docs : 68
 
 Group by solution language:
-- Total solutions via Java : 59
+- Total solutions via Java : 60
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 23
+- Medium: 24
 - Hard: 1
 
 ## License
