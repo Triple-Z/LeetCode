@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-10 16:12:03.730956 UTC
+> Last updated: 2020-11-11 12:31:37.316450 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -76,6 +76,7 @@ LeetCode 练习仓库。
 | 190 | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | 191 | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
 | 198 | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
+| 200 | [Number of Islands<br> 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java](java/src/200.%20NumberofIslands.java) | Medium | `Depth-first Search`, `Breadth-first Search`, `Union Find` | [:page_facing_up:](docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md) |
 | 204 | [Count Primes<br> 计算质数](https://leetcode-cn.com/problems/count-primes/) | [Java](java/src/204.%20CountPrimes.java) | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/204.%20Count%20Primes%20%E8%AE%A1%E7%AE%97%E8%B4%A8%E6%95%B0.md) |
 | 206 | [Reversed Linked List<br> 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](java/src/206.%20ReversedLinkedList.java) [Python3](py3/206.py) | Easy | `Linked List` | [:page_facing_up:](docs/206.%20Reversed%20Linked%20List%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) |
 | 226 |  |  [Python3](py3/226.py) |  |  |  |
@@ -117,17 +118,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 97
-- Total docs : 69
+- Total solved problems : 98
+- Total docs : 70
 
 Group by solution language:
-- Total solutions via Java : 61
+- Total solutions via Java : 62
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 25
+- Medium: 26
 - Hard: 1
 
 ## License
