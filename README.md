@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-11 12:31:37.316450 UTC
+> Last updated: 2020-11-12 05:52:40.566801 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -30,6 +30,7 @@ LeetCode 练习仓库。
 | 14 | [Longest Common Prefix<br> 最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | [Java](java/src/14.%20LongestCommonPrefix.java) [Python3](py3/14.py) | Easy | `String` | [:page_facing_up:](docs/14.%20Longest%20Common%20Prefix%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80.md) |
 | 15 | [3Sum<br> 三数之和](https://leetcode-cn.com/problems/3sum/) | [Java](java/src/15.%203Sum.java) [C++](cpp/src/15.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/15.%203Sum%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
 | 16 | [3Sum Closest](https://leetcode.com/problems/3sum-closest/) |  [C++](cpp/src/16.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/16.%203Sum%20Closest.md) |
+| 17 | [Letter Combinations of a Phone Number<br> 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/) | [Java](java/src/17.%20LetterCombinationsofaPhoneNumber.java) | Medium | `String`, `Backtracking` | [:page_facing_up:](docs/17.%20Letter%20Combinations%20of%20a%20Phone%20Number%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88.md) |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) |  [C++](cpp/src/18.cpp) | Medium | `Array`, `Hash Table`, `Two Pointers` | [:page_facing_up:](docs/18.%204Sum.md) |
 | 19 | [Remove Nth Node From End of List<br> 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/19.%20RemoveNthNodeFromEndOfList.java) | Medium | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) |
 | 20 | [Valid Parentheses<br> 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/20.%20ValidParentheses.java) [Python3](py3/20.py) | Easy | `Stack`, `String` | [:page_facing_up:](docs/20.%20Valid%20Parentheses%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) |
@@ -118,17 +119,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 98
-- Total docs : 70
+- Total solved problems : 99
+- Total docs : 71
 
 Group by solution language:
-- Total solutions via Java : 62
+- Total solutions via Java : 63
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 26
+- Medium: 27
 - Hard: 1
 
 ## License
