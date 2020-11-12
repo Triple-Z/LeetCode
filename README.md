@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-12 05:52:40.566801 UTC
+> Last updated: 2020-11-12 06:13:51.905809 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -35,7 +35,7 @@ LeetCode 练习仓库。
 | 19 | [Remove Nth Node From End of List<br> 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/19.%20RemoveNthNodeFromEndOfList.java) | Medium | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) |
 | 20 | [Valid Parentheses<br> 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/20.%20ValidParentheses.java) [Python3](py3/20.py) | Easy | `Stack`, `String` | [:page_facing_up:](docs/20.%20Valid%20Parentheses%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) |
 | 21 | [Merge Two Sorted Lists<br> 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/21.%20MergeTwoSortedLists.java) [Python3](py3/21.py) | Easy | `Linked List` | [:page_facing_up:](docs/21.%20Merge%20Two%20Sorted%20Lists%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) |
-| 22 |  |  [Python3](py3/22.py) |  |  |  |
+| 22 | [Generate Parentheses<br> 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](java/src/22.%20GenerateParentheses.java) [Python3](py3/22.py) | Medium | `String`, `Backtracking` | [:page_facing_up:](docs/22.%20Generate%20Parentheses%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md) |
 | 26 | [Remove Duplicates from Sorted Array<br> 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](java/src/26.%20RemoveDuplicatesfromSortedArray.java) [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 | 28 | [Implement strStr()<br> 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [Java](java/src/28.%20ImplementstrStr.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/28.%20Implement%20strStr%28%29%20%E5%AE%9E%E7%8E%B0%20strStr%28%29.md) |
@@ -120,16 +120,16 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 99
-- Total docs : 71
+- Total docs : 72
 
 Group by solution language:
-- Total solutions via Java : 63
+- Total solutions via Java : 64
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 27
+- Medium: 28
 - Hard: 1
 
 ## License
