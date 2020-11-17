@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-16 12:14:27.338515 UTC
+> Last updated: 2020-11-17 14:00:54.169319 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -51,6 +51,7 @@ LeetCode 练习仓库。
 | 69 |  |  [Python3](py3/69.py) |  |  |  |
 | 70 | [Climbing Stairs<br> 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/) | [Java](java/src/70.%20ClimbingStairs.java) [Python3](py3/70.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/70.%20Climbing%20Stairs%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) |
 | 73 | [Set Matrix Zeroes<br> 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/description/) | [Java](java/src/73.%20SetMatrixZeroes.java) | Medium | `Array` | [:page_facing_up:](docs/73.%20Set%20Matrix%20Zeroes%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.md) |
+| 75 | [Sort Colors<br> 颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) | [Java](java/src/75.%20SortColors.java) | Medium | `Sort`, `Array`, `Two Pointers` | [:page_facing_up:](docs/75.%20Sort%20Colors%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md) |
 | 78 | [Subsets<br> 子集](https://leetcode-cn.com/problems/subsets/) | [Java](java/src/78.%20Subsets.java) | Medium | `Bit Manipulation`, `Array`, `Backtracking` | [:page_facing_up:](docs/78.%20Subsets%20%E5%AD%90%E9%9B%86.md) |
 | 79 | [Word Search<br> 单词搜索](https://leetcode-cn.com/problems/word-search/) | [Java](java/src/79.%20WordSearch.java) | Medium | `Array`, `Backtracking` | [:page_facing_up:](docs/79.%20Word%20Search%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md) |
 | 80 | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
@@ -121,17 +122,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 101
-- Total docs : 75
+- Total solved problems : 102
+- Total docs : 76
 
 Group by solution language:
-- Total solutions via Java : 67
+- Total solutions via Java : 68
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 31
+- Medium: 32
 - Hard: 1
 
 ## License
