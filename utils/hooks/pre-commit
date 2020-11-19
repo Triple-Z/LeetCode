@@ -3,8 +3,7 @@
 # pre-commit script for Triple-Z/LeetCode repo.
 #
 
+# update the README file
 make update
 # re-update the file
 git add README.md
-
-exit 0
