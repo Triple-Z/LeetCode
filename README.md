@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-18 14:58:49.095725 UTC
+> Last updated: 2020-11-19 06:20:27.442493 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -76,6 +76,7 @@ LeetCode 练习仓库。
 | 144 | [Binary Tree Preorder Traversal<br> 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/144.%20BinaryTreePreorderTraversal.java) | Medium | `Stack`, `Tree` | [:page_facing_up:](docs/144.%20Binary%20Tree%20Preorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 | 155 | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | 160 | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
+| 162 | [Find Peak Element<br> 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/162.%20FindPeakElement.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md) |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
 | 190 | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | 191 | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
@@ -123,17 +124,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 103
-- Total docs : 78
+- Total solved problems : 104
+- Total docs : 79
 
 Group by solution language:
-- Total solutions via Java : 70
+- Total solutions via Java : 71
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 34
+- Medium: 35
 - Hard: 1
 
 ## License
