@@ -6,6 +6,7 @@
 hooks=(pre-commit)
 
 # set -o errexit
+set -o xtrace
 set -o nounset
 set -o pipefail
 

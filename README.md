@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-19 14:28:55.017154 UTC
+> Last updated: 2020-11-23 15:17:43.551754 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -39,6 +39,7 @@ LeetCode 练习仓库。
 | 26 | [Remove Duplicates from Sorted Array<br> 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](java/src/26.%20RemoveDuplicatesfromSortedArray.java) [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) |
 | 27 | [Remove Element](https://leetcode.com/problems/remove-element/) |  [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 | 28 | [Implement strStr()<br> 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [Java](java/src/28.%20ImplementstrStr.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/28.%20Implement%20strStr%28%29%20%E5%AE%9E%E7%8E%B0%20strStr%28%29.md) |
+| 34 | [Find First and Last Position of Element in Sorted Array<br> 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](java/src/34.%20FindFirstandLastPositionofElementinSortedArray.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md) |
 | 35 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](java/src/35.%20SearchInsertPosition.java) [Python3](py3/35.py) [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md) |
 | 36 | [Valid Sudoku<br> 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](java/src/36.%20ValidSudoku.java) | Medium | `Hash Table` | [:page_facing_up:](docs/36.%20Valid%20Sudoku%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.md) |
 | 38 | [Count and Say<br> 外观数列](https://leetcode-cn.com/problems/count-and-say/) | [Java](java/src/38.%20CountAndSay.java) | Easy | `String` | [:page_facing_up:](docs/38.%20Count%20and%20Say%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97.md) |
@@ -124,17 +125,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 104
-- Total docs : 79
+- Total solved problems : 105
+- Total docs : 80
 
 Group by solution language:
-- Total solutions via Java : 71
+- Total solutions via Java : 72
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 35
+- Medium: 36
 - Hard: 1
 
 ## License
