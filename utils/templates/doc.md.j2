@@ -1,8 +1,12 @@
+<!-- omit in toc -->
 # {{ problem.number }}. {{ problem.title_en }}{% if problem.title_zh is not none %} {{ problem.title_zh }}{% endif %}
 
 - Difficulty: {{ problem.difficulty }}
 - Topics: {% for topic in problem.topics %}{% if not loop.first %}, {% endif %}`{{ topic }}`{% endfor %}
 - Link: {% if problem.link %}{{ problem.link }}{% endif %}
+
+- [Description](#description)
+- [Solution](#solution)
 
 ## Description
 
