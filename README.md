@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-24 15:29:49.678341 UTC
+> Last updated: 2020-11-25 06:20:41.590678 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -93,6 +93,7 @@ LeetCode 练习仓库。
 | 234 | [Palindrome Linked List<br> 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [Java](java/src/234.%20PalidromeLinkedList.java) [Python3](py3/234.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/234.%20Palindrome%20Linked%20List%20%E5%9B%9E%E6%96%87%E9%93%BE%E8%A1%A8.md) |
 | 237 | [Delete Node in a Linked List<br> 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [Java](java/src/237.%20DeleteNodeInALinkedList.java) | Easy | `Linked List` | [:page_facing_up:](docs/237.%20Delete%20Node%20in%20a%20Linked%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) |
 | 238 |  |  [Python3](py3/238.py) |  |  |  |
+| 240 | [Search a 2D Matrix II<br> 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [Java](java/src/240.%20Searcha2DMatrixII.java) | Medium | `Binary Search`, `Divide and Conquer` | [:page_facing_up:](docs/240.%20Search%20a%202D%20Matrix%20II%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%20II.md) |
 | 242 | [Valid Anagram<br> 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java](java/src/242.%20ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
 | 268 | [Missing Number<br> 缺失数字](https://leetcode-cn.com/problems/missing-number/) | [Java](java/src/268.%20MissingNumber.java) | Easy | `Bit Manipulation`, `Array`, `Math` | [:page_facing_up:](docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) |
 | 278 | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
@@ -127,17 +128,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 107
-- Total docs : 82
+- Total solved problems : 108
+- Total docs : 83
 
 Group by solution language:
-- Total solutions via Java : 74
+- Total solutions via Java : 75
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 38
+- Medium: 39
 - Hard: 1
 
 ## License
