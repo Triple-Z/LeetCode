@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-26 06:17:33.336335 UTC
+> Last updated: 2020-11-27 06:00:46.968475 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -48,6 +48,7 @@ LeetCode 练习仓库。
 | 48 | [Rotate Image<br> 旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [Java](java/src/48.%20RotateImage.java) | Medium | `Array` | [:page_facing_up:](docs/48.%20Rotate%20Image%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) |
 | 49 | [Group Anagrams<br> 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java](java/src/49.%20GroupAnagrams.java) | Medium | `Hash Table`, `String` | [:page_facing_up:](docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md) |
 | 53 | [Maximum Subarray<br> 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/) | [Java](java/src/53.%20MaximumSubarray.java) [Python3](py3/53.py) [C++](cpp/src/53.cpp) | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) |
+| 55 | [Jump Game<br> 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java](java/src/55.%20JumpGame.java) | Medium | `Greedy`, `Array` | [:page_facing_up:](docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md) |
 | 56 | [Merge Intervals<br> 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Java](java/src/56.%20MergeIntervals.java) | Medium | `Sort`, `Array` | [:page_facing_up:](docs/56.%20Merge%20Intervals%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One.md) |
 | 67 |  |  [Python3](py3/67.py) |  |  |  |
@@ -128,17 +129,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 108
-- Total docs : 83
+- Total solved problems : 109
+- Total docs : 84
 
 Group by solution language:
-- Total solutions via Java : 75
+- Total solutions via Java : 76
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 39
+- Medium: 40
 - Hard: 1
 
 ## License
