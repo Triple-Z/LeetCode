@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-11-27 06:00:46.968475 UTC
+> Last updated: 2020-11-27 06:27:54.492114 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -50,6 +50,7 @@ LeetCode 练习仓库。
 | 53 | [Maximum Subarray<br> 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/) | [Java](java/src/53.%20MaximumSubarray.java) [Python3](py3/53.py) [C++](cpp/src/53.cpp) | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) |
 | 55 | [Jump Game<br> 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java](java/src/55.%20JumpGame.java) | Medium | `Greedy`, `Array` | [:page_facing_up:](docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md) |
 | 56 | [Merge Intervals<br> 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Java](java/src/56.%20MergeIntervals.java) | Medium | `Sort`, `Array` | [:page_facing_up:](docs/56.%20Merge%20Intervals%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md) |
+| 62 | [Unique Paths<br> 不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Java](java/src/62.%20UniquePaths.java) | Medium | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/62.%20Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md) |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One.md) |
 | 67 |  |  [Python3](py3/67.py) |  |  |  |
 | 69 |  |  [Python3](py3/69.py) |  |  |  |
@@ -129,17 +130,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 109
-- Total docs : 84
+- Total solved problems : 110
+- Total docs : 85
 
 Group by solution language:
-- Total solutions via Java : 76
+- Total solutions via Java : 77
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 43
-- Medium: 40
+- Medium: 41
 - Hard: 1
 
 ## License
