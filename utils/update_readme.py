@@ -34,7 +34,7 @@ def main():
     java_pattern = re.compile(r'java\/src\/(\d+)\. [\w\-]+\.java', re.ASCII)
     py3_pattern = re.compile(r'py3\/(\d+)\.py', re.ASCII)
     cpp_pattern = re.compile(r'cpp\/src\/(\d+)\.cpp', re.ASCII)
-    doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-]+)(\s+[\u4e00-\u9fa5\w\d\s\(\)]+)?\.md', re.ASCII)
+    doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-]+)(\s+[\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5|\w\d\s\(\)]+)?\.md', re.ASCII)
     problem_info_pattern = re.compile(r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n-\sTopics:\s(`[`\w\d\s\,\-]+`)\s*\n-\sLink:\s((?:http|https):\/\/.*)\s*\n', re.ASCII)
 
     # add java files
