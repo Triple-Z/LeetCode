@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-03 06:19:12.429504 UTC
+> Last updated: 2020-12-03 13:39:31.255963 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -109,6 +109,7 @@ LeetCode 练习仓库。
 | 338 |  |  [Python3](py3/338.py) |  |  |  |
 | 344 | [Reverse String<br> 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](java/src/344.%20ReverseString.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |
 | 347 | [Top K Frequent Elements<br> 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](java/src/347.%20TopKFrequentElements.java) [Python3](py3/347.py) | Medium | `Heap`, `Hash Table` | [:page_facing_up:](docs/347.%20Top%20K%20Frequent%20Elements%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) |
+| 380 |  | [Java](java/src/380.%20InsertDeleteGetRandomO1.java) |  |  |  |
 | 384 | [Shuffle an Array<br> 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](java/src/384.%20ShuffleanArray.java) | Medium | `Design` | [:page_facing_up:](docs/384.%20Shuffle%20an%20Array%20%E6%89%93%E4%B9%B1%E6%95%B0%E7%BB%84.md) |
 | 387 | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
 | 406 |  |  [Python3](py3/406.py) |  |  |  |
@@ -133,11 +134,11 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 113
+- Total solved problems : 114
 - Total docs : 88
 
 Group by solution language:
-- Total solutions via Java : 80
+- Total solutions via Java : 81
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
