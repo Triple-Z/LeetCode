@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-04 12:52:50.500894 UTC
+> Last updated: 2020-12-05 16:49:51.422099 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -83,6 +83,7 @@ LeetCode 练习仓库。
 | 160 | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
 | 162 | [Find Peak Element<br> 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/162.%20FindPeakElement.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md) |
 | 169 |  |  [Python3](py3/169.py) |  |  |  |
+| 171 | [Excel Sheet Column Number<br> Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Java](java/src/171.%20ExcelSheetColumnNumber.java) | Easy | `Math` | [:page_facing_up:](docs/171.%20Excel%20Sheet%20Column%20Number%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) |
 | 172 | [Factorial Trailing Zeroes<br> 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Java](java/src/172.%20FactorialTrailingZeroes.java) | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) |
 | 190 | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | 191 | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
@@ -136,16 +137,16 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 116
-- Total docs : 91
+- Total solved problems : 117
+- Total docs : 92
 
 Group by solution language:
-- Total solutions via Java : 83
+- Total solutions via Java : 84
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 45
+- Easy: 46
 - Medium: 45
 - Hard: 1
 
