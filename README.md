@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-08 14:15:36.141030 UTC
+> Last updated: 2020-12-09 06:07:01.068949 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -39,6 +39,7 @@ LeetCode 练习仓库。
 | [<span id="problem-26">26</span>](#problem-26) | [Remove Duplicates from Sorted Array<br> 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](java/src/26.%20RemoveDuplicatesfromSortedArray.java) [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) |
 | [<span id="problem-27">27</span>](#problem-27) | [Remove Element](https://leetcode.com/problems/remove-element/) |  [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 | [<span id="problem-28">28</span>](#problem-28) | [Implement strStr()<br> 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [Java](java/src/28.%20ImplementstrStr.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/28.%20Implement%20strStr%28%29%20%E5%AE%9E%E7%8E%B0%20strStr%28%29.md) |
+| [<span id="problem-29">29</span>](#problem-29) | [Divide Two Integers<br> 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [Java](java/src/29.%20DivideTwoIntegers.java) | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/29.%20Divide%20Two%20Integers%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) |
 | [<span id="problem-33">33</span>](#problem-33) | [Search in Rotated Sorted Array<br> 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](java/src/33.%20SearchinRotatedSortedArray.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/33.%20Search%20in%20Rotated%20Sorted%20Array%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-34">34</span>](#problem-34) | [Find First and Last Position of Element in Sorted Array<br> 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](java/src/34.%20FindFirstandLastPositionofElementinSortedArray.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md) |
 | [<span id="problem-35">35</span>](#problem-35) | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](java/src/35.%20SearchInsertPosition.java) [Python3](py3/35.py) [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md) |
@@ -138,17 +139,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 118
-- Total docs : 94
+- Total solved problems : 119
+- Total docs : 95
 
 Group by solution language:
-- Total solutions via Java : 86
+- Total solutions via Java : 87
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 47
-- Medium: 46
+- Medium: 47
 - Hard: 1
 
 ## License
