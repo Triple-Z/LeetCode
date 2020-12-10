@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-10 16:14:17.169574 UTC
+> Last updated: 2020-12-10 16:16:10.973432 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -39,7 +39,7 @@ LeetCode 练习仓库。
 | [<span id="problem-26">26</span>](#problem-26) | [Remove Duplicates from Sorted Array<br> 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](java/src/26.%20RemoveDuplicatesfromSortedArray.java) [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) |
 | [<span id="problem-27">27</span>](#problem-27) | [Remove Element](https://leetcode.com/problems/remove-element/) |  [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
 | [<span id="problem-28">28</span>](#problem-28) | [Implement strStr()<br> 实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | [Java](java/src/28.%20ImplementstrStr.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/28.%20Implement%20strStr%28%29%20%E5%AE%9E%E7%8E%B0%20strStr%28%29.md) |
-| [<span id="problem-29">29</span>](#problem-29) | [Divide Two Integers<br> 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [Java](java/src/29.%20FractiontoRecurringDecimal.java) | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/29.%20Divide%20Two%20Integers%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) |
+| [<span id="problem-29">29</span>](#problem-29) | [Divide Two Integers<br> 两数相除](https://leetcode-cn.com/problems/divide-two-integers/) | [Java](java/src/29.%20DivideTwoIntegers.java) | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/29.%20Divide%20Two%20Integers%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E9%99%A4.md) |
 | [<span id="problem-33">33</span>](#problem-33) | [Search in Rotated Sorted Array<br> 搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | [Java](java/src/33.%20SearchinRotatedSortedArray.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/33.%20Search%20in%20Rotated%20Sorted%20Array%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-34">34</span>](#problem-34) | [Find First and Last Position of Element in Sorted Array<br> 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Java](java/src/34.%20FindFirstandLastPositionofElementinSortedArray.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md) |
 | [<span id="problem-35">35</span>](#problem-35) | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [Java](java/src/35.%20SearchInsertPosition.java) [Python3](py3/35.py) [C++](cpp/src/35.cpp) | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/35.%20Search%20Insert%20Position.md) |
@@ -84,6 +84,7 @@ LeetCode 练习仓库。
 | [<span id="problem-155">155</span>](#problem-155) | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | [<span id="problem-160">160</span>](#problem-160) | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-162">162</span>](#problem-162) | [Find Peak Element<br> 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/162.%20FindPeakElement.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md) |
+| [<span id="problem-166">166</span>](#problem-166) | [Fraction to Recurring Decimal<br> 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | [Java](java/src/166.%20FractiontoRecurringDecimal.java) | Medium | `Hash Table`, `Math` | [:page_facing_up:](docs/166.%20Fraction%20to%20Recurring%20Decimal%20%E5%88%86%E6%95%B0%E5%88%B0%E5%B0%8F%E6%95%B0.md) |
 | [<span id="problem-169">169</span>](#problem-169) |  |  [Python3](py3/169.py) |  |  |  |
 | [<span id="problem-171">171</span>](#problem-171) | [Excel Sheet Column Number<br> Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Java](java/src/171.%20ExcelSheetColumnNumber.java) | Easy | `Math` | [:page_facing_up:](docs/171.%20Excel%20Sheet%20Column%20Number%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) |
 | [<span id="problem-172">172</span>](#problem-172) | [Factorial Trailing Zeroes<br> 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Java](java/src/172.%20FactorialTrailingZeroes.java) | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) |
@@ -139,17 +140,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 119
-- Total docs : 95
+- Total solved problems : 120
+- Total docs : 96
 
 Group by solution language:
-- Total solutions via Java : 87
+- Total solutions via Java : 88
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 47
-- Medium: 47
+- Medium: 48
 - Hard: 1
 
 ## License
