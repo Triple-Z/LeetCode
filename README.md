@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-10 16:16:10.973432 UTC
+> Last updated: 2020-12-11 15:24:46.991484 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -115,6 +115,7 @@ LeetCode 练习仓库。
 | [<span id="problem-338">338</span>](#problem-338) |  |  [Python3](py3/338.py) |  |  |  |
 | [<span id="problem-344">344</span>](#problem-344) | [Reverse String<br> 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](java/src/344.%20ReverseString.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |
 | [<span id="problem-347">347</span>](#problem-347) | [Top K Frequent Elements<br> 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](java/src/347.%20TopKFrequentElements.java) [Python3](py3/347.py) | Medium | `Heap`, `Hash Table` | [:page_facing_up:](docs/347.%20Top%20K%20Frequent%20Elements%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) |
+| [<span id="problem-371">371</span>](#problem-371) | [Sum of Two Integers<br> 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) | [Java](java/src/371.%20SumofTwoIntegers.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/371.%20Sum%20of%20Two%20Integers%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
 | [<span id="problem-380">380</span>](#problem-380) | [Insert Delete GetRandom O(1)<br> 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | [Java](java/src/380.%20InsertDeleteGetRandomO1.java) | Medium | `Design`, `Array`, `Hash Table` | [:page_facing_up:](docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-384">384</span>](#problem-384) | [Shuffle an Array<br> 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](java/src/384.%20ShuffleanArray.java) | Medium | `Design` | [:page_facing_up:](docs/384.%20Shuffle%20an%20Array%20%E6%89%93%E4%B9%B1%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-387">387</span>](#problem-387) | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
@@ -140,16 +141,16 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 120
-- Total docs : 96
+- Total solved problems : 121
+- Total docs : 97
 
 Group by solution language:
-- Total solutions via Java : 88
+- Total solutions via Java : 89
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 47
+- Easy: 48
 - Medium: 48
 - Hard: 1
 
