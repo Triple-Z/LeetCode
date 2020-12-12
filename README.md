@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-11 15:24:46.991484 UTC
+> Last updated: 2020-12-12 08:57:32.133426 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -81,6 +81,7 @@ LeetCode 练习仓库。
 | [<span id="problem-136">136</span>](#problem-136) |  |  [Python3](py3/136.py) |  |  |  |
 | [<span id="problem-141">141</span>](#problem-141) | [Linked List Cycle<br> 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/141.%20LinkedListCycle.java) [Python3](py3/141.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-144">144</span>](#problem-144) | [Binary Tree Preorder Traversal<br> 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/144.%20BinaryTreePreorderTraversal.java) | Medium | `Stack`, `Tree` | [:page_facing_up:](docs/144.%20Binary%20Tree%20Preorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
+| [<span id="problem-150">150</span>](#problem-150) | [Evaluate Reverse Polish Notation<br> 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/150.%20EvaluateReversePolishNotation.java) | Medium | `Stack` | [:page_facing_up:](docs/150.%20Evaluate%20Reverse%20Polish%20Notation%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) |
 | [<span id="problem-155">155</span>](#problem-155) | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
 | [<span id="problem-160">160</span>](#problem-160) | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-162">162</span>](#problem-162) | [Find Peak Element<br> 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/162.%20FindPeakElement.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md) |
@@ -141,17 +142,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 121
-- Total docs : 97
+- Total solved problems : 122
+- Total docs : 98
 
 Group by solution language:
-- Total solutions via Java : 89
+- Total solutions via Java : 90
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 48
-- Medium: 48
+- Medium: 49
 - Hard: 1
 
 ## License
