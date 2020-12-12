@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-12 08:57:32.133426 UTC
+> Last updated: 2020-12-12 09:18:34.806042 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -86,7 +86,7 @@ LeetCode 练习仓库。
 | [<span id="problem-160">160</span>](#problem-160) | [Intersection of Two Linked Lists<br> 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](java/src/160.%20IntersectionofTwoLinkedLists.java) [Python3](py3/160.py) | Easy | `Linked List` | [:page_facing_up:](docs/160.%20Intersection%20of%20Two%20Linked%20Lists%20%E7%9B%B8%E4%BA%A4%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-162">162</span>](#problem-162) | [Find Peak Element<br> 寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | [Java](java/src/162.%20FindPeakElement.java) | Medium | `Array`, `Binary Search` | [:page_facing_up:](docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md) |
 | [<span id="problem-166">166</span>](#problem-166) | [Fraction to Recurring Decimal<br> 分数到小数](https://leetcode-cn.com/problems/fraction-to-recurring-decimal/) | [Java](java/src/166.%20FractiontoRecurringDecimal.java) | Medium | `Hash Table`, `Math` | [:page_facing_up:](docs/166.%20Fraction%20to%20Recurring%20Decimal%20%E5%88%86%E6%95%B0%E5%88%B0%E5%B0%8F%E6%95%B0.md) |
-| [<span id="problem-169">169</span>](#problem-169) |  |  [Python3](py3/169.py) |  |  |  |
+| [<span id="problem-169">169</span>](#problem-169) | [Majority Element<br> 多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/169.%20MajorityElement.java) [Python3](py3/169.py) | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-171">171</span>](#problem-171) | [Excel Sheet Column Number<br> Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Java](java/src/171.%20ExcelSheetColumnNumber.java) | Easy | `Math` | [:page_facing_up:](docs/171.%20Excel%20Sheet%20Column%20Number%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) |
 | [<span id="problem-172">172</span>](#problem-172) | [Factorial Trailing Zeroes<br> 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Java](java/src/172.%20FactorialTrailingZeroes.java) | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) |
 | [<span id="problem-190">190</span>](#problem-190) | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
@@ -143,15 +143,15 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 122
-- Total docs : 98
+- Total docs : 99
 
 Group by solution language:
-- Total solutions via Java : 90
+- Total solutions via Java : 91
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 48
+- Easy: 49
 - Medium: 49
 - Hard: 1
 
