@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2020-12-12 10:06:34.522535 UTC
+> Last updated: 2020-12-12 13:20:13.425502 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -132,6 +132,7 @@ LeetCode 练习仓库。
 | [<span id="problem-572">572</span>](#problem-572) |  |  [Python3](py3/572.py) |  |  |  |
 | [<span id="problem-581">581</span>](#problem-581) |  |  [Python3](py3/581.py) |  |  |  |
 | [<span id="problem-617">617</span>](#problem-617) |  |  [Python3](py3/617.py) |  |  |  |
+| [<span id="problem-621">621</span>](#problem-621) | [Task Scheduler<br> 任务调度器](https://leetcode-cn.com/problems/task-scheduler/) | [Java](java/src/621.%20TaskScheduler.java) | Medium | `Greedy`, `Queue`, `Array` | [:page_facing_up:](docs/621.%20Task%20Scheduler%20%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E5%99%A8.md) |
 | [<span id="problem-647">647</span>](#problem-647) |  |  [Python3](py3/647.py) |  |  |  |
 | [<span id="problem-697">697</span>](#problem-697) | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/submissions/) |  [C++](cpp/src/697.cpp) | Easy | `Array` | [:page_facing_up:](docs/697.%20Degree%20of%20an%20Array.md) |
 | [<span id="problem-832">832</span>](#problem-832) |  |  [C++](cpp/src/832.cpp) |  |  |  |
@@ -143,17 +144,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 123
-- Total docs : 100
+- Total solved problems : 124
+- Total docs : 101
 
 Group by solution language:
-- Total solutions via Java : 92
+- Total solutions via Java : 93
 - Total solutions via Python3 : 50
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 49
-- Medium: 50
+- Medium: 51
 - Hard: 1
 
 ## License
