@@ -83,16 +83,19 @@ def main():
         code_option = input('''
 Create code file:
     1: Java
-    2: Python3
-    3: C++
+    2. Go
+    3: Python3
+    4: C++
     others: No need
 Type your option here: ''')
         code_path = None
         if code_option == '1': # java
             code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.replace('\'', '').replace('"', '').replace('-', '').replace('(', '').replace(')', '').replace(',', '').split()))
-        elif code_option == '2': # python3
+        elif code_option == '2': # go
+            code_path = root_dir / 'go' / 'src'/ '{}.go'.format(problem_number)
+        elif code_option == '3': # python3
             code_path = root_dir / 'py3' / '{}.py'.format(problem_number)
-        elif code_option == '3': # C++
+        elif code_option == '4': # C++
             code_path = root_dir / 'cpp' / 'src' / '{}.cpp'.format(problem_number)
         else:
             logging.info('No need to create code file, exiting...')
