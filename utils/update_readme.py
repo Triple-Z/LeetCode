@@ -27,11 +27,13 @@ def main():
 
     # get all the files
     java_filelist = Path(root_dir).glob('java/src/*.java')
+    go_filelist = Path(root_dir).glob('go/src/*.go')
     py3_filelist = Path(root_dir).glob('py3/*.py')
     cpp_filelist = Path(root_dir).glob('cpp/src/*.cpp')
     doc_filelist = Path(root_dir).glob('docs/*.md')
 
     java_pattern = re.compile(r'java\/src\/(\d+)\. [\w\-]+\.java', re.ASCII)
+    go_pattern = re.compile(r'go\/src\/(\d+)\.go', re.ASCII)
     py3_pattern = re.compile(r'py3\/(\d+)\.py', re.ASCII)
     cpp_pattern = re.compile(r'cpp\/src\/(\d+)\.cpp', re.ASCII)
     doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-\,\.]+)(\s+[\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5|\w\d\s\(\)\,\.]+)?\.md', re.ASCII)
@@ -60,6 +62,27 @@ def main():
             number_problem.java = quote(str(rel_java_file))
             number_problem.is_solved = True
 
+    # add go files
+    for go_file in go_filelist:
+        go_res = go_pattern.search(str(go_file))
+        if go_res is None:
+            logging.warning('The filename {} is invalid, ignored.'.format(go_file))
+            continue
+        number = go_res.group(1)
+        logging.debug('processing {} go file'.format(number))
+
+        number_problem = problems.get(number)
+        rel_go_file = go_file.relative_to(root_dir)
+        if number_problem is None:
+            new_problem = Problem()
+            new_problem.number = number
+            new_problem.is_solved = True
+            new_problem.go = quote(str(rel_go_file))
+            problems[number] = new_problem
+        else:
+            number_problem.go = quote(str(rel_go_file))
+            number_problem.is_solved = True
+    
     # add python3 files
     for py3_file in py3_filelist:
         py3_res = py3_pattern.search(str(py3_file))

@@ -9,6 +9,7 @@ class Problem:
         self.link = None
         self.is_solved = False
         self.java = None
+        self.go = None
         self.py3 = None
         self.cpp = None
         self.doc = None

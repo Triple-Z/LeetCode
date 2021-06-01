@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-01 13:10:30.478910 UTC
+> Last updated: 2021-06-01 13:10:01.399624 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
