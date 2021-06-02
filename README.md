@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 05:35:41.130107 UTC
+> Last updated: 2021-06-02 05:55:07.769459 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -90,6 +90,7 @@ LeetCode 练习仓库。
 | [<span id="problem-169">169</span>](#problem-169) | [Majority Element<br> 多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/169.%20MajorityElement.java) [Python3](py3/169.py) | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-171">171</span>](#problem-171) | [Excel Sheet Column Number<br> Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Java](java/src/171.%20ExcelSheetColumnNumber.java) | Easy | `Math` | [:page_facing_up:](docs/171.%20Excel%20Sheet%20Column%20Number%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) |
 | [<span id="problem-172">172</span>](#problem-172) | [Factorial Trailing Zeroes<br> 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Java](java/src/172.%20FactorialTrailingZeroes.java) | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) |
+| [<span id="problem-189">189</span>](#problem-189) | [Rotate Array<br> 旋转数组](https://leetcode-cn.com/problems/rotate-array/) |  [Go](go/src/189.go) | Medium | `Array` | [:page_facing_up:](docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-190">190</span>](#problem-190) | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | [<span id="problem-191">191</span>](#problem-191) | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
 | [<span id="problem-198">198</span>](#problem-198) | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
@@ -145,8 +146,8 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 125
-- Total docs : 103
+- Total solved problems : 126
+- Total docs : 104
 
 Group by solution language:
 - Total solutions via Java : 93
@@ -155,7 +156,7 @@ Group by solution language:
 
 Group by difficulty:
 - Easy: 51
-- Medium: 51
+- Medium: 52
 - Hard: 1
 
 ## License
