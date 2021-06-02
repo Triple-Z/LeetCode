@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 13:43:40.024258 UTC
+> Last updated: 2021-06-02 13:56:17.504493 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -97,7 +97,7 @@ LeetCode 练习仓库。
 | [<span id="problem-200">200</span>](#problem-200) | [Number of Islands<br> 岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | [Java](java/src/200.%20NumberofIslands.java) | Medium | `Depth-first Search`, `Breadth-first Search`, `Union Find` | [:page_facing_up:](docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md) |
 | [<span id="problem-202">202</span>](#problem-202) | [Happy Number<br> 快乐数](https://leetcode-cn.com/problems/happy-number/) | [Java](java/src/202.%20HappyNumber.java) | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/202.%20Happy%20Number%20%E5%BF%AB%E4%B9%90%E6%95%B0.md) |
 | [<span id="problem-204">204</span>](#problem-204) | [Count Primes<br> 计算质数](https://leetcode-cn.com/problems/count-primes/) | [Java](java/src/204.%20CountPrimes.java) | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/204.%20Count%20Primes%20%E8%AE%A1%E7%AE%97%E8%B4%A8%E6%95%B0.md) |
-| [<span id="problem-206">206</span>](#problem-206) | [Reversed Linked List<br> 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](java/src/206.%20ReversedLinkedList.java) [Python3](py3/206.py) | Easy | `Linked List` | [:page_facing_up:](docs/206.%20Reversed%20Linked%20List%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) |
+| [<span id="problem-206">206</span>](#problem-206) | [Reversed Linked List<br> 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](java/src/206.%20ReversedLinkedList.java) [Go](go/src/206.go) [Python3](py3/206.py) | Easy | `Linked List` | [:page_facing_up:](docs/206.%20Reversed%20Linked%20List%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-215">215</span>](#problem-215) | [Kth Largest Element in an Array<br> 数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | [Java](java/src/215.%20KthLargestElementinanArray.java) | Medium | `Heap`, `Divide and Conquer` | [:page_facing_up:](docs/215.%20Kth%20Largest%20Element%20in%20an%20Array%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-226">226</span>](#problem-226) |  |  [Python3](py3/226.py) |  |  |  |
 | [<span id="problem-230">230</span>](#problem-230) | [Kth Smallest Element in a BST<br> 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | [Java](java/src/230.%20KthSmallestElementinaBST.java) | Medium | `Tree`, `Binary Search` | [:page_facing_up:](docs/230.%20Kth%20Smallest%20Element%20in%20a%20BST%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%ACK%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0.md) |
