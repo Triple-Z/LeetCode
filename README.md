@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 06:13:33.627138 UTC
+> Last updated: 2021-06-02 11:57:14.325075 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -116,7 +116,7 @@ LeetCode 练习仓库。
 | [<span id="problem-328">328</span>](#problem-328) | [Odd Even Linked List<br> 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Java](java/src/328.%20OddEvenLinkedList.java) | Medium | `Linked List` | [:page_facing_up:](docs/328.%20Odd%20Even%20Linked%20List%20%E5%A5%87%E5%81%B6%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-334">334</span>](#problem-334) | [Increasing Triplet Subsequence<br> 递增的三元子序列](https://leetcode-cn.com/problems/increasing-triplet-subsequence/) | [Java](java/src/334.%20IncreasingTripletSubsequence.java) | Medium | `Two Pointers` | [:page_facing_up:](docs/334.%20Increasing%20Triplet%20Subsequence%20%E9%80%92%E5%A2%9E%E7%9A%84%E4%B8%89%E5%85%83%E5%AD%90%E5%BA%8F%E5%88%97.md) |
 | [<span id="problem-338">338</span>](#problem-338) |  |  [Python3](py3/338.py) |  |  |  |
-| [<span id="problem-344">344</span>](#problem-344) | [Reverse String<br> 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](java/src/344.%20ReverseString.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |
+| [<span id="problem-344">344</span>](#problem-344) | [Reverse String<br> 反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](java/src/344.%20ReverseString.java) [Go](go/src/344.go) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/344.%20Reverse%20String%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) |
 | [<span id="problem-347">347</span>](#problem-347) | [Top K Frequent Elements<br> 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](java/src/347.%20TopKFrequentElements.java) [Python3](py3/347.py) | Medium | `Heap`, `Hash Table` | [:page_facing_up:](docs/347.%20Top%20K%20Frequent%20Elements%20%E5%89%8D%20K%20%E4%B8%AA%E9%AB%98%E9%A2%91%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-350">350</span>](#problem-350) | [Intersection of Two Arrays II<br> 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) |  [Go](go/src/350.go) | Easy | `Sort`, `Hash Table`, `Two Pointers`, `Binary Search` | [:page_facing_up:](docs/350.%20Intersection%20of%20Two%20Arrays%20II%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md) |
 | [<span id="problem-371">371</span>](#problem-371) | [Sum of Two Integers<br> 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) | [Java](java/src/371.%20SumofTwoIntegers.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/371.%20Sum%20of%20Two%20Integers%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
