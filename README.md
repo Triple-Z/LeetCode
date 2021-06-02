@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 14:32:30.393888 UTC
+> Last updated: 2021-06-02 16:21:57.211723 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -80,7 +80,7 @@ LeetCode 练习仓库。
 | [<span id="problem-123">123</span>](#problem-123) | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) |  [C++](cpp/src/123.cpp) | Hard | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md) |
 | [<span id="problem-125">125</span>](#problem-125) | [Valid PalinDrome<br> 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](java/src/125.%20ValidPaliDrome.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md) |
 | [<span id="problem-136">136</span>](#problem-136) | [Single Number<br> 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) |  [Go](go/src/136.go) [Python3](py3/136.py) | Easy | `Bit Manipulation`, `Hash Table` | [:page_facing_up:](docs/136.%20Single%20Number%20%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97.md) |
-| [<span id="problem-141">141</span>](#problem-141) | [Linked List Cycle<br> 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/141.%20LinkedListCycle.java) [Python3](py3/141.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) |
+| [<span id="problem-141">141</span>](#problem-141) | [Linked List Cycle<br> 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](java/src/141.%20LinkedListCycle.java) [Go](go/src/141.go) [Python3](py3/141.py) | Easy | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/141.%20Linked%20List%20Cycle%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-144">144</span>](#problem-144) | [Binary Tree Preorder Traversal<br> 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Java](java/src/144.%20BinaryTreePreorderTraversal.java) | Medium | `Stack`, `Tree` | [:page_facing_up:](docs/144.%20Binary%20Tree%20Preorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
 | [<span id="problem-150">150</span>](#problem-150) | [Evaluate Reverse Polish Notation<br> 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/) | [Java](java/src/150.%20EvaluateReversePolishNotation.java) | Medium | `Stack` | [:page_facing_up:](docs/150.%20Evaluate%20Reverse%20Polish%20Notation%20%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md) |
 | [<span id="problem-155">155</span>](#problem-155) | [Min Stack<br> 最小栈](https://leetcode-cn.com/problems/min-stack/) | [Java](java/src/155.%20MinStack.java) [Python3](py3/155.py) | Easy | `Stack`, `Design` | [:page_facing_up:](docs/155.%20Min%20Stack%20%E6%9C%80%E5%B0%8F%E6%A0%88.md) |
