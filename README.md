@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 13:56:17.504493 UTC
+> Last updated: 2021-06-02 14:32:30.393888 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -34,7 +34,7 @@ LeetCode 练习仓库。
 | [<span id="problem-18">18</span>](#problem-18) | [4Sum](https://leetcode.com/problems/4sum/) |  [C++](cpp/src/18.cpp) | Medium | `Array`, `Hash Table`, `Two Pointers` | [:page_facing_up:](docs/18.%204Sum.md) |
 | [<span id="problem-19">19</span>](#problem-19) | [Remove Nth Node From End of List<br> 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](java/src/19.%20RemoveNthNodeFromEndOfList.java) | Medium | `Linked List`, `Two Pointers` | [:page_facing_up:](docs/19.%20Remove%20Nth%20Node%20From%20End%20of%20List%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%ACN%E4%B8%AA%E8%8A%82%E7%82%B9.md) |
 | [<span id="problem-20">20</span>](#problem-20) | [Valid Parentheses<br> 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](java/src/20.%20ValidParentheses.java) [Python3](py3/20.py) | Easy | `Stack`, `String` | [:page_facing_up:](docs/20.%20Valid%20Parentheses%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.md) |
-| [<span id="problem-21">21</span>](#problem-21) | [Merge Two Sorted Lists<br> 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/21.%20MergeTwoSortedLists.java) [Python3](py3/21.py) | Easy | `Linked List` | [:page_facing_up:](docs/21.%20Merge%20Two%20Sorted%20Lists%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) |
+| [<span id="problem-21">21</span>](#problem-21) | [Merge Two Sorted Lists<br> 合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](java/src/21.%20MergeTwoSortedLists.java) [Go](go/src/21.go) [Python3](py3/21.py) | Easy | `Linked List` | [:page_facing_up:](docs/21.%20Merge%20Two%20Sorted%20Lists%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8.md) |
 | [<span id="problem-22">22</span>](#problem-22) | [Generate Parentheses<br> 括号生成](https://leetcode-cn.com/problems/generate-parentheses/) | [Java](java/src/22.%20GenerateParentheses.java) [Python3](py3/22.py) | Medium | `String`, `Backtracking` | [:page_facing_up:](docs/22.%20Generate%20Parentheses%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90.md) |
 | [<span id="problem-26">26</span>](#problem-26) | [Remove Duplicates from Sorted Array<br> 删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](java/src/26.%20RemoveDuplicatesfromSortedArray.java) [Go](go/src/26.go) [C++](cpp/src/26.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/26.%20Remove%20Duplicates%20from%20Sorted%20Array%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.md) |
 | [<span id="problem-27">27</span>](#problem-27) | [Remove Element](https://leetcode.com/problems/remove-element/) |  [C++](cpp/src/27.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/27.%20Remove%20Element.md) |
