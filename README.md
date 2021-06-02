@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 05:55:07.769459 UTC
+> Last updated: 2021-06-02 06:13:33.627138 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -15,7 +15,7 @@ LeetCode 练习仓库。
 
 | # | Title | Solution | Difficulty | Topics | Doc |
 |:----:|:----:|:----:|:----:|:----:|:----:|
-| [<span id="problem-1">1</span>](#problem-1) | [Two Sum](https://leetcode.com/problems/two-sum/) | [Java](java/src/1.%20TwoSum.java) [Python3](py3/1.py) [C++](cpp/src/1.cpp) | Easy | `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum.md) |
+| [<span id="problem-1">1</span>](#problem-1) | [Two Sum<br> 两数之和](https://leetcode-cn.com/problems/two-sum/) | [Java](java/src/1.%20TwoSum.java) [Go](go/src/1.go) [Python3](py3/1.py) [C++](cpp/src/1.cpp) | Easy | `Array`, `Hash Table` | [:page_facing_up:](docs/1.%20Two%20Sum%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
 | [<span id="problem-2">2</span>](#problem-2) | [Add Two Numbers<br> 两数相加](https://leetcode-cn.com/problems/add-two-numbers/description/) | [Java](java/src/2.%20AddTwoNumbers.java) [Python3](py3/2.py) | Medium | `Linked List`, `Math` | [:page_facing_up:](docs/2.%20Add%20Two%20Numbers%20%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0.md) |
 | [<span id="problem-3">3</span>](#problem-3) | [Longest Substring Without Repeating Characters<br> 无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters) | [Java](java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java) [Python3](py3/3.py) | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` | [:page_facing_up:](docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md) |
 | [<span id="problem-4">4</span>](#problem-4) |  |  [Python3](py3/4.py) |  |  |  |
