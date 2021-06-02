@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-02 11:57:14.325075 UTC
+> Last updated: 2021-06-02 13:05:19.883555 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -122,7 +122,7 @@ LeetCode 练习仓库。
 | [<span id="problem-371">371</span>](#problem-371) | [Sum of Two Integers<br> 两整数之和](https://leetcode-cn.com/problems/sum-of-two-integers/) | [Java](java/src/371.%20SumofTwoIntegers.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/371.%20Sum%20of%20Two%20Integers%20%E4%B8%A4%E6%95%B4%E6%95%B0%E4%B9%8B%E5%92%8C.md) |
 | [<span id="problem-380">380</span>](#problem-380) | [Insert Delete GetRandom O(1)<br> 常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | [Java](java/src/380.%20InsertDeleteGetRandomO1.java) | Medium | `Design`, `Array`, `Hash Table` | [:page_facing_up:](docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-384">384</span>](#problem-384) | [Shuffle an Array<br> 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](java/src/384.%20ShuffleanArray.java) | Medium | `Design` | [:page_facing_up:](docs/384.%20Shuffle%20an%20Array%20%E6%89%93%E4%B9%B1%E6%95%B0%E7%BB%84.md) |
-| [<span id="problem-387">387</span>](#problem-387) | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
+| [<span id="problem-387">387</span>](#problem-387) | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) [Go](go/src/387.go) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
 | [<span id="problem-406">406</span>](#problem-406) |  |  [Python3](py3/406.py) |  |  |  |
 | [<span id="problem-412">412</span>](#problem-412) | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [Java](java/src/412.%20FizzBuzz.java) | Easy | `Math` | [:page_facing_up:](docs/412.%20Fizz%20Buzz.md) |
 | [<span id="problem-437">437</span>](#problem-437) |  |  [Python3](py3/437.py) |  |  |  |
