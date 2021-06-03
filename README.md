@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-03 14:14:35.350211 UTC
+> Last updated: 2021-06-03 16:28:19.461123 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -124,7 +124,7 @@ LeetCode 练习仓库。
 | [<span id="problem-384">384</span>](#problem-384) | [Shuffle an Array<br> 打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](java/src/384.%20ShuffleanArray.java) | Medium | `Design` | [:page_facing_up:](docs/384.%20Shuffle%20an%20Array%20%E6%89%93%E4%B9%B1%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-387">387</span>](#problem-387) | [First Unique Character in a String<br> 字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | [Java](java/src/387.%20FirstUniqueCharacterInAString.java) [Go](go/src/387.go) | Easy | `Hash Table`, `String` | [:page_facing_up:](docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md) |
 | [<span id="problem-406">406</span>](#problem-406) |  |  [Python3](py3/406.py) |  |  |  |
-| [<span id="problem-412">412</span>](#problem-412) | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [Java](java/src/412.%20FizzBuzz.java) | Easy | `Math` | [:page_facing_up:](docs/412.%20Fizz%20Buzz.md) |
+| [<span id="problem-412">412</span>](#problem-412) | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/) | [Java](java/src/412.%20FizzBuzz.java) [Go](go/src/412.go) | Easy | `Math` | [:page_facing_up:](docs/412.%20Fizz%20Buzz.md) |
 | [<span id="problem-437">437</span>](#problem-437) |  |  [Python3](py3/437.py) |  |  |  |
 | [<span id="problem-438">438</span>](#problem-438) |  |  [Python3](py3/438.py) |  |  |  |
 | [<span id="problem-448">448</span>](#problem-448) |  |  [Python3](py3/448.py) |  |  |  |
