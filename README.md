@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-03 11:11:24.668199 UTC
+> Last updated: 2021-06-03 11:22:27.103286 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -56,7 +56,7 @@ LeetCode 练习仓库。
 | [<span id="problem-66">66</span>](#problem-66) | [Plus One](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One.md) |
 | [<span id="problem-67">67</span>](#problem-67) |  |  [Python3](py3/67.py) |  |  |  |
 | [<span id="problem-69">69</span>](#problem-69) | [Sqrt(x)<br> x的平方根](https://leetcode-cn.com/problems/sqrtx/) | [Java](java/src/69.%20Sqrtx.java) [Python3](py3/69.py) | Easy | `Math`, `Binary Search` | [:page_facing_up:](docs/69.%20Sqrt%28x%29%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md) |
-| [<span id="problem-70">70</span>](#problem-70) | [Climbing Stairs<br> 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/) | [Java](java/src/70.%20ClimbingStairs.java) [Python3](py3/70.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/70.%20Climbing%20Stairs%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) |
+| [<span id="problem-70">70</span>](#problem-70) | [Climbing Stairs<br> 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/) | [Java](java/src/70.%20ClimbingStairs.java) [Go](go/src/70.go) [Python3](py3/70.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/70.%20Climbing%20Stairs%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) |
 | [<span id="problem-73">73</span>](#problem-73) | [Set Matrix Zeroes<br> 矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/description/) | [Java](java/src/73.%20SetMatrixZeroes.java) | Medium | `Array` | [:page_facing_up:](docs/73.%20Set%20Matrix%20Zeroes%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.md) |
 | [<span id="problem-75">75</span>](#problem-75) | [Sort Colors<br> 颜色分类](https://leetcode-cn.com/problems/sort-colors/description/) | [Java](java/src/75.%20SortColors.java) | Medium | `Sort`, `Array`, `Two Pointers` | [:page_facing_up:](docs/75.%20Sort%20Colors%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md) |
 | [<span id="problem-78">78</span>](#problem-78) | [Subsets<br> 子集](https://leetcode-cn.com/problems/subsets/) | [Java](java/src/78.%20Subsets.java) | Medium | `Bit Manipulation`, `Array`, `Backtracking` | [:page_facing_up:](docs/78.%20Subsets%20%E5%AD%90%E9%9B%86.md) |
