@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-03 05:38:55.559680 UTC
+> Last updated: 2021-06-03 05:55:18.256559 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -64,7 +64,7 @@ LeetCode 练习仓库。
 | [<span id="problem-80">80</span>](#problem-80) | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  [C++](cpp/src/80.cpp) | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md) |
 | [<span id="problem-88">88</span>](#problem-88) | [Merge Sorted Array<br> 合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](java/src/88.%20MergeSortedArray.java) [C++](cpp/src/88.cpp) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-94">94</span>](#problem-94) | [Binary Tree Inorder Traversal<br> 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](java/src/94.%20BinaryTreeInorderTraversal.java) [Python3](py3/94.py) | Medium | `Hash Table`, `Stack`, `Tree` | [:page_facing_up:](docs/94.%20Binary%20Tree%20Inorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
-| [<span id="problem-98">98</span>](#problem-98) | [Valid Binary Search Tree<br> 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](java/src/98.%20ValidBinarySearchTree.java) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/98.%20Valid%20Binary%20Search%20Tree%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) |
+| [<span id="problem-98">98</span>](#problem-98) | [Valid Binary Search Tree<br> 验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | [Java](java/src/98.%20ValidBinarySearchTree.java) [Go](go/src/98.go) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/98.%20Valid%20Binary%20Search%20Tree%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91.md) |
 | [<span id="problem-100">100</span>](#problem-100) |  |  [Python3](py3/100.py) |  |  |  |
 | [<span id="problem-101">101</span>](#problem-101) | [Symmetric Tree<br> 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | [Java](java/src/101.%20SymmetricTree.java) [Python3](py3/101.py) | Easy | `Tree`, `Depth-first Search`, `Breadth-first Search` | [:page_facing_up:](docs/101.%20Symmetric%20Tree%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md) |
 | [<span id="problem-102">102</span>](#problem-102) | [Binary Tree Level Order Traversal<br> 二叉树的层序遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | [Java](java/src/102.%20BinaryTreeLevelOrderTraversal.java) | Medium | `Tree`, `Breadth-first Search` | [:page_facing_up:](docs/102.%20Binary%20Tree%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86.md) |
