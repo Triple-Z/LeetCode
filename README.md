@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-06-03 10:50:05.131725 UTC
+> Last updated: 2021-06-03 11:11:24.668199 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -107,7 +107,7 @@ LeetCode 练习仓库。
 | [<span id="problem-240">240</span>](#problem-240) | [Search a 2D Matrix II<br> 搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/) | [Java](java/src/240.%20Searcha2DMatrixII.java) | Medium | `Binary Search`, `Divide and Conquer` | [:page_facing_up:](docs/240.%20Search%20a%202D%20Matrix%20II%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%20II.md) |
 | [<span id="problem-242">242</span>](#problem-242) | [Valid Anagram<br> 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java](java/src/242.%20ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
 | [<span id="problem-268">268</span>](#problem-268) | [Missing Number<br> 缺失数字](https://leetcode-cn.com/problems/missing-number/) | [Java](java/src/268.%20MissingNumber.java) | Easy | `Bit Manipulation`, `Array`, `Math` | [:page_facing_up:](docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) |
-| [<span id="problem-278">278</span>](#problem-278) | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
+| [<span id="problem-278">278</span>](#problem-278) | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) [Go](go/src/278.go) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
 | [<span id="problem-283">283</span>](#problem-283) |  |  [Python3](py3/283.py) |  |  |  |
 | [<span id="problem-297">297</span>](#problem-297) | [Serialize and Deserialize Binary Tree<br> 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Java](java/src/297.%20SerializeandDeserializeBinaryTree.java) | Medium | `Tree`, `Design` | [:page_facing_up:](docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md) |
 | [<span id="problem-300">300</span>](#problem-300) | [Longest Increasing Subsequence<br> 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Java](java/src/300.%20LongestIncreasingSubsequence.java) | Medium | `Binary Search`, `Dynamic Programming` | [:page_facing_up:](docs/300.%20Longest%20Increasing%20Subsequence%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md) |
