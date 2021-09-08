@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-07 17:02:53.008478 UTC
+> Last updated: 2021-09-08 15:44:19.597824 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -76,7 +76,7 @@ LeetCode 练习仓库。
 | [<span id="problem-116">116</span>](#problem-116) | [Populating Next Right Pointers in Each Node<br> 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) | [Java](java/src/116.%20PopulatingNextRightPointersinEachNode.java) | Medium | `Tree`, `Depth-first Search` | [:page_facing_up:](docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88.md) |
 | [<span id="problem-118">118</span>](#problem-118) | [Pascal's Triangle<br> 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/description/) | [Java](java/src/118.%20PascalsTriangle.java) | Easy | `Array` | [:page_facing_up:](docs/118.%20Pascal%27s%20Triangle%20%E6%9D%A8%E8%BE%89%E4%B8%89%E8%A7%92.md) |
 | [<span id="problem-121">121</span>](#problem-121) | [Best Time to Buy and Sell Stock<br> 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](java/src/121.%20BestTimetoBuyandSellStock.java) [Go](go/src/121.go) [Python3](py3/121.py) [C++](cpp/src/121.cpp) | Easy | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md) |
-| [<span id="problem-122">122</span>](#problem-122) | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  [Go](go/src/122.go) [C++](cpp/src/122.cpp) | Easy | `Array`, `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
+| [<span id="problem-122">122</span>](#problem-122) | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  [Go](go/src/122.go) [Python3](py3/122.py) [C++](cpp/src/122.cpp) | Easy | `Array`, `Greedy` | [:page_facing_up:](docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.md) |
 | [<span id="problem-123">123</span>](#problem-123) | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) |  [C++](cpp/src/123.cpp) | Hard | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md) |
 | [<span id="problem-125">125</span>](#problem-125) | [Valid PalinDrome<br> 验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | [Java](java/src/125.%20ValidPaliDrome.java) | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/125.%20Valid%20PalinDrome%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2.md) |
 | [<span id="problem-136">136</span>](#problem-136) | [Single Number<br> 只出现一次的数字](https://leetcode-cn.com/problems/single-number/) |  [Go](go/src/136.go) [Python3](py3/136.py) | Easy | `Bit Manipulation`, `Hash Table` | [:page_facing_up:](docs/136.%20Single%20Number%20%E5%8F%AA%E5%87%BA%E7%8E%B0%E4%B8%80%E6%AC%A1%E7%9A%84%E6%95%B0%E5%AD%97.md) |
@@ -90,7 +90,7 @@ LeetCode 练习仓库。
 | [<span id="problem-169">169</span>](#problem-169) | [Majority Element<br> 多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](java/src/169.%20MajorityElement.java) [Python3](py3/169.py) | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md) |
 | [<span id="problem-171">171</span>](#problem-171) | [Excel Sheet Column Number<br> Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number/) | [Java](java/src/171.%20ExcelSheetColumnNumber.java) | Easy | `Math` | [:page_facing_up:](docs/171.%20Excel%20Sheet%20Column%20Number%20Excel%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7.md) |
 | [<span id="problem-172">172</span>](#problem-172) | [Factorial Trailing Zeroes<br> 阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/) | [Java](java/src/172.%20FactorialTrailingZeroes.java) | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md) |
-| [<span id="problem-189">189</span>](#problem-189) | [Rotate Array<br> 旋转数组](https://leetcode-cn.com/problems/rotate-array/) |  [Go](go/src/189.go) | Medium | `Array` | [:page_facing_up:](docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md) |
+| [<span id="problem-189">189</span>](#problem-189) | [Rotate Array<br> 旋转数组](https://leetcode-cn.com/problems/rotate-array/) |  [Go](go/src/189.go) [Python3](py3/189.py) | Medium | `Array` | [:page_facing_up:](docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md) |
 | [<span id="problem-190">190</span>](#problem-190) | [Reverse Bits<br> 颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/) | [Java](java/src/190.%20ReverseBits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md) |
 | [<span id="problem-191">191</span>](#problem-191) | [Number of 1 Bits<br> 位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/) | [Java](java/src/191.%20Numberof1Bits.java) | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md) |
 | [<span id="problem-198">198</span>](#problem-198) | [House Robber<br> 打家劫舍](https://leetcode-cn.com/problems/house-robber/) | [Java](java/src/198.%20HouseRobber.java) [Python3](py3/198.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md) |
@@ -152,7 +152,7 @@ LeetCode 练习仓库。
 Group by solution language:
 - Total solutions via Java : 93
 - Total solutions via Go : 22
-- Total solutions via Python3 : 51
+- Total solutions via Python3 : 53
 - Total solutions via C++ : 18
 
 Group by difficulty:
