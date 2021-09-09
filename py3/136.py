@@ -1,18 +1,13 @@
 class Solution:
-    def singleNumber(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        if len(nums) == 1:
+    def singleNumber(self, nums: List[int]) -> int:
+        n = len(nums)
+        if n == 1:
             return nums[0]
         
-        hash_table = dict()
+        nums.sort()
+        for i in range(1, n, 2):
+            if nums[i] != nums[i-1]:
+                return nums[i-1]
 
-        for num in nums:
-            try:
-                hash_table.pop(num)
-            except:
-                hash_table[num] = 1
-        
-        return hash_table.popitem()[0]
+        # n is odd, return the last element
+        return nums[n-1]
