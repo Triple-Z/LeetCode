@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-09 13:47:22.901886 UTC
+> Last updated: 2021-09-09 14:26:37.201146 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -109,7 +109,7 @@ LeetCode 练习仓库。
 | [<span id="problem-242">242</span>](#problem-242) | [Valid Anagram<br> 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java](java/src/242.%20ValidAnagram.java) | Easy | `Sort`, `Hash Table` | [:page_facing_up:](docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) |
 | [<span id="problem-268">268</span>](#problem-268) | [Missing Number<br> 缺失数字](https://leetcode-cn.com/problems/missing-number/) | [Java](java/src/268.%20MissingNumber.java) | Easy | `Bit Manipulation`, `Array`, `Math` | [:page_facing_up:](docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md) |
 | [<span id="problem-278">278</span>](#problem-278) | [First Bad Version<br> 第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | [Java](java/src/278.%20FirstBadVersion.java) [Go](go/src/278.go) | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md) |
-| [<span id="problem-283">283</span>](#problem-283) |  |  [Python3](py3/283.py) |  |  |  |
+| [<span id="problem-283">283</span>](#problem-283) | [Move Zeroes<br> 移动零](https://leetcode-cn.com/problems/move-zeroes/) |  [Python3](py3/283.py) | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/283.%20Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md) |
 | [<span id="problem-297">297</span>](#problem-297) | [Serialize and Deserialize Binary Tree<br> 二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/) | [Java](java/src/297.%20SerializeandDeserializeBinaryTree.java) | Medium | `Tree`, `Design` | [:page_facing_up:](docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md) |
 | [<span id="problem-300">300</span>](#problem-300) | [Longest Increasing Subsequence<br> 最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | [Java](java/src/300.%20LongestIncreasingSubsequence.java) | Medium | `Binary Search`, `Dynamic Programming` | [:page_facing_up:](docs/300.%20Longest%20Increasing%20Subsequence%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md) |
 | [<span id="problem-322">322</span>](#problem-322) | [Coin Change<br> 零钱兑换](https://leetcode-cn.com/problems/coin-change/) | [Java](java/src/322.%20CoinChange.java) | Medium | `Dynamic Programming` | [:page_facing_up:](docs/322.%20Coin%20Change%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.md) |
@@ -148,7 +148,7 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 127
-- Total docs : 105
+- Total docs : 106
 
 Group by solution language:
 - Total solutions via Java : 93
@@ -157,7 +157,7 @@ Group by solution language:
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 52
+- Easy: 53
 - Medium: 52
 - Hard: 1
 
