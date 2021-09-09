@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-09 13:35:56.675171 UTC
+> Last updated: 2021-09-09 13:47:22.901886 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -53,7 +53,7 @@ LeetCode 练习仓库。
 | [<span id="problem-55">55</span>](#problem-55) | [Jump Game<br> 跳跃游戏](https://leetcode-cn.com/problems/jump-game/) | [Java](java/src/55.%20JumpGame.java) | Medium | `Greedy`, `Array` | [:page_facing_up:](docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md) |
 | [<span id="problem-56">56</span>](#problem-56) | [Merge Intervals<br> 合并区间](https://leetcode-cn.com/problems/merge-intervals/) | [Java](java/src/56.%20MergeIntervals.java) | Medium | `Sort`, `Array` | [:page_facing_up:](docs/56.%20Merge%20Intervals%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md) |
 | [<span id="problem-62">62</span>](#problem-62) | [Unique Paths<br> 不同路径](https://leetcode-cn.com/problems/unique-paths/) | [Java](java/src/62.%20UniquePaths.java) | Medium | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/62.%20Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md) |
-| [<span id="problem-66">66</span>](#problem-66) | [Plus One](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One.md) |
+| [<span id="problem-66">66</span>](#problem-66) | [Plus One<br> 加一](https://leetcode.com/problems/plus-one/) |  [Python3](py3/66.py) [C++](cpp/src/66.cpp) | Easy | `Array`, `Math` | [:page_facing_up:](docs/66.%20Plus%20One%20%E5%8A%A0%E4%B8%80.md) |
 | [<span id="problem-67">67</span>](#problem-67) |  |  [Python3](py3/67.py) |  |  |  |
 | [<span id="problem-69">69</span>](#problem-69) | [Sqrt(x)<br> x的平方根](https://leetcode-cn.com/problems/sqrtx/) | [Java](java/src/69.%20Sqrtx.java) [Python3](py3/69.py) | Easy | `Math`, `Binary Search` | [:page_facing_up:](docs/69.%20Sqrt%28x%29%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md) |
 | [<span id="problem-70">70</span>](#problem-70) | [Climbing Stairs<br> 爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/description/) | [Java](java/src/70.%20ClimbingStairs.java) [Go](go/src/70.go) [Python3](py3/70.py) | Easy | `Dynamic Programming` | [:page_facing_up:](docs/70.%20Climbing%20Stairs%20%E7%88%AC%E6%A5%BC%E6%A2%AF.md) |
