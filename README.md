@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-09 15:02:09.110592 UTC
+> Last updated: 2021-09-16 15:19:55.789890 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -46,7 +46,7 @@ LeetCode 练习仓库。
 | [<span id="problem-36">36</span>](#problem-36) | [Valid Sudoku<br> 有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](java/src/36.%20ValidSudoku.java) [Python3](py3/36.py) | Medium | `Hash Table` | [:page_facing_up:](docs/36.%20Valid%20Sudoku%20%E6%9C%89%E6%95%88%E7%9A%84%E6%95%B0%E7%8B%AC.md) |
 | [<span id="problem-38">38</span>](#problem-38) | [Count and Say<br> 外观数列](https://leetcode-cn.com/problems/count-and-say/) | [Java](java/src/38.%20CountAndSay.java) | Easy | `String` | [:page_facing_up:](docs/38.%20Count%20and%20Say%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97.md) |
 | [<span id="problem-46">46</span>](#problem-46) | [Permutations<br> 全排列](https://leetcode-cn.com/problems/permutations/) | [Java](java/src/46.%20Permutations.java) [Python3](py3/46.py) | Medium | `Backtracking` | [:page_facing_up:](docs/46.%20Permutations%20%E5%85%A8%E6%8E%92%E5%88%97.md) |
-| [<span id="problem-48">48</span>](#problem-48) | [Rotate Image<br> 旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [Java](java/src/48.%20RotateImage.java) | Medium | `Array` | [:page_facing_up:](docs/48.%20Rotate%20Image%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) |
+| [<span id="problem-48">48</span>](#problem-48) | [Rotate Image<br> 旋转图像](https://leetcode-cn.com/problems/rotate-image/) | [Java](java/src/48.%20RotateImage.java) [Python3](py3/48.py) | Medium | `Array` | [:page_facing_up:](docs/48.%20Rotate%20Image%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md) |
 | [<span id="problem-49">49</span>](#problem-49) | [Group Anagrams<br> 字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java](java/src/49.%20GroupAnagrams.java) | Medium | `Hash Table`, `String` | [:page_facing_up:](docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md) |
 | [<span id="problem-50">50</span>](#problem-50) | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/) | [Java](java/src/50.%20Powxn.java) | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/50.%20Pow%28x%2C%20n%29.md) |
 | [<span id="problem-53">53</span>](#problem-53) | [Maximum Subarray<br> 最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/) | [Java](java/src/53.%20MaximumSubarray.java) [Go](go/src/53.go) [Python3](py3/53.py) [C++](cpp/src/53.cpp) | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md) |
@@ -153,7 +153,7 @@ LeetCode 练习仓库。
 Group by solution language:
 - Total solutions via Java : 93
 - Total solutions via Go : 22
-- Total solutions via Python3 : 56
+- Total solutions via Python3 : 57
 - Total solutions via C++ : 18
 
 Group by difficulty:
