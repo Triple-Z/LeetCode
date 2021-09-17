@@ -6,16 +6,19 @@
 
 
 class Solution:
-    def reverseList(self, head):
-        """
-        :type head: ListNode
-        :rtype: ListNode
-        """
-        if head and head.next:
-            last = self.reverseList(head.next)
-            head.next.next = head
-            head.next = None
-            return last
-        else:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if head is None or head.next is None:
             return head
-    
+        
+        prev = head
+        cur = head.next
+        while cur.next is not None:
+            next = cur.next
+            cur.next = prev
+            prev = cur
+            cur = next
+        
+        cur.next = prev
+        head.next = None
+        
+        return cur
