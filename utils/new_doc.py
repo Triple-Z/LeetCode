@@ -68,6 +68,8 @@ def main():
         doc_filename = ''
         if title_zh == '':
             doc_filename = '{0}. {1}.md'.format(problem_number, title_en)
+        elif title_en == '':
+            doc_filename = '{0}. {1}.md'.format(problem_number, title_zh)
         else:
             doc_filename = '{0}. {1} {2}.md'.format(problem_number, title_en, title_zh)
         logging.debug(str(root_dir / 'docs' / doc_filename))
@@ -87,13 +89,13 @@ Create code file:
 Type your option here: ''')
         code_path = None
         if code_option == '1': # java
-            code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number, ''.join(title_en.replace('\'', '').replace('"', '').replace('-', '').replace('(', '').replace(')', '').replace(',', '').split()))
+            code_path = root_dir / 'java' / 'src' / '{}. {}.java'.format(problem_number.replace(' ', '_'), ''.join(title_en.replace('\'', '').replace('"', '').replace('-', '').replace('(', '').replace(')', '').replace(',', '').split()))
         elif code_option == '2': # go
-            code_path = root_dir / 'go' / 'src'/ '{}.go'.format(problem_number)
+            code_path = root_dir / 'go' / 'src'/ '{}.go'.format(problem_number.replace(' ', '_'))
         elif code_option == '3': # python3
-            code_path = root_dir / 'py3' / '{}.py'.format(problem_number)
+            code_path = root_dir / 'py3' / '{}.py'.format(problem_number.replace(' ', '_'))
         elif code_option == '4': # C++
-            code_path = root_dir / 'cpp' / 'src' / '{}.cpp'.format(problem_number)
+            code_path = root_dir / 'cpp' / 'src' / '{}.cpp'.format(problem_number.replace(' ', '_'))
         else:
             logging.info('No need to create code file, exiting...')
             exit(0)

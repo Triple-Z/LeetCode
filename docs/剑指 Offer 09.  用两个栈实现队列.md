@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# 剑指 Offer 30.  用两个栈实现队列
+# 剑指 Offer 09. 用两个栈实现队列
 
 - Difficulty: Easy
 - Topics: `Stack`, `Design`, `Queue`
