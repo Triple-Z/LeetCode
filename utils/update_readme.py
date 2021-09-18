@@ -32,11 +32,11 @@ def main():
     cpp_filelist = Path(root_dir).glob('cpp/src/*.cpp')
     doc_filelist = Path(root_dir).glob('docs/*.md')
 
-    java_pattern = re.compile(r'java\/src\/(\d+)\. [\w\-]+\.java', re.ASCII)
-    go_pattern = re.compile(r'go\/src\/(\d+)\.go', re.ASCII)
-    py3_pattern = re.compile(r'py3\/(\d+)\.py', re.ASCII)
-    cpp_pattern = re.compile(r'cpp\/src\/(\d+)\.cpp', re.ASCII)
-    doc_pattern = re.compile(r'docs\/(\d+)\. ([\w\d\s\'\"\(\)\-\,\.]+)(\s+[\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5|\w\d\s\(\)\,\.]+)?\.md', re.ASCII)
+    java_pattern = re.compile(r'java\/src\/([\d\w_\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\. [\w\-]+\.java', re.ASCII)
+    go_pattern = re.compile(r'go\/src\/([\d\w_\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.go', re.ASCII)
+    py3_pattern = re.compile(r'py3\/([\d\w_\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.py', re.ASCII)
+    cpp_pattern = re.compile(r'cpp\/src\/([\d\w_\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.cpp', re.ASCII)
+    doc_pattern = re.compile(r'docs\/([\d\w\s\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\. ([\w\d\s\'\"\(\)\-\,\.]+)?(\s?[\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5|\w\d\s\(\)\,\.]+)?\.md', re.ASCII)
     problem_info_pattern = re.compile(r'-\sDifficulty:\s(Easy|Medium|Hard)\s*\n-\sTopics:\s(`[`\w\d\s\,\-]+`)\s*\n-\sLink:\s((?:http|https):\/\/.*)\s*\n', re.ASCII)
 
     # add java files
@@ -47,7 +47,7 @@ def main():
             logging.warning('The filename {} is invalid, ignored.'.format(java_file))
             continue
         
-        number = java_res.group(1)
+        number = java_res.group(1).replace("_", " ")
         logging.debug('processing {} java file'.format(number))
         
         number_problem = problems.get(number)
@@ -68,7 +68,7 @@ def main():
         if go_res is None:
             logging.warning('The filename {} is invalid, ignored.'.format(go_file))
             continue
-        number = go_res.group(1)
+        number = go_res.group(1).replace("_", " ")
         logging.debug('processing {} go file'.format(number))
 
         number_problem = problems.get(number)
@@ -89,7 +89,7 @@ def main():
         if py3_res is None:
             logging.warning('The filename {} is invalid, ignored.'.format(py3_file))
             continue
-        number = py3_res.group(1)
+        number = py3_res.group(1).replace("_", " ")
         logging.debug('processing {} python3 file'.format(number))
         
         number_problem = problems.get(number)
@@ -110,7 +110,7 @@ def main():
         if cpp_res is None:
             logging.warning('The filename {} is invalid, ignored.'.format(cpp_file))
             continue
-        number = cpp_res.group(1)
+        number = cpp_res.group(1).replace("_", " ")
         logging.debug('processing {} cpp file'.format(number))
 
         number_problem = problems.get(number)
@@ -133,6 +133,9 @@ def main():
             continue
         number = doc_res.group(1)
         title_en = doc_res.group(2)
+        if title_en == "":
+            title_en = None
+        
         title_zh = doc_res.group(3)
         logging.debug('processing {} doc file, {}, {}'.format(number, title_en, title_zh))
 
@@ -173,7 +176,12 @@ def main():
             number_problem.doc = quote(str(rel_doc_file))
     
     # sort problems by its number
-    problems_number_list = sorted(problems, key=int)
+    def cmp(o: str):
+        if o.isdigit():
+            return int(o)
+        elif o.startswith("剑指"):
+            return 10000 + int(o.split()[2])
+    problems_number_list = sorted(problems, key=cmp)
 
     problems_list = []
     for problem in problems_number_list:
