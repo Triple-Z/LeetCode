@@ -26,9 +26,6 @@ def main():
     # interactive input problem info(number, title_en, title_zh, difficulty, topics, link)
     if is_interactive:
         problem_number = input('Input the problem number: ')
-        if not problem_number.isdigit():
-            logging.error('The problem number must be digit!')
-            exit(1)
         
         title_en = input('Input the problem English title: ')
         title_zh = input('Input the problem Chinese title: ')
