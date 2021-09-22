@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-18 17:23:11.136784 UTC
+> Last updated: 2021-09-22 12:52:49.078930 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -142,6 +142,7 @@ LeetCode 练习仓库。
 | [<span id="problem-905">905</span>](#problem-905 "#905") |  |  [C++](cpp/src/905.cpp "cpp/src/905.cpp") |  |  |  |
 | [<span id="problem-1114">1114</span>](#problem-1114 "#1114") | [Print in Order <br>按序打印](https://leetcode-cn.com/problems/print-in-order/ "https://leetcode-cn.com/problems/print-in-order/") | [Java](java/src/1114.%20PrintInOrder.java "java/src/1114.%20PrintInOrder.java") | Easy | `Concurrency` | [:page_facing_up:](docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md "docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md") |
 | [<span id="problem-1137">1137</span>](#problem-1137 "#1137") | [N-th Tribonacci Number <br>第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/ "https://leetcode-cn.com/problems/n-th-tribonacci-number/") | [Java](java/src/1137.%20NthTribonacciNumber.java "java/src/1137.%20NthTribonacciNumber.java") | Easy | `Recursion` | [:page_facing_up:](docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md "docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md") |
+| [<span id="problem-剑指-Offer-06">剑指 Offer 06</span>](#problem-剑指-Offer-06 "#剑指 Offer 06") | [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/ "https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_06.go "go/src/%E5%89%91%E6%8C%87_Offer_06.go") | Easy | `Stack`, `Recursion`, `Linked List`, `Two Pointers` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2006.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2006.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md") |
 | [<span id="problem-剑指-Offer-09">剑指 Offer 09</span>](#problem-剑指-Offer-09 "#剑指 Offer 09") | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/ "https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_09.go "go/src/%E5%89%91%E6%8C%87_Offer_09.go") | Easy | `Stack`, `Design`, `Queue` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-30">剑指 Offer 30</span>](#problem-剑指-Offer-30 "#剑指 Offer 30") | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/ "https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_30.go "go/src/%E5%89%91%E6%8C%87_Offer_30.go") | Easy | `Stack`, `Design` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md") |
 
@@ -149,17 +150,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 129
-- Total docs : 108
+- Total solved problems : 130
+- Total docs : 109
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 24
+- Total solutions via Go : 25
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 55
+- Easy: 56
 - Medium: 52
 - Hard: 1
 
