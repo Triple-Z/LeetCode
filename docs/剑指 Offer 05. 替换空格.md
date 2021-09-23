@@ -7,14 +7,13 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Iteration](#iteration)
+  - [Build a String](#build-a-string)
     - [Go](#go)
 
 ## Description
 
 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
 
- 
 
 示例 1：
 ```
@@ -27,14 +26,12 @@
 0 <= s 的长度 <= 10000
 ```
 
-
 ## Solution
 
-### Iteration
+### Build a String
 
-遍历数组，遇到空格则替换为 `%20`，然后把 `%20` 插入到数组中。
+遍历字符串，构建一个新的字符串，每次遇到空格，替换成 `%20`，然后把新的字符串拼接到结果字符串后面。
 
-主要考察各语言的字符串遍历方法。
 
 #### Go
 
