@@ -42,7 +42,10 @@
 典型的动态规划问题，由于青蛙可以一次跳一格，也可以一次跳两格，那么很容易得到递推方程：
 
 $$
-dp(i) = dp(i-1) + dp(i-2),\space \text{s.t.} \space dp(0) = dp(1) = 1
+dp(i) = \begin{cases}
+    1, &  0 \le i \le 1 \\
+    dp(i-1) + dp(i-2), & i > 1
+\end{cases}
 $$
 
 #### Go
