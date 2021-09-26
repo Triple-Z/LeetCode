@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-09-26 13:03:14.889816 UTC
+> Last updated: 2021-09-26 14:11:54.806972 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -143,6 +143,7 @@ LeetCode 练习仓库。
 | [<span id="problem-1114">1114</span>](#problem-1114 "#1114") | [Print in Order <br>按序打印](https://leetcode-cn.com/problems/print-in-order/ "https://leetcode-cn.com/problems/print-in-order/") | [Java](java/src/1114.%20PrintInOrder.java "java/src/1114.%20PrintInOrder.java") | Easy | `Concurrency` | [:page_facing_up:](docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md "docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md") |
 | [<span id="problem-1137">1137</span>](#problem-1137 "#1137") | [N-th Tribonacci Number <br>第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/ "https://leetcode-cn.com/problems/n-th-tribonacci-number/") | [Java](java/src/1137.%20NthTribonacciNumber.java "java/src/1137.%20NthTribonacciNumber.java") | Easy | `Recursion` | [:page_facing_up:](docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md "docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-03">剑指 Offer 03</span>](#problem-剑指-Offer-03 "#剑指 Offer 03") | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_03.go "go/src/%E5%89%91%E6%8C%87_Offer_03.go") | Easy | `Array`, `Hash Table`, `Sorting` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md") |
+| [<span id="problem-剑指-Offer-04">剑指 Offer 04</span>](#problem-剑指-Offer-04 "#剑指 Offer 04") | [二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/ "https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_04.go "go/src/%E5%89%91%E6%8C%87_Offer_04.go") | Medium | `Array`, `Binary Search`, `Divide and Conquer`, `Matrix` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md "docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md") |
 | [<span id="problem-剑指-Offer-05">剑指 Offer 05</span>](#problem-剑指-Offer-05 "#剑指 Offer 05") | [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/ "https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_05.go "go/src/%E5%89%91%E6%8C%87_Offer_05.go") | Easy | `String` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2005.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md "docs/%E5%89%91%E6%8C%87%20Offer%2005.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md") |
 | [<span id="problem-剑指-Offer-06">剑指 Offer 06</span>](#problem-剑指-Offer-06 "#剑指 Offer 06") | [从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/ "https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_06.go "go/src/%E5%89%91%E6%8C%87_Offer_06.go") | Easy | `Stack`, `Recursion`, `Linked List`, `Two Pointers` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2006.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2006.%20%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8.md") |
 | [<span id="problem-剑指-Offer-09">剑指 Offer 09</span>](#problem-剑指-Offer-09 "#剑指 Offer 09") | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/ "https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_09.go "go/src/%E5%89%91%E6%8C%87_Offer_09.go") | Easy | `Stack`, `Design`, `Queue` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md") |
@@ -165,18 +166,18 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 145
-- Total docs : 124
+- Total solved problems : 146
+- Total docs : 125
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 40
+- Total solutions via Go : 41
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 70
-- Medium: 53
+- Medium: 54
 - Hard: 1
 
 ## License
