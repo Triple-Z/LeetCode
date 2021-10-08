@@ -7,7 +7,7 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Sort](#sort)
+  - [Sorting](#sorting)
     - [Go](#go)
   - [Hash Table](#hash-table)
     - [Go](#go-1)
@@ -37,7 +37,7 @@
 
 ## Solution
 
-### Sort
+### Sorting
 
 先遍历数组，获得大小王的个数（即任意数字的个数），以及除大小王外的最大最小值。
 
