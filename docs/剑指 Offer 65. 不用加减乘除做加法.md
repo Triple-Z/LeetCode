@@ -68,7 +68,7 @@ aNthBit := a & (1 << n)
 || Bit Operation | Example |
 |----|:----:|:----:|
 |Set Nth bit to `0` | AND NOT | `ans &^= (1 << n)` |
-|Set Nth bit to `1` | OR | `ans |= (1 << n)` |
+|Set Nth bit to `1` | OR | `ans \|= (1 << n)` |
 
 剩下的工作就是根据状态表对结果按位赋值即可。
 
