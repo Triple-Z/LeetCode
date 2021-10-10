@@ -9,8 +9,8 @@
 - [Solution](#solution)
   - [Iteration](#iteration)
     - [Go](#go)
-  - [Bit Manipulation](#bit-manipulation)
-    - [Lang](#lang)
+  - [Brian-Kernighan Algorithm](#brian-kernighan-algorithm)
+    - [Go](#go-1)
 
 ## Description
 
@@ -44,6 +44,8 @@
 提示：
 - 输入必须是长度为 `32` 的 二进制串 。
 
+注意：本题与 [191 题](./191.%20Number%20of%201%20Bits%20位1的个数.md) 相同。
+
 ## Solution
 
 ### Iteration
@@ -71,12 +73,27 @@ func hammingWeight(num uint32) int {
 }
 ```
 
-### Bit Manipulation
+### Brian-Kernighan Algorithm
 
-TODO：位运算优化 https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/solution/er-jin-zhi-zhong-1de-ge-shu-by-leetcode-50bb1/
+Brian-Kernighan 算法：对于任意的数字 n，其和 n-1 进行 *位与* 操作后得到的结果会将 n 中的 *最后一个* 1 变为 0 。如下图所示。
 
-#### Lang
+![image.png](assets/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0/abfd6109e7482d70d20cb8fc1d632f90eacf1b5e89dfecb2e523da1bcb562f66-image.png)
 
-```lang
-2nd solution code goes here.
+时间复杂度为 O(1)，空间复杂度为 O(1)。
+
+#### Go
+
+- 执行用时: 0 ms
+- 内存消耗: 1.9 MB
+
+```go
+func hammingWeight(num uint32) int {
+    ans := 0
+    for num != 0 {
+        num &= num - 1
+        ans++
+    }
+
+    return ans
+}
 ```
