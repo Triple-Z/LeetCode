@@ -1,0 +1,117 @@
+<!-- omit in toc -->
+# 剑指 Offer 68 - I.  二叉搜索树的最近公共祖先
+
+- Difficulty: Easy
+- Topics: `Tree`, `Depth-First Search`, `Binary Search Tree`, `Binary Tree`
+- Link: https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/
+
+- [Description](#description)
+- [Solution](#solution)
+  - [Binary Search Tree](#binary-search-tree)
+    - [Java](#java)
+    - [Go](#go)
+
+## Description
+
+给定一个二叉搜索树, 找到该树中两个指定节点的最近公共祖先。
+
+百度百科中最近公共祖先的定义为：“对于有根树 T 的两个结点 p、q，最近公共祖先表示为一个结点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”
+
+例如，给定如下二叉搜索树:  root = [6,2,8,0,4,7,9,null,null,3,5]
+
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/14/binarysearchtree_improved.png)
+
+示例 1:
+```
+输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+输出: 6 
+解释: 节点 2 和节点 8 的最近公共祖先是 6。
+```
+示例 2:
+```
+输入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+输出: 2
+解释: 节点 2 和节点 4 的最近公共祖先是 2, 因为根据定义最近公共祖先节点可以为节点本身。
+```
+
+说明:
+- 所有节点的值都是唯一的。
+- p、q 为不同节点且均存在于给定的二叉搜索树中。
+
+注意：本题与 [235 题](./235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree%20二叉搜索树的最近公共祖先.md) 相同。
+
+## Solution
+
+### Binary Search Tree
+
+既然给定的树是二叉搜索树，那么我们就应该充分利用它的特性。对于一棵二叉搜索树，小于根的值都在左子树里，大于根节点的值都在右子树中。那想要找到两个值最近的公共祖先，对于公共祖节点，这两个值一定各自分别分布在左右子树。因此，若两个值都小于当前根节点，就应该继续搜索左子树；两个值都大于当前根节点，就应该继续搜索右子树；否则说明两值可能位于根的两侧（也有可能就是根节点的值），它们的公共祖先就是根节点。
+
+该方法时间复杂度为 O(n)，空间复杂度为 O(1)。
+
+#### Java
+
+- 执行用时: 5 ms
+- 内存消耗: 39 MB
+
+```java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) {
+            return null;
+        }
+
+        if (p.val < root.val && q.val < root.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        }
+
+        if (p.val > root.val && q.val > root.val) {
+            return lowestCommonAncestor(root.right, p, q);
+        }
+
+        return root;
+    }
+}
+```
+
+#### Go
+
+> 此题 LeetCode 未提供 Go 语言，以下为 [235 题](./235.%20Lowest%20Common%20Ancestor%20of%20a%20Binary%20Search%20Tree%20二叉搜索树的最近公共祖先.md) 的结果。
+
+- 执行用时: 16 ms
+- 内存消耗: 6.9 MB
+
+```go
+/**
+ * Definition for a binary tree node.
+ * type TreeNode struct {
+ *     Val   int
+ *     Left  *TreeNode
+ *     Right *TreeNode
+ * }
+ */
+
+func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
+	if root == nil {
+        return nil
+    }
+
+    if p.Val < root.Val && q.Val < root.Val {
+        return lowestCommonAncestor(root.Left, p, q)
+    }
+
+    if p.Val > root.Val && q.Val > root.Val {
+        return lowestCommonAncestor(root.Right, p, q)
+    }
+
+    return root
+}
+```
