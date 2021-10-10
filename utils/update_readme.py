@@ -180,7 +180,10 @@ def main():
         if o.isdigit():
             return int(o)
         elif o.startswith("剑指"):
-            return 10000 + int(o.split()[2])
+            if len(o.split()) > 3:
+                # 剑指 Offer XX - II
+                return 10000 + int(o.split()[2]) * 10 + len(o.split()[4])
+            return 10000 + int(o.split()[2]) * 10
     problems_number_list = sorted(problems, key=cmp)
 
     problems_list = []
