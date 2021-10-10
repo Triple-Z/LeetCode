@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-10 11:21:58.765710 UTC
+> Last updated: 2021-10-10 11:43:18.434171 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -173,6 +173,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-53---II">剑指 Offer 53 - II</span>](#problem-剑指-Offer-53---II "#剑指 Offer 53 - II") | [0<br>～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_53_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_53_-_II.go") | Easy | `Bit Manipulation`, `Array`, `Hash Table`, `Math`, `Binary Search` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2053%20-%20II.%200%EF%BD%9En-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2053%20-%20II.%200%EF%BD%9En-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-54">剑指 Offer 54</span>](#problem-剑指-Offer-54 "#剑指 Offer 54") | [二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_54.go "go/src/%E5%89%91%E6%8C%87_Offer_54.go") | Easy | `Tree`, `Depth-First Search`, `Binary Search Tree`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2054.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md "docs/%E5%89%91%E6%8C%87%20Offer%2054.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E7%AC%ACk%E5%A4%A7%E8%8A%82%E7%82%B9.md") |
 | [<span id="problem-剑指-Offer-55---I">剑指 Offer 55 - I</span>](#problem-剑指-Offer-55---I "#剑指 Offer 55 - I") | [二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_55_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_55_-_I.go") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2055%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md "docs/%E5%89%91%E6%8C%87%20Offer%2055%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%B7%B1%E5%BA%A6.md") |
+| [<span id="problem-剑指-Offer-55---II">剑指 Offer 55 - II</span>](#problem-剑指-Offer-55---II "#剑指 Offer 55 - II") | [平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_55_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_55_-_II.go") | Easy | `Tree`, `Depth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2055%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2055%20-%20II.%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-57">剑指 Offer 57</span>](#problem-剑指-Offer-57 "#剑指 Offer 57") | [和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/ "https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_57.go "go/src/%E5%89%91%E6%8C%87_Offer_57.go") | Easy | `Array`, `Two Pointers`, `Binary Search` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2057.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2057.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E4%B8%A4%E4%B8%AA%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-58---II">剑指 Offer 58 - II</span>](#problem-剑指-Offer-58---II "#剑指 Offer 58 - II") | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_58_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_58_-_II.go") | Easy | `Math`, `Two Pointers`, `String` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
 | [<span id="problem-剑指-Offer-58---I">剑指 Offer 58 - I</span>](#problem-剑指-Offer-58---I "#剑指 Offer 58 - I") | [翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/ "https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_58_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_58_-_I.go") | Easy | `Two Pointers`, `String` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20I.%20%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F.md "docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20I.%20%E7%BF%BB%E8%BD%AC%E5%8D%95%E8%AF%8D%E9%A1%BA%E5%BA%8F.md") |
@@ -184,17 +185,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 164
-- Total docs : 143
+- Total solved problems : 165
+- Total docs : 144
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 59
+- Total solutions via Go : 60
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 81
+- Easy: 82
 - Medium: 61
 - Hard: 1
 
