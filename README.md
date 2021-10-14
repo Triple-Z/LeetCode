@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-12 14:38:41.578215 UTC
+> Last updated: 2021-10-14 16:06:32.749534 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -158,6 +158,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-26">剑指 Offer 26</span>](#problem-剑指-Offer-26 "#剑指 Offer 26") | [树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/ "https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_26.go "go/src/%E5%89%91%E6%8C%87_Offer_26.go") | Medium | `Tree`, `Depth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2026.%20%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2026.%20%E6%A0%91%E7%9A%84%E5%AD%90%E7%BB%93%E6%9E%84.md") |
 | [<span id="problem-剑指-Offer-27">剑指 Offer 27</span>](#problem-剑指-Offer-27 "#剑指 Offer 27") | [二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_27.go "go/src/%E5%89%91%E6%8C%87_Offer_27.go") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2027.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F.md "docs/%E5%89%91%E6%8C%87%20Offer%2027.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F.md") |
 | [<span id="problem-剑指-Offer-28">剑指 Offer 28</span>](#problem-剑指-Offer-28 "#剑指 Offer 28") | [对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_28.go "go/src/%E5%89%91%E6%8C%87_Offer_28.go") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2028.%20%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2028.%20%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
+| [<span id="problem-剑指-Offer-29">剑指 Offer 29</span>](#problem-剑指-Offer-29 "#剑指 Offer 29") | [顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/ "https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_29.go "go/src/%E5%89%91%E6%8C%87_Offer_29.go") | Easy | `Array`, `Matrix`, `Simulation` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2029.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.md "docs/%E5%89%91%E6%8C%87%20Offer%2029.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.md") |
 | [<span id="problem-剑指-Offer-30">剑指 Offer 30</span>](#problem-剑指-Offer-30 "#剑指 Offer 30") | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/ "https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_30.go "go/src/%E5%89%91%E6%8C%87_Offer_30.go") | Easy | `Stack`, `Design` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md") |
 | [<span id="problem-剑指-Offer-32---I">剑指 Offer 32 - I</span>](#problem-剑指-Offer-32---I "#剑指 Offer 32 - I") | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_32_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_32_-_I.go") | Medium | `Tree`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20I.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20I.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-32---II">剑指 Offer 32 - II</span>](#problem-剑指-Offer-32---II "#剑指 Offer 32 - II") | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/ "https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_32_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_32_-_II.go") | Easy | `Tree`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20II.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20II.md "docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20II.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20II.md") |
@@ -191,17 +192,17 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 171
-- Total docs : 150
+- Total solved problems : 172
+- Total docs : 151
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 66
+- Total solutions via Go : 67
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 88
+- Easy: 89
 - Medium: 61
 - Hard: 1
 

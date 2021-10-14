@@ -1,0 +1,187 @@
+<!-- omit in toc -->
+# 剑指 Offer 29.  顺时针打印矩阵
+
+- Difficulty: Easy
+- Topics: `Array`, `Matrix`, `Simulation`
+- Link: https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
+
+- [Description](#description)
+- [Solution](#solution)
+  - [Simulation](#simulation)
+    - [Go](#go)
+  - [State Machine](#state-machine)
+    - [Go](#go-1)
+  - [Loop for Four Directions](#loop-for-four-directions)
+
+## Description
+
+输入一个矩阵，按照从外向里以顺时针的顺序依次打印出每一个数字。
+
+示例 1：
+```
+输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
+输出：[1,2,3,6,9,8,7,4,5]
+```
+示例 2：
+```
+输入：matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+输出：[1,2,3,4,8,12,11,10,9,5,6,7]
+```
+
+限制：
+
+- `0 <= matrix.length <= 100`
+- `0 <= matrix[i].length <= 100`
+
+注意：本题与 [54 题](# "no ref") 相同。
+
+## Solution
+
+### Simulation
+
+模拟打印的做法是：建立一个按照顺时针遍历排序的方向数组，辅以一个用于标识访问情况的辅助矩阵（visited）来实现顺时针的矩阵打印。当该方向的下一个矩阵值已经被访问过（`visited[i][j]` 为 `true`），则在访问下一个值之前切换访问方向即可，直到遍历完所有的（n*m）元素。
+
+#### Go
+
+- 执行用时: 12 ms
+- 内存消耗: 6.2 MB
+
+```go
+func spiralOrder(matrix [][]int) []int {
+    n := len(matrix)
+    if n == 0 {
+        return []int{}
+    }
+    m := len(matrix[0])
+
+    visited := make([][]bool, n)
+    for i := 0; i < n; i++ {
+        visited[i] = make([]bool, m)
+    }
+
+    directions := [][]int {
+        {0, 1},  // upper-left   -> upper-right
+        {1, 0},  // upper-right  -> bottom-right
+        {0, -1}, // bottom-right -> bottom-left
+        {-1, 0}, // bottom-left  -> upper-left
+    }
+
+    row, col := 0, 0
+    direcIndex := 0  // initial direction: upper-left -> upper-right
+    ans := make([]int, n*m)
+    for k := 0; k < n*m; k++ {
+        ans[k] = matrix[row][col]
+        visited[row][col] = true
+
+        newRow, newCol := row + directions[direcIndex][0], col + directions[direcIndex][1]
+        if newRow >= n || newRow < 0 || newCol >= m || newCol < 0 || visited[newRow][newCol] {
+            // change direction
+            direcIndex = (direcIndex + 1) % 4
+        }
+        
+        row, col = row + directions[direcIndex][0], col + directions[direcIndex][1]
+    }
+
+    return ans
+}
+```
+
+### State Machine
+
+顺时针打印矩阵一共有四个遍历方向，分别是从「左上角到右上角」、「右上角到右下角」、「右下角到左下角」以及「左下角到左上角」。笔者将这四个方向分别作为四种状态，且状态的转换位置即为当前矩阵中的四个角。
+
+对于遍历过内容的缩小矩阵，笔者使用了四个变量作为边界，分别表示当前矩阵上、下、左、右的边界。当遍历到四个角时，进行状态转换，相应的边界值随之缩小。因此，当边界不合法时（「上」位于「下」的下方；「左」位于「右」的右方），我们可以认为顺时针遍历矩阵结束。
+
+以下是遍历的状态转换条件。
+
+|当前状态 | 遍历位置 | 下一状态 | 操作 |
+|----|----|----|----|
+|左上角到右上角|右上角|右上角到右下角| `upper+1` |
+|右上角到右下角|右下角|右下角到左下角| `right-1` |
+|右下角到左下角|左下角|左下角到左上角| `bottom-1` |
+|左下角到左上角|左上角|左上角到右上角| `left+1` |
+
+若当前遍历状态不需要进行转换时，遍历的方向遵循以下规则：
+
+|当前状态|下一遍历位置|
+|----|----|
+|左上角到右上角|`[i][j+1]`|
+|右上角到右下角|`[i+1][j]`|
+|右下角到左下角|`[i][j-1]`|
+|左下角到左上角|`[i-1][j]`|
+
+以上规则汇总起来，就如下图所示。
+
+![image-20211014233659398](assets/%E5%89%91%E6%8C%87%20Offer%2029.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5/image-20211014233659398.png)
+
+该方法的时间复杂度为 O(mn)，除去必要的输出数组，空间复杂度为 O(1)。
+
+#### Go
+
+- 执行用时: 8 ms
+- 内存消耗: 6.1 MB
+
+```go
+func spiralOrder(matrix [][]int) []int {
+    n := len(matrix)
+    if n == 0 {
+        return []int{}
+    }
+    m := len(matrix[0])
+
+    l, u := 0, 0
+    r, b := m-1, n-1
+    i, j := 0, 0  // entry from (0, 0)
+
+    const (
+        LEFT_RIGHT = iota
+        UPPER_BOTTOM
+        RIGHT_LEFT
+        BOTTOM_UPPER
+    )
+
+    curDirection := LEFT_RIGHT
+
+    ans := make([]int, n*m)
+    for k := 0; k < n*m && l <= r && u <= b ; k++ {
+        if i == u && j == r && curDirection == LEFT_RIGHT {
+            // hit upper-right
+            u++
+            curDirection = UPPER_BOTTOM
+        } else if i == b && j == r && curDirection == UPPER_BOTTOM {
+            // hit bottom-right
+            r--
+            curDirection = RIGHT_LEFT
+        } else if i == b && j == l && curDirection == RIGHT_LEFT {
+            // hit bottom-left
+            b--
+            curDirection = BOTTOM_UPPER
+        } else if i == u && j == l && curDirection == BOTTOM_UPPER {
+            // hit upper-left
+            l++
+            curDirection = LEFT_RIGHT
+        }
+
+        ans[k] = matrix[i][j]
+
+        if curDirection == UPPER_BOTTOM {
+            i++
+        } else if curDirection == RIGHT_LEFT {
+            j--
+        } else if curDirection == BOTTOM_UPPER {
+            i--
+        } else if curDirection == LEFT_RIGHT {
+            j++
+        }
+    }
+
+    return ans
+}
+```
+
+### Loop for Four Directions
+
+TODO：一次大循环完成一个大圈的遍历。该方法代码较为简洁，可以学习一个。
+
+https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/mian-shi-ti-29-shun-shi-zhen-da-yin-ju-zhen-she-di/
+
