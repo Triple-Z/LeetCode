@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-15 02:33:33.350941 UTC
+> Last updated: 2021-10-15 13:26:05.341901 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -61,7 +61,7 @@ LeetCode 练习仓库。
 | [<span id="problem-73">73</span>](#problem-73 "#73") | [Set Matrix Zeroes <br>矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/description/ "https://leetcode-cn.com/problems/set-matrix-zeroes/description/") | [Java](java/src/73.%20SetMatrixZeroes.java "java/src/73.%20SetMatrixZeroes.java") | Medium | `Array` | [:page_facing_up:](docs/73.%20Set%20Matrix%20Zeroes%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.md "docs/73.%20Set%20Matrix%20Zeroes%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6.md") |
 | [<span id="problem-75">75</span>](#problem-75 "#75") | [Sort Colors <br>颜色分类](https://leetcode-cn.com/problems/sort-colors/description/ "https://leetcode-cn.com/problems/sort-colors/description/") | [Java](java/src/75.%20SortColors.java "java/src/75.%20SortColors.java") | Medium | `Sort`, `Array`, `Two Pointers` | [:page_facing_up:](docs/75.%20Sort%20Colors%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md "docs/75.%20Sort%20Colors%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB.md") |
 | [<span id="problem-78">78</span>](#problem-78 "#78") | [Subsets <br>子集](https://leetcode-cn.com/problems/subsets/ "https://leetcode-cn.com/problems/subsets/") | [Java](java/src/78.%20Subsets.java "java/src/78.%20Subsets.java") | Medium | `Bit Manipulation`, `Array`, `Backtracking` | [:page_facing_up:](docs/78.%20Subsets%20%E5%AD%90%E9%9B%86.md "docs/78.%20Subsets%20%E5%AD%90%E9%9B%86.md") |
-| [<span id="problem-79">79</span>](#problem-79 "#79") | [Word Search <br>单词搜索](https://leetcode-cn.com/problems/word-search/ "https://leetcode-cn.com/problems/word-search/") | [Java](java/src/79.%20WordSearch.java "java/src/79.%20WordSearch.java") | Medium | `Array`, `Backtracking` | [:page_facing_up:](docs/79.%20Word%20Search%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md "docs/79.%20Word%20Search%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md") |
+| [<span id="problem-79">79</span>](#problem-79 "#79") | [Word Search <br>单词搜索](https://leetcode-cn.com/problems/word-search/ "https://leetcode-cn.com/problems/word-search/") | [Java](java/src/79.%20WordSearch.java "java/src/79.%20WordSearch.java") [Go](go/src/79.go "go/src/79.go") | Medium | `Array`, `Backtracking` | [:page_facing_up:](docs/79.%20Word%20Search%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md "docs/79.%20Word%20Search%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2.md") |
 | [<span id="problem-80">80</span>](#problem-80 "#80") | [Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/ "https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/") |  [C++](cpp/src/80.cpp "cpp/src/80.cpp") | Medium | `Array`, `Two Pointers` | [:page_facing_up:](docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md "docs/80.%20Remove%20Duplicates%20from%20Sorted%20Array%20II.md") |
 | [<span id="problem-88">88</span>](#problem-88 "#88") | [Merge Sorted Array <br>合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/ "https://leetcode-cn.com/problems/merge-sorted-array/") | [Java](java/src/88.%20MergeSortedArray.java "java/src/88.%20MergeSortedArray.java") [C++](cpp/src/88.cpp "cpp/src/88.cpp") | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/88.%20Merge%20Sorted%20Array%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/88.%20Merge%20Sorted%20Array%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-94">94</span>](#problem-94 "#94") | [Binary Tree Inorder Traversal <br>二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/ "https://leetcode-cn.com/problems/binary-tree-inorder-traversal/") | [Java](java/src/94.%20BinaryTreeInorderTraversal.java "java/src/94.%20BinaryTreeInorderTraversal.java") [Python3](py3/94.py "py3/94.py") | Medium | `Hash Table`, `Stack`, `Tree` | [:page_facing_up:](docs/94.%20Binary%20Tree%20Inorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md "docs/94.%20Binary%20Tree%20Inorder%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86.md") |
@@ -152,6 +152,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-10---I">剑指 Offer 10 - I</span>](#problem-剑指-Offer-10---I "#剑指 Offer 10 - I") | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/ "https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-10---II">剑指 Offer 10 - II</span>](#problem-剑指-Offer-10---II "#剑指 Offer 10 - II") | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/ "https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md") |
 | [<span id="problem-剑指-Offer-11">剑指 Offer 11</span>](#problem-剑指-Offer-11 "#剑指 Offer 11") | [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ "https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_11.go "go/src/%E5%89%91%E6%8C%87_Offer_11.go") | Easy | `Array`, `Binary Search` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2011.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2011.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md") |
+| [<span id="problem-剑指-Offer-12">剑指 Offer 12</span>](#problem-剑指-Offer-12 "#剑指 Offer 12") | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_12.go "go/src/%E5%89%91%E6%8C%87_Offer_12.go") | Medium | `Array`, `Backtracking`, `Matrix` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
 | [<span id="problem-剑指-Offer-15">剑指 Offer 15</span>](#problem-剑指-Offer-15 "#剑指 Offer 15") | [二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/ "https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_15.go "go/src/%E5%89%91%E6%8C%87_Offer_15.go") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-21">剑指 Offer 21</span>](#problem-剑指-Offer-21 "#剑指 Offer 21") | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/ "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_21.go "go/src/%E5%89%91%E6%8C%87_Offer_21.go") | Easy | `Array`, `Two Pointers`, `Sorting` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md "docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md") |
 | [<span id="problem-剑指-Offer-24">剑指 Offer 24</span>](#problem-剑指-Offer-24 "#剑指 Offer 24") | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/ "https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_24.go "go/src/%E5%89%91%E6%8C%87_Offer_24.go") | Easy | `Recursion`, `Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md") |
@@ -193,18 +194,18 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 173
-- Total docs : 152
+- Total solved problems : 174
+- Total docs : 153
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 68
+- Total solutions via Go : 70
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 89
-- Medium: 62
+- Medium: 63
 - Hard: 1
 
 ## License
