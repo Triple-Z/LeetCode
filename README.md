@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-14 16:06:32.749534 UTC
+> Last updated: 2021-10-15 02:33:33.350941 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -50,6 +50,7 @@ LeetCode 练习仓库。
 | [<span id="problem-49">49</span>](#problem-49 "#49") | [Group Anagrams <br>字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/ "https://leetcode-cn.com/problems/group-anagrams/") | [Java](java/src/49.%20GroupAnagrams.java "java/src/49.%20GroupAnagrams.java") | Medium | `Hash Table`, `String` | [:page_facing_up:](docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md "docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md") |
 | [<span id="problem-50">50</span>](#problem-50 "#50") | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/ "https://leetcode-cn.com/problems/powx-n/") | [Java](java/src/50.%20Powxn.java "java/src/50.%20Powxn.java") | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/50.%20Pow%28x%2C%20n%29.md "docs/50.%20Pow%28x%2C%20n%29.md") |
 | [<span id="problem-53">53</span>](#problem-53 "#53") | [Maximum Subarray <br>最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/ "https://leetcode-cn.com/problems/maximum-subarray/description/") | [Java](java/src/53.%20MaximumSubarray.java "java/src/53.%20MaximumSubarray.java") [Go](go/src/53.go "go/src/53.go") [Python3](py3/53.py "py3/53.py") [C++](cpp/src/53.cpp "cpp/src/53.cpp") | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md "docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md") |
+| [<span id="problem-54">54</span>](#problem-54 "#54") | [Spiral Matrix <br>螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/ "https://leetcode-cn.com/problems/spiral-matrix/") |  [Go](go/src/54.go "go/src/54.go") | Medium | `Array`, `Matrix`, `Simulation` | [:page_facing_up:](docs/54.%20Spiral%20Matrix%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.md "docs/54.%20Spiral%20Matrix%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.md") |
 | [<span id="problem-55">55</span>](#problem-55 "#55") | [Jump Game <br>跳跃游戏](https://leetcode-cn.com/problems/jump-game/ "https://leetcode-cn.com/problems/jump-game/") | [Java](java/src/55.%20JumpGame.java "java/src/55.%20JumpGame.java") | Medium | `Greedy`, `Array` | [:page_facing_up:](docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md "docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md") |
 | [<span id="problem-56">56</span>](#problem-56 "#56") | [Merge Intervals <br>合并区间](https://leetcode-cn.com/problems/merge-intervals/ "https://leetcode-cn.com/problems/merge-intervals/") | [Java](java/src/56.%20MergeIntervals.java "java/src/56.%20MergeIntervals.java") | Medium | `Sort`, `Array` | [:page_facing_up:](docs/56.%20Merge%20Intervals%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md "docs/56.%20Merge%20Intervals%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4.md") |
 | [<span id="problem-62">62</span>](#problem-62 "#62") | [Unique Paths <br>不同路径](https://leetcode-cn.com/problems/unique-paths/ "https://leetcode-cn.com/problems/unique-paths/") | [Java](java/src/62.%20UniquePaths.java "java/src/62.%20UniquePaths.java") | Medium | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/62.%20Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md "docs/62.%20Unique%20Paths%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84.md") |
@@ -192,18 +193,18 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 172
-- Total docs : 151
+- Total solved problems : 173
+- Total docs : 152
 
 Group by solution language:
 - Total solutions via Java : 93
-- Total solutions via Go : 67
+- Total solutions via Go : 68
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 89
-- Medium: 61
+- Medium: 62
 - Hard: 1
 
 ## License
