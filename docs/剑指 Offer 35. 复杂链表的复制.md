@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Hash Table](#hash-table)
-    - [Go](#go)
-  - [No Extra Space](#no-extra-space)
-    - [Lang](#lang)
 
 ## Description
 
@@ -51,74 +47,9 @@
 - `Node.random` 为空（null）或指向链表中的节点。
 - 节点数目不超过 1000 。
 
+注意：本题与 [138 题](./138.%20Copy%20List%20with%20Random%20Pointer%20复制带随机指针的链表.md) 相同。
 
 ## Solution
 
-### Hash Table
+见 [138 题题解](./138.%20Copy%20List%20with%20Random%20Pointer%20复制带随机指针的链表.md#Solution)。
 
-复制链表并不难，只要先创建一个 Dummy Head，然后遍历原链表，每次都将原链表的节点复制一份，并将复制的节点指向原节点的下一个节点，最后将原链表的节点指向复制的节点。
-
-该题中的难点在于 Random 指针的复制。我们需要一个机制，能够将原链表的节点和新链表对应起来，那自然而然就是哈希表了。
-
-我们可以新建一个节点映射表，key 是原链表中节点的地址，value 是新链表中对应复制节点的地址。当复制好链表后，我们可以遍历一次复制好的链表，将 Random 指针内容修改为新链表中对应的节点即可。
-
-此方法的时间复杂度为 O(n)，空间复杂度为 O(n)。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 3.5 MB
-
-```go
-/**
- * Definition for a Node.
- * type Node struct {
- *     Val int
- *     Next *Node
- *     Random *Node
- * }
- */
-
-func copyRandomList(head *Node) *Node {
-    if head == nil {
-        return nil
-    }
-
-    var cur *Node = head
-    var newHead Node = Node{}
-    var newCur *Node = &newHead  // dummy head
-
-    nodeMap := make(map[*Node]*Node) // key: old node, value: new node
-
-    // copy list
-    for cur != nil {
-        newNode := Node{
-            Val: cur.Val,
-            Random: cur.Random,
-        }
-        newCur.Next = &newNode
-        nodeMap[cur] = &newNode
-        cur = cur.Next
-        newCur = newCur.Next  // to newNode
-    }
-
-    // reset random pointer for copied list
-    newCur = newHead.Next
-    for newCur != nil {
-        newCur.Random = nodeMap[newCur.Random]
-        newCur = newCur.Next
-    }
-
-    return newHead.Next
-}
-```
-
-### No Extra Space
-
-TODO: 将新节点先接在老节点后面，再将新节点的 Random 赋值为目标老节点的后一个节点（即为目标的新节点），最后再将新老链表拆离，返回新链表。
-
-#### Lang
-
-```lang
-2nd solution code goes here.
-```

@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Iteration](#iteration)
-    - [Go](#go)
 
 ## Description
 
@@ -26,42 +24,10 @@
 ```
 0 <= 节点个数 <= 5000
 ```
+
+注意：本题与 [206 题](./206.%20Reversed%20Linked%20List%20反转链表.md) 相同。
+
 ## Solution
 
-### Iteration
+见 [206 题题解](./206.%20Reversed%20Linked%20List%20反转链表.md#Solution) 。
 
-标准反转链表，使用三个指针 `prev`， `cur` ，`next` ，核心代码就四行：
-
-```go
-next := cur.Next
-cur.Next = prev
-prev = cur
-cur = next
-```
-
-只要遍历反转即可。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 2.5 MB
-
-```go
-func reverseList(head *ListNode) *ListNode {
-    if head == nil {
-        return nil
-    }
-
-    cur := head.Next
-    prev := head
-    for cur != nil {
-        next := cur.Next
-        cur.Next = prev
-        prev = cur
-        cur = next
-    }
-
-    head.Next = nil
-    return prev
-}
-```

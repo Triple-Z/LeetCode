@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Two Stacks](#two-stacks)
-    - [Go](#go)
 
 ## Description
 
@@ -30,70 +28,9 @@ minStack.min();   --> 返回 -2.
 提示：
 - 各函数的调用总次数不超过 20000 次
 
+注意：本题与 [155 题](./155.%20Min%20Stack%20最小栈.md) 相同。
+
 
 ## Solution
 
-### Two Stacks
-
-使用一个栈和一个存有当前最小数的辅助栈即可完成。
-
-push：将数值压入栈中，同时确认若当前值比上一个最小值要小，则将当前值同时压入辅助栈，否则再将上一个最小值作为当前最小值，压入辅助栈。
-
-pop：同时将栈和辅助栈的栈顶元素推出。
-
-min：返回辅助栈栈顶元素即为当前栈中元素最小值。
-
-#### Go
-
-- 执行用时: 16 ms
-- 内存消耗: 8 MB
-
-```go
-type MinStack struct {
-    minStack []int
-    s []int
-}
-
-
-/** initialize your data structure here. */
-func Constructor() MinStack {
-    return MinStack{
-        minStack: []int{},
-        s: []int{},
-    }
-}
-
-
-func (this *MinStack) Push(x int)  {
-    this.s = append(this.s, x)
-
-    if len(this.minStack) == 0 || x < this.minStack[len(this.minStack) - 1] {
-        this.minStack = append(this.minStack, x)
-        return
-    }
-
-    this.minStack = append(this.minStack, this.minStack[len(this.minStack) - 1])
-}
-
-
-func (this *MinStack) Pop() {
-    this.s = this.s[:len(this.s) - 1]
-    this.minStack = this.minStack[:len(this.minStack) - 1]
-}
-
-
-func (this *MinStack) Top() int {
-    return this.s[len(this.s) - 1]
-}
-
-func (this *MinStack) Min() int {
-    return this.minStack[len(this.minStack) - 1]
-}
-
-func min(a, b int) int {
-    if a < b {
-        return a
-    }
-    return b
-}
-```
+见 [155 题题解](./155.%20Min%20Stack%20最小栈.md#Solution)。
