@@ -2,7 +2,7 @@
 # 剑指 Offer 68 - II.  二叉树的最近公共祖先
 
 - Difficulty: Easy
-- Topics: `Tree`, `Depth-First Tree`, `Binary Tree`
+- Topics: `Tree`, `Depth-First Search`, `Binary Tree`
 - Link: https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/
 
 - [Description](#description)

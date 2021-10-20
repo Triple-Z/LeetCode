@@ -3,11 +3,12 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-19 17:07:01.246051 UTC
+> Last updated: 2021-10-20 14:28:47.004259 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
 - [Problems](#problems)
+- [Topics](#topics)
 - [Statistics](#statistics)
 - [License](#license)
 
@@ -192,10 +193,46 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-62">剑指 Offer 62</span>](#problem-剑指-Offer-62 "#剑指 Offer 62") | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_62.go "go/src/%E5%89%91%E6%8C%87_Offer_62.go") | Easy | `Recursion`, `Math` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-63">剑指 Offer 63</span>](#problem-剑指-Offer-63 "#剑指 Offer 63") | [股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/ "https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_63.go "go/src/%E5%89%91%E6%8C%87_Offer_63.go") | Medium | `Array`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2063.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md "docs/%E5%89%91%E6%8C%87%20Offer%2063.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md") |
 | [<span id="problem-剑指-Offer-65">剑指 Offer 65</span>](#problem-剑指-Offer-65 "#剑指 Offer 65") | [不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/ "https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_65.go "go/src/%E5%89%91%E6%8C%87_Offer_65.go") | Easy | `Bit Manipulation`, `Math` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2065.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md "docs/%E5%89%91%E6%8C%87%20Offer%2065.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md") |
-| [<span id="problem-剑指-Offer-68---I">剑指 Offer 68 - I</span>](#problem-剑指-Offer-68---I "#剑指 Offer 68 - I") | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_68_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_68_-_I.go") | Easy | `Tree`, `Depth-First Search`, `Binary Search Tree`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md") |
-| [<span id="problem-剑指-Offer-68---II">剑指 Offer 68 - II</span>](#problem-剑指-Offer-68---II "#剑指 Offer 68 - II") | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_68_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_68_-_II.go") | Easy | `Tree`, `Depth-First Tree`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md") |
+| [<span id="problem-剑指-Offer-68---I">剑指 Offer 68 - I</span>](#problem-剑指-Offer-68---I "#剑指 Offer 68 - I") | [二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/") | [Java](java/src/%E5%89%91%E6%8C%87_Offer_68_-_I.java "java/src/%E5%89%91%E6%8C%87_Offer_68_-_I.java") [Go](go/src/%E5%89%91%E6%8C%87_Offer_68_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_68_-_I.go") | Easy | `Tree`, `Depth-First Search`, `Binary Search Tree`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20I.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md") |
+| [<span id="problem-剑指-Offer-68---II">剑指 Offer 68 - II</span>](#problem-剑指-Offer-68---II "#剑指 Offer 68 - II") | [二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_68_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_68_-_II.go") | Easy | `Tree`, `Depth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2068%20-%20II.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88.md") |
 
 
+## Topics
+- [Array](./docs/topics/Array.md)
+- [Backtracking](./docs/topics/Backtracking.md)
+- [Binary Search](./docs/topics/Binary%20Search.md)
+- [Binary Search Tree](./docs/topics/Binary%20Search%20Tree.md)
+- [Binary Tree](./docs/topics/Binary%20Tree.md)
+- [Bit Manipulation](./docs/topics/Bit%20Manipulation.md)
+- [Breadth-First Search](./docs/topics/Breadth-First%20Search.md)
+- [Breadth-first Search](./docs/topics/Breadth-first%20Search.md)
+- [Concurrency](./docs/topics/Concurrency.md)
+- [Counting](./docs/topics/Counting.md)
+- [Depth-First Search](./docs/topics/Depth-First%20Search.md)
+- [Depth-first Search](./docs/topics/Depth-first%20Search.md)
+- [Design](./docs/topics/Design.md)
+- [Divide and Conquer](./docs/topics/Divide%20and%20Conquer.md)
+- [Dynamic Programming](./docs/topics/Dynamic%20Programming.md)
+- [Enumeration](./docs/topics/Enumeration.md)
+- [Greedy](./docs/topics/Greedy.md)
+- [Hash Table](./docs/topics/Hash%20Table.md)
+- [Heap](./docs/topics/Heap.md)
+- [Linked List](./docs/topics/Linked%20List.md)
+- [Math](./docs/topics/Math.md)
+- [Matrix](./docs/topics/Matrix.md)
+- [Memoization](./docs/topics/Memoization.md)
+- [Queue](./docs/topics/Queue.md)
+- [Quickselect](./docs/topics/Quickselect.md)
+- [Recursion](./docs/topics/Recursion.md)
+- [Simulation](./docs/topics/Simulation.md)
+- [Sliding Window](./docs/topics/Sliding%20Window.md)
+- [Sort](./docs/topics/Sort.md)
+- [Sorting](./docs/topics/Sorting.md)
+- [Stack](./docs/topics/Stack.md)
+- [String](./docs/topics/String.md)
+- [Tree](./docs/topics/Tree.md)
+- [Two Pointers](./docs/topics/Two%20Pointers.md)
+- [Union Find](./docs/topics/Union%20Find.md)
 
 ## Statistics
 
@@ -203,7 +240,7 @@ LeetCode 练习仓库。
 - Total docs : 158
 
 Group by solution language:
-- Total solutions via Java : 93
+- Total solutions via Java : 94
 - Total solutions via Go : 75
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18

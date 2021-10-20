@@ -12,6 +12,7 @@ from jinja2 import FileSystemLoader, Environment
 
 
 def main():
+    # logging.basicConfig(level=logging.DEBUG)
     logging.basicConfig(level=logging.INFO)
     problems = {}
     # get root directory
@@ -32,7 +33,7 @@ def main():
     cpp_filelist = Path(root_dir).glob('cpp/src/*.cpp')
     doc_filelist = Path(root_dir).glob('docs/*.md')
 
-    java_pattern = re.compile(r'java\/src\/([\d\w\_\-\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\. [\w\-]+\.java', re.ASCII)
+    java_pattern = re.compile(r'java\/src\/([\d\w\_\-\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.?\s?[\w\-]*\.java', re.ASCII)
     go_pattern = re.compile(r'go\/src\/([\d\w\_\-\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.go', re.ASCII)
     py3_pattern = re.compile(r'py3\/([\d\w\_\-\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.py', re.ASCII)
     cpp_pattern = re.compile(r'cpp\/src\/([\d\w\_\-\u4e00-\u9fa5|\u3002|\uff1f|\uff01|\uff0c|\u3001|\uff1b|\uff1a|\u201c|\u201d|\u2018|\u2019|\uff08|\uff09|\u300a|\u300b|\u3008|\u3009|\u3010|\u3011|\u300e|\u300f|\u300c|\u300d|\ufe43|\ufe44|\u3014|\u3015|\u2026|\u2014|\uff5e|\ufe4f|\uffe5]+)\.cpp', re.ASCII)
@@ -189,18 +190,48 @@ def main():
     problems_list = []
     for problem in problems_number_list:
         problems_list.append(problems[problem])
-    
-    logging.debug(problems_list)
-    # using jinja2 render the README file
+    # logging.debug(problems_list)
+
+    # get jinja2 template loader
     loader = FileSystemLoader(root_dir / 'utils' /'templates')
     env = Environment(loader=loader)
+
+    ### Generate topics
+    topics_map = {}
+    for problem in problems_list:
+        if problem.topics is None:
+            continue
+
+        problem_raw_topics = problem.topics.split('`')
+        problem_topics = []
+        for t in problem_raw_topics:
+            if len(t) > 0 and "," not in t:
+                # valid topic
+                problem_topics.append(t)
+        
+        for topic in problem_topics:
+            if topics_map.get(topic) is None:
+                topics_map[topic] = []
+            topics_map[topic].append(problem)
+
+    topics = list(topics_map.keys())
+    topics.sort()
+    # render each {TOPIC}.md
+    topic_template = env.get_template('TOPIC.md.j2')
+    for topic in topics:
+        topic_generated = topic_template.render(topic=topic, problems_list=topics_map[topic])
+        # logging.debug(topic_generated)
+        with open(str(root_dir / 'docs' / 'topics' / '{}.md'.format(topic)), 'w') as topic_file:
+            topic_file.write(topic_generated)
+        logging.debug("{} topic file is generated.".format(topic))
+
+    # using jinja2 render the README file
     readme_template = env.get_template('README.md.j2')
     readme_template.globals['now'] = datetime.utcnow
-    readme_generated = readme_template.render(problems_list=problems_list)
+    readme_generated = readme_template.render(problems_list=problems_list, topics=topics)
     logging.debug(readme_generated)
 
     # update README.md
-
     with open(str(root_dir / output_file_name), 'w') as readme:
         readme.write(readme_generated)
     logging.info("""

@@ -1,0 +1,28 @@
+<!-- omit in toc -->
+# {{ topic }}
+
+- [Problems](#problems)
+- [Statistics](#statistics)
+
+## Problems
+
+| # | Title | Solution | Difficulty | Topics | Doc |
+|:----:|:----:|:----:|:----:|:----:|:----:|
+{% for problem in problems_list %}| {% if problem.number is not none %}[<span id="problem-{{ problem.number | replace(" ", "-") }}">{{ problem.number }}</span>](#problem-{{ problem.number | replace(" ", "-") }} "#{{ problem.number }}"){% endif %} | {% if problem.link is not none %}[{% if problem.title_en is not none %}{{ problem.title_en }}{% endif %}{% if problem.title_en and problem.title_zh %}<br>{% endif %}{% if problem.title_zh is not none %}{{ problem.title_zh }}{% endif %}]({{ problem.link }} "{{ problem.link }}"){% else %}{% if problem.title_en is not none %}{{ problem.title_en }}{% endif %}{% if problem.title_zh is not none %}<br>{{ problem.title_zh }}{% endif %}{% endif %} | {% if problem.java is not none %}[Java](../../{{ problem.java }} "{{ problem.java }}"){% endif %}{% if problem.go is not none %} [Go](../../{{ problem.go }} "{{ problem.go }}"){% endif %}{% if problem.py3 is not none %} [Python3](../../{{ problem.py3 }} "{{ problem.py3 }}"){% endif %}{% if problem.cpp is not none %} [C++](../../{{ problem.cpp }} "{{ problem.cpp }}"){% endif %} | {% if problem.difficulty is not none %}{{ problem.difficulty }}{% endif %} | {% if problem.topics is not none %}{{ problem.topics }}{% endif %} | {% if problem.doc is not none %}[:page_facing_up:](../../{{ problem.doc }} "{{ problem.doc }}"){% endif %} |
+{% endfor %}
+
+## Statistics
+
+- Total solved problems : {{ problems_list | selectattr("is_solved") | list | count }}
+- Total docs : {{ problems_list | rejectattr("doc", "none") | list | count }}
+
+Group by solution language:
+- Total solutions via Java : {{ problems_list | rejectattr("java", "none") | list | count }}
+- Total solutions via Go : {{ problems_list | rejectattr("go", "none") | list | count }}
+- Total solutions via Python3 : {{ problems_list | rejectattr("py3", "none") | list | count }}
+- Total solutions via C++ : {{ problems_list | rejectattr("cpp", "none") | list | count }}
+
+Group by difficulty:
+- Easy: {{ problems_list | selectattr("difficulty", "equalto", "Easy") | list | count }}
+- Medium: {{ problems_list | selectattr("difficulty", "equalto", "Medium") | list | count }}
+- Hard: {{ problems_list | selectattr("difficulty", "equalto", "Hard") | list | count }}
