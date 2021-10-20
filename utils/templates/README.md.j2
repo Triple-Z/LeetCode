@@ -28,6 +28,7 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : {{ problems_list | selectattr("is_solved") | list | count }}
+- Total related topics: {{ topics | list | count }}
 - Total docs : {{ problems_list | rejectattr("doc", "none") | list | count }}
 
 Group by solution language:

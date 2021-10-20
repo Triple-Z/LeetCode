@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-10-20 15:10:51.549456 UTC
+> Last updated: 2021-10-20 15:42:29.195648 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -234,6 +234,7 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 179
+- Total related topics: 32
 - Total docs : 158
 
 Group by solution language:
