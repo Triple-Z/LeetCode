@@ -6,10 +6,10 @@
 - String
 - Tree
 - Hash Table 
-- Depth-first Search
+- Depth-First Search
 - Binary Search
 - Two Pointers
-- Breadth-first Search
+- Breadth-First Search
 - Greedy
 - Stack
 - Backtracking
