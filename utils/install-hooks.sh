@@ -14,6 +14,12 @@ UTILS_DIR=$(dirname "${BASH_SOURCE[@]}")
 # go to root dir
 cd $UTILS_DIR/..
 
+if [ "$1"x = "-r"x ]; then
+    for hook in ${hooks[@]}; do
+        rm -f .git/hook/$hook
+    done
+fi
+
 for hook in ${hooks[@]}; do
     if [ -r .git/hooks/$hook ]; then
         cnt=$(cat .git/hooks/$hook | tail -n 5)

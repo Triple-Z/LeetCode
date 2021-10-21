@@ -6,4 +6,4 @@
 # update the README file
 make update
 # re-update the file
-git add README.md
+git add README.md docs/topics

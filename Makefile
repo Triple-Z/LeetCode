@@ -22,6 +22,8 @@ update:  update-generate update-change ## Update the README file
 .PHONY: install-hooks
 install-hooks: ## Install Git hooks
 	@bash utils/install-hooks.sh
+reinstall-hooks: ## Re-install Git hooks
+	@bash utils/install-hooks.sh -r
 
 .PHONY: new-doc
 new-doc: ## Create a new doc from template (with interactive mode)
