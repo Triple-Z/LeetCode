@@ -7,7 +7,7 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Twice Iteration](#twice-iteration)
+  - [Cut the Strings](#cut-the-strings)
     - [Go](#go)
 
 ## Description
@@ -34,7 +34,7 @@
 
 ## Solution
 
-### Twice Iteration
+### Cut the Strings
 
 新建字符串，从 `[k]` 开始逐个将字符放入结果串中，再从 `[0]` 开始到 `[k-1]` ，放入结果中即可。
 
@@ -54,5 +54,16 @@ func reverseLeftWords(s string, n int) string {
     }
 
     return b.String()
+}
+```
+
+当然，也可以直接利用 Go 语言的切片特性，直接双百。
+
+- 执行用时: 0 ms
+- 内存消耗: 3.1 MB
+
+```go
+func reverseLeftWords(s string, n int) string {
+    return s[n:] + s[:n]
 }
 ```
