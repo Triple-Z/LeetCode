@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [One-Time Tranversal](#one-time-tranversal)
-    - [Go](#go)
 
 ## Description
 
@@ -33,46 +31,8 @@
 0 <= 数组长度 <= 10^5
 ```
 
+注意：本题与 [121 题](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20买卖股票的最佳时机.md) 相同。
+
 ## Solution
 
-### One-Time Tranversal
-
-由于只能买卖股票一次，因此可以在遍历的过程中，记录过去时间的股票价格最小值，就可得到如果当日卖出所能获得到的最大利润。因此只要找出”每日卖出获得到的最大利润“的最大值，即可得到答案。
-
-此方法的时间复杂度为 O(n)，空间复杂度为 O(1)。
-
-#### Go
-
-- 执行用时: 4 ms
-- 内存消耗: 3 MB
-
-```go
-func maxProfit(prices []int) int {
-    if len(prices) == 0 {
-        return 0
-    }
-
-    minPrice := prices[0]
-    ans := math.MinInt64
-    for i := 0; i < len(prices); i++ {
-        minPrice = min(minPrice, prices[i])
-        ans = max(ans, prices[i] - minPrice)
-    }
-
-    return ans
-}
-
-func min(a, b int) int {
-    if a < b {
-        return a
-    }
-    return b
-}
-
-func max(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
-}
-```
+见 [121 题题解](./121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20买卖股票的最佳时机.md#Solution)。

@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Sliding Window](#sliding-window)
-    - [Go](#go)
-  - [Dynamic Programming](#dynamic-programming)
-    - [Lang](#lang)
 
 ## Description
 
@@ -41,71 +37,8 @@
 
 - `s.length <= 40000`
 
+注意：本题与 [3 题](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20无重复字符的最长子串.md) 相同。
+
 ## Solution
 
-### Sliding Window
-
-要查找不重复字符的子字符串，可以使用滑动窗口并借助哈希表来实现。
-
-滑动窗口的策略非常重要，此题中滑动窗口的策略为：
-1. 查看滑动窗口后一个值 `s[j]` 的内容是否在窗口中存在（哈希表中是否存在）。
-2. 若存在，则说明当前 `[i, j)` 为一个不含重复字符的子字符串，计算该串的大小，将其加入最大值比较的内容。同时需要缩小窗口，不断将窗口左侧进行右移，直到越过窗口中原来存在与 `s[j]` 的重复值。
-3. 若不存在，则将窗口扩大，将窗口右侧右移。
-4. 最后需要确认窗口右侧位于尾部时的子串大小，将其加入最大值比较的内容，得出结果。
-
-此方法时间复杂度为 O(n)，空间复杂度为 O(1)。
-
-#### Go
-
-- 执行用时: 8 ms
-- 内存消耗: 2.6 MB
-
-```go
-func lengthOfLongestSubstring(s string) int {
-    if s == "" {
-        return 0
-    }
-
-    cMap := make(map[byte]bool)
-    i, j := 0, 1
-    cMap[s[i]] = true
-    maxChars := 1
-    for i <= j && j < len(s) {
-        if _, ok := cMap[s[j]]; ok {
-            // last string: [i, j)
-            maxChars = max(maxChars, j-i)
-            for s[i] != s[j] {
-                delete(cMap, s[i])
-                i++
-            }
-            delete(cMap, s[i])
-            i++
-            continue
-        }
-        cMap[s[j]] = true
-        j++
-    }
-    if j == len(s) {
-        maxChars = max(maxChars, j-i)
-    }
-
-    return maxChars
-}
-
-func max(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
-}
-```
-
-### Dynamic Programming
-
-TODO
-
-#### Lang
-
-```lang
-2nd solution code goes here.
-```
+见 [3 题题解](./3.%20Longest%20Substring%20Without%20Repeating%20Characters%20无重复字符的最长子串.md#Solution)。

@@ -36,6 +36,7 @@
 | [<span id="problem-121">121</span>](#problem-121 "#121") | [Best Time to Buy and Sell Stock <br>买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/ "https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/") | [Java](../../java/src/121.%20BestTimetoBuyandSellStock.java "java/src/121.%20BestTimetoBuyandSellStock.java") [Go](../../go/src/121.go "go/src/121.go") [Python3](../../py3/121.py "py3/121.py") [C++](../../cpp/src/121.cpp "cpp/src/121.cpp") | Easy | `Array`, `Dynamic Programming` | [:page_facing_up:](../../docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md "docs/121.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.md") |
 | [<span id="problem-122">122</span>](#problem-122 "#122") | [Best Time to Buy and Sell Stock II <br>买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/ "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/") |  [Go](../../go/src/122.go "go/src/122.go") [Python3](../../py3/122.py "py3/122.py") [C++](../../cpp/src/122.cpp "cpp/src/122.cpp") | Easy | `Array`, `Greedy` | [:page_facing_up:](../../docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md "docs/122.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II.md") |
 | [<span id="problem-123">123</span>](#problem-123 "#123") | [Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii") |  [C++](../../cpp/src/123.cpp "cpp/src/123.cpp") | Hard | `Array`, `Dynamic Programming` | [:page_facing_up:](../../docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md "docs/123.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20III.md") |
+| [<span id="problem-154">154</span>](#problem-154 "#154") | [Find Minimum in Rotated Sorted Array II <br>寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/ "https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/") |  [Go](../../go/src/154.go "go/src/154.go") | Hard | `Array`, `Binary Search` | [:page_facing_up:](../../docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.md "docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.md") |
 | [<span id="problem-162">162</span>](#problem-162 "#162") | [Find Peak Element <br>寻找峰值](https://leetcode-cn.com/problems/find-peak-element/ "https://leetcode-cn.com/problems/find-peak-element/") | [Java](../../java/src/162.%20FindPeakElement.java "java/src/162.%20FindPeakElement.java") | Medium | `Array`, `Binary Search` | [:page_facing_up:](../../docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md "docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md") |
 | [<span id="problem-169">169</span>](#problem-169 "#169") | [Majority Element <br>多数元素](https://leetcode-cn.com/problems/majority-element/ "https://leetcode-cn.com/problems/majority-element/") | [Java](../../java/src/169.%20MajorityElement.java "java/src/169.%20MajorityElement.java") [Python3](../../py3/169.py "py3/169.py") | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](../../docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md "docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md") |
 | [<span id="problem-189">189</span>](#problem-189 "#189") | [Rotate Array <br>旋转数组](https://leetcode-cn.com/problems/rotate-array/ "https://leetcode-cn.com/problems/rotate-array/") |  [Go](../../go/src/189.go "go/src/189.go") [Python3](../../py3/189.py "py3/189.py") | Medium | `Array` | [:page_facing_up:](../../docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md "docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md") |
@@ -65,16 +66,16 @@
 
 ## Statistics
 
-- Total solved problems : 53
-- Total docs : 53
+- Total solved problems : 54
+- Total docs : 54
 
 Group by solution language:
 - Total solutions via Java : 25
-- Total solutions via Go : 25
+- Total solutions via Go : 26
 - Total solutions via Python3 : 12
 - Total solutions via C++ : 16
 
 Group by difficulty:
 - Easy: 26
 - Medium: 26
-- Hard: 1
+- Hard: 2

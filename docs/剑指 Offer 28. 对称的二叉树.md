@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Depth-First Search](#depth-first-search)
-    - [Go](#go)
 
 ## Description
 
@@ -47,56 +45,8 @@
 
 - `0 <= 节点个数 <= 1000`
 
+注意：本题与 [101 题](./101.%20Symmetric%20Tree%20对称二叉树.md) 相同。
 
 ## Solution
 
-### Depth-First Search
-
-递归果然是最贴近人类直观思想的，不断递归比较左右两个子树及它们子树的值，最后的结果就能判断出是否为对称二叉树。
-
-#### Go
-
-判断两个指针都不为空，可以这样写，将三个条件缩减为两个（本质是除去两者都为空后，只需要或逻辑就涵盖两指针有一个为空的两种条件）：
-```go
-if left == nil && right == nil {
-    return true
-} else if left == nil || right == nil {
-    return false
-}
-```
-
-- 执行用时: 0 ms
-- 内存消耗: 2.9 MB
-
-```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
-func isSymmetric(root *TreeNode) bool {
-    if root == nil {
-        return true
-    }
-    
-    return recursion(root.Left, root.Right)
-}
-
-func recursion(left *TreeNode, right *TreeNode) bool {
-    if left == nil && right == nil {
-        return true
-    } else if left == nil || right == nil {
-        return false
-    }
-
-    if left.Val != right.Val {
-        return false
-    }
-
-    return recursion(left.Left, right.Right) &&
-            recursion(left.Right, right.Left)
-}
-```
+见 [101 题题解](./101.%20Symmetric%20Tree%20对称二叉树.md#Solution)。

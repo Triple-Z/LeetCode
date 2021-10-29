@@ -35,7 +35,7 @@
 - `nums 是一个非递减数组`
 - `-109 <= target <= 109`
 
-
+注意：本题与 [34 题](./34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20在排序数组中查找元素的第一个和最后一个位置.md) 相同（仅返回值不同）。
 
 ## Solution
 

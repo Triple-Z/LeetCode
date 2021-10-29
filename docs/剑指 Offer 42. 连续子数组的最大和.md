@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Dynamic Programming](#dynamic-programming)
-    - [Go](#go)
-  - [Divide and Conquer](#divide-and-conquer)
-    - [Lang](#lang)
 
 ## Description
 
@@ -31,52 +27,8 @@
 - `1 <= arr.length <= 10^5`
 - `-100 <= arr[i] <= 100`
 
+注意：本题与 [53 题](./53.%20Maximum%20Subarray%20最大子序和.md) 相同。
+
 ## Solution
 
-### Dynamic Programming
-
-由于要找出连续子数组的最大和，那自然就想到了前缀和的方法。通过一个 `dp` 数组来存储当前元素可获得的最大子数组和，递推方程如下：
-
-$$
-dp(i) = \begin{cases}
-    nums[0], & i = 0 \\
-    max(nums[i], nums[i] + dp(i-1))， & i > 0
-\end{cases}
-$$
-
-#### Go
-
-- 执行用时: 20 ms
-- 内存消耗: 8.1 MB
-
-```go
-func maxSubArray(nums []int) int {
-    dp := make([]int, len(nums))
-    ans := nums[0]
-
-    dp[0] = nums[0]
-    for i := 1; i < len(nums); i++ {
-        dp[i] = max(nums[i], nums[i] + dp[i-1])
-        ans = max(ans, dp[i])
-    }
-
-    return ans
-}
-
-func max(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
-}
-```
-
-### Divide and Conquer
-
-TODO: 分治法 https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/solution/lian-xu-zi-shu-zu-de-zui-da-he-by-leetco-tiui/
-
-#### Lang
-
-```lang
-2nd solution code goes here.
-```
+见 [53 题题解](./53.%20Maximum%20Subarray%20最大子序和.md#Solution)。

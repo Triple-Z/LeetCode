@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Dynamic Programming](#dynamic-programming)
-    - [Go](#go)
 
 ## Description
 
@@ -35,40 +33,9 @@
 
 - `0 <= n <= 100`
 
+
+注意：本题与 [70 题](./70.%20Climbing%20Stairs%20爬楼梯.md) 相同。
+
 ## Solution
 
-### Dynamic Programming
-
-典型的动态规划问题，由于青蛙可以一次跳一格，也可以一次跳两格，那么很容易得到递推方程：
-
-$$
-dp(i) = \begin{cases}
-    1, &  0 \le i \le 1 \\
-    dp(i-1) + dp(i-2), & i > 1
-\end{cases}
-$$
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 2 MB
-
-```go
-func numWays(n int) int {
-    if n == 0 {
-        return 1
-    } else if n == 1 {
-        return 1
-    }
-
-    dp := make([]int, n+1)
-    dp[0] = 1
-    dp[1] = 1
-
-    for i := 2; i <= n; i++ {
-        dp[i] = (dp[i-1] + dp[i-2]) % 1000000007
-    }
-
-    return dp[n]
-}
-```
+见 [70 题题解](./70.%20Climbing%20Stairs%20爬楼梯.md#Solution)。

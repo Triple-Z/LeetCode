@@ -7,9 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Reversal Iteration](#reversal-iteration)
-    - [Go](#go)
-  - [Binary Search](#binary-search)
 
 ## Description
 
@@ -26,40 +23,8 @@
 输出：0
 ```
 
+注意：本题与 [154 题](./154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20寻找旋转排序数组中的最小值%20II.md) 相同。
+
 ## Solution
 
-### Reversal Iteration
-
-从后往前遍历，有序递增数组由于被旋转，后往前应先递减，直到一次递增后再递减。因此只要找到了这个递增的“门槛”，就能确定出旋转后数组最小的值。
-
-当遍历值比之前记录的最小值要大，那么就找到了“门槛”，返回记录的最小值即可。
-
-#### Go
-
-- 执行用时: 4 ms
-- 内存消耗: 3.1 MB
-
-```go
-func minArray(numbers []int) int {
-    min := math.MaxInt64
-    for i := len(numbers)-1; i >= 0; i-- {
-        if numbers[i] > min {
-            return min
-        }
-        min = Min(min, numbers[i])
-    }
-    return min
-}
-
-func Min(a int, b int) int {
-    if a < b {
-        return a
-    }
-    
-    return b
-}
-```
-
-### Binary Search
-
-TODO: I don't know how.
+见 [154 题题解](./154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20寻找旋转排序数组中的最小值%20II.md#Solution) 。

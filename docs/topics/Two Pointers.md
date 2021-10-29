@@ -8,7 +8,6 @@
 
 | # | Title | Solution | Difficulty | Topics | Doc |
 |:----:|:----:|:----:|:----:|:----:|:----:|
-| [<span id="problem-3">3</span>](#problem-3 "#3") | [Longest Substring Without Repeating Characters <br>无重复字符的最长子串](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters "https://leetcode-cn.com/problems/longest-substring-without-repeating-characters") | [Java](../../java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java "java/src/3.%20LongestSubstringWithoutRepeatingCharacters.java") [Python3](../../py3/3.py "py3/3.py") | Medium | `Hash Table`, `Two Pointers`, `String`, `Sliding Window` | [:page_facing_up:](../../docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md "docs/3.%20Longest%20Substring%20Without%20Repeating%20Characters%20%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E6%9C%80%E9%95%BF%E5%AD%90%E4%B8%B2.md") |
 | [<span id="problem-11">11</span>](#problem-11 "#11") | [Container With Most Water <br>盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/ "https://leetcode-cn.com/problems/container-with-most-water/") | [Java](../../java/src/11.%20ContainerWithMostWater.java "java/src/11.%20ContainerWithMostWater.java") [Go](../../go/src/11.go "go/src/11.go") [C++](../../cpp/src/11.cpp "cpp/src/11.cpp") | Medium | `Array`, `Two Pointers` | [:page_facing_up:](../../docs/11.%20Container%20With%20Most%20Water%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.md "docs/11.%20Container%20With%20Most%20Water%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8.md") |
 | [<span id="problem-15">15</span>](#problem-15 "#15") | [3Sum <br>三数之和](https://leetcode-cn.com/problems/3sum/ "https://leetcode-cn.com/problems/3sum/") | [Java](../../java/src/15.%203Sum.java "java/src/15.%203Sum.java") [C++](../../cpp/src/15.cpp "cpp/src/15.cpp") | Medium | `Array`, `Two Pointers` | [:page_facing_up:](../../docs/15.%203Sum%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md "docs/15.%203Sum%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md") |
 | [<span id="problem-16">16</span>](#problem-16 "#16") | [3Sum Closest](https://leetcode.com/problems/3sum-closest/ "https://leetcode.com/problems/3sum-closest/") |  [C++](../../cpp/src/16.cpp "cpp/src/16.cpp") | Medium | `Array`, `Two Pointers` | [:page_facing_up:](../../docs/16.%203Sum%20Closest.md "docs/16.%203Sum%20Closest.md") |
@@ -38,16 +37,16 @@
 
 ## Statistics
 
-- Total solved problems : 26
-- Total docs : 26
+- Total solved problems : 25
+- Total docs : 25
 
 Group by solution language:
-- Total solutions via Java : 13
+- Total solutions via Java : 12
 - Total solutions via Go : 13
-- Total solutions via Python3 : 7
+- Total solutions via Python3 : 6
 - Total solutions via C++ : 8
 
 Group by difficulty:
 - Easy: 17
-- Medium: 9
+- Medium: 8
 - Hard: 0

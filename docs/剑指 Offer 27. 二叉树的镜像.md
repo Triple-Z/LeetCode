@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Depth-First Search](#depth-first-search)
-    - [Go](#go)
-  - [Breadth-First Search](#breadth-first-search)
-    - [Lang](#lang)
 
 ## Description
 
@@ -44,45 +40,8 @@
 
 - `0 <= 节点个数 <= 1000`
 
+注意：本题与 [226 题](./226.%20Invert%20Binary%20Tree%20翻转二叉树.md) 相同。
+
 ## Solution
 
-### Depth-First Search
-
-使用递归实现先序遍历，将左子树变为右子树的镜像，再将右子树变为左子树的镜像，先序遍历递归到底即可。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 2.1 MB
-
-```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
-func mirrorTree(root *TreeNode) *TreeNode {
-    if root == nil {
-        return nil
-    }
-
-    rootLeft := root.Left
-    root.Left = mirrorTree(root.Right)
-    root.Right = mirrorTree(rootLeft)
-
-    return root
-}
-```
-
-### Breadth-First Search
-
-TODO: 用循环实现广度优先搜索
-
-#### Lang
-
-```lang
-2nd solution code goes here.
-```
+见 [226 题题解](./226.%20Invert%20Binary%20Tree%20翻转二叉树.md#Solution)。
