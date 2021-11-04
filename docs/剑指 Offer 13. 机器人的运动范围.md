@@ -10,6 +10,7 @@
   - [Breadth-First Search](#breadth-first-search)
     - [Go](#go)
   - [Depth-First Search](#depth-first-search)
+    - [Go](#go-1)
   - [Dynamic Programming](#dynamic-programming)
   - [Magic](#magic)
 
@@ -84,11 +85,56 @@ func movingCount(m int, n int, k int) int {
 
 ### Depth-First Search
 
-发现 LeetCode 上的 DFS 方法普遍比 BFS 方法使用的内存更少，怀疑是堆内存和栈内存使用差异。理论上两者应该差不多，可能是只记录了堆内存使用所致。
+本题同样可以使用深度优先搜索，由于机器人只能向上下左右四个方向前进，而起点为左上角，最远终点为右下角。那么我们可以认为机器人实际上只向右和向下运动。因此，问题就变为了，在当前点出发，向右以及向下最远能到哪里？
 
-TODO 深度优先搜索
+深度优先搜索自然是先去找最远的格子，我们使用递归结构，通过递归获取到从当前位置出发，向右走一步能到达的所有格子数，以及向下走一步能到达的格子数，并辅以一个 `visited` 访问数组进行访问去重处理。最后将右、下所能够到达的格子数累加，并算上当前的格子，即为从当前位置出发所能够到达的所有格子数量。
 
-https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/ji-qi-ren-de-yun-dong-fan-wei-by-leetcode-solution/
+最后，将「当前位置」设置为 `[0, 0]` ，即可得到结果。
+
+此方法的时间复杂度为 O(mn)，空间复杂度为 O(mn)。
+
+#### Go
+
+- 执行用时: 0 ms
+- 内存消耗: 2.1 MB
+
+```go
+func movingCount(m int, n int, k int) int {
+    visited := make([][]bool, m)
+    for i := 0; i < m; i++ {
+        visited[i] = make([]bool, n)
+    }
+    return move(m, n, 0, 0, k, visited[:])
+}
+
+func move(m, n, i, j, k int, visited [][]bool) int {
+    if i >= m || j >= n || visited[i][j] || !isValidMove(i, j, k) {
+        return 0
+    }
+    visited[i][j] = true
+
+    rightCnt := move(m, n, i, j+1, k, visited[:])
+    downCnt := move(m, n, i+1, j, k, visited[:])
+    return rightCnt + downCnt + 1
+}
+
+func isValidMove(i, j, k int) bool {
+    sum := 0
+    for i != 0 {
+        sum += i % 10
+        i /= 10
+    }
+    for j != 0 {
+        sum += j % 10
+        j /= 10
+    }
+
+    if sum > k {
+        return false
+    }
+    return true
+}
+```
 
 ### Dynamic Programming
 
@@ -101,7 +147,7 @@ https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/solution/san
 
 ### Magic
 
-不知道什么方法，在提交区里找到的，几乎双百。
+TODO：在提交区里找到的，几乎双百。
 
 - 执行用时: 0 ms
 - 内存消耗: 1.9 MB

@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [String Library](#string-library)
-    - [Go](#go)
-  - [Two Pointers](#two-pointers)
-    - [Go](#go-1)
 
 ## Description
 
@@ -39,93 +35,8 @@
 - 输入字符串可以在前面或者后面包含多余的空格，但是反转后的字符不能包括。
 - 如果两个单词间有多余的空格，将反转后单词间的空格减少到只含一个。
 
+注意：本题与 [151 题](./151.%20Reverse%20Words%20in%20a%20String%20翻转字符串里的单词.md) 相同。
 
 ## Solution
 
-### String Library
-
-如果能够使用标准库中的字符串处理函数，那一切都变得简单了。
-
-翻转单词顺序可以分为以下两个步骤：
-1. 先将单词按照 `" "` 切分成字符串数组。
-2. 从后往前遍历该字符串数组。
-3. 遍历若遇到非空字符串，则将其添加到结果字符串中。
-
-时间复杂度为 O(n)，空间复杂度为 O(n)。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 3.8 MB
-
-```go
-func reverseWords(s string) string {
-    words := strings.Split(s, " ")
-    ans := strings.Builder{}
-    first := true
-    for i := len(words)-1; i >= 0; i-- {
-        if words[i] != "" {
-            if !first {
-                ans.WriteString(" ")
-            } else {
-                first = false
-            }
-            ans.WriteString(strings.Trim(words[i], " "))
-        }
-    }
-
-    return ans.String()
-}
-```
-
-### Two Pointers
-
-由于单词需要逆序，因此我们先将两指针都置于字符串尾部，其中左指针用于查找单词的起始字符位置，右指针用于查找单词的结尾字符位置，当两指针找到单词后，即可加入结果字符串中。
-
-需要注意最后一个单词的处理，此时左指针已越界，可以用 `[0:j+1]` 来取字符串。
-
-此方法时间复杂度为 O(n)，空间复杂度为 O(n)。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 3.7 MB
-
-```go
-func reverseWords(s string) string {
-    i, j := len(s)-1, len(s)-1
-    // traverse backward
-    b := strings.Builder{}
-    first := true
-    for i >= 0 {
-        if s[j] == byte(' ') {
-            j--
-            i = j
-            continue
-        }
-        if s[i] != byte(' ') {
-            i--
-            continue
-        }
-        // get a word
-        if first {
-            first = false
-        } else {
-            b.WriteString(" ")
-        }
-        b.WriteString(s[i+1:j+1])
-        j = i
-    }
-
-    if i == -1 && i != j {
-        if first {
-            first = false
-        } else {
-            b.WriteString(" ")
-        }
-        b.WriteString(s[i+1:j+1])
-    }
-
-    return b.String()
-}
-```
+见 [151 题题解](./151.%20Reverse%20Words%20in%20a%20String%20翻转字符串里的单词.md#Solution)。

@@ -7,8 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Two Pointers](#two-pointers)
-    - [Go](#go)
 
 ## Description
 
@@ -57,75 +55,9 @@
 - 在返回结果后，两个链表仍须保持原有的结构。
 - 可假定整个链表结构中没有循环。
 - 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
+- 本题与 [160 题](./160.%20Intersection%20of%20Two%20Linked%20Lists%20相交链表.md) 相同。
 
 ## Solution
 
-### Two Pointers
+见 [160 题题解](./160.%20Intersection%20of%20Two%20Linked%20Lists%20相交链表.md#Solution)。
 
-由于两链表可能相交，题目要求我们要找出第一个相交点，很自然的就会想到双指针的方法。大体思路是根据两个链表的长度之差 k，让指向长链表的指针先走 k 步，这样两指针就能够一起移动，找出可能的相交节点。
-
-> 此处的前提条件是，相交点不可能在长链表的 `[0, len-k-1]` 的节点上。链表相交之后部分的长度共享，因此相交点不可能在比较短链表更长的链表节点上。
-
-对于链表，我们无法用类似数组的 `len()` 方法来快速得出链表的长度，只能遍历一次链表来获取，如：
-```go
-length := 0
-for i := head; i != nil; i = i.Next {
-	length++
-}
-```
-
-因此我们一共将会对两个链表各遍历两次（第二次为一起遍历），该方法的时间复杂度为 O(m+n)，空间复杂度为 O(1)。
-
-#### Go
-
-- 执行用时: 36 ms
-- 内存消耗: 9.4 MB
-
-```go
-/**
- * Definition for singly-linked list.
- * type ListNode struct {
- *     Val int
- *     Next *ListNode
- * }
- */
-func getIntersectionNode(headA, headB *ListNode) *ListNode {
-    // get A length
-    lenA := 0
-    for p := headA; p != nil; p = p.Next {
-        lenA++
-    }
-
-    // get B length
-    lenB := 0
-    for q := headB; q != nil; q = q.Next {
-        lenB++
-    }
-
-    diff := lenA - lenB
-    p, q := headA, headB
-    if diff < 0 {
-        // B is longer than A
-        diff = -diff
-        for i := 0; i < diff; i++ {
-            q = q.Next
-        }
-    } else {
-        // A is longer than B
-        for i := 0; i < diff; i++ {
-            p = p.Next
-        }
-    }
-
-    for p != nil && q != nil {
-        if p == q {
-            return p
-        }
-        p = p.Next
-        q = q.Next
-    }
-
-    return nil
-
-}
-```
