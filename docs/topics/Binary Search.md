@@ -12,7 +12,6 @@
 | [<span id="problem-33">33</span>](#problem-33 "#33") | [Search in Rotated Sorted Array <br>搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/ "https://leetcode-cn.com/problems/search-in-rotated-sorted-array/") | [Java](../../java/src/33.%20SearchinRotatedSortedArray.java "java/src/33.%20SearchinRotatedSortedArray.java") | Medium | `Array`, `Binary Search` | [:page_facing_up:](../../docs/33.%20Search%20in%20Rotated%20Sorted%20Array%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/33.%20Search%20in%20Rotated%20Sorted%20Array%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-34">34</span>](#problem-34 "#34") | [Find First and Last Position of Element in Sorted Array <br>在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/ "https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/") | [Java](../../java/src/34.%20FindFirstandLastPositionofElementinSortedArray.java "java/src/34.%20FindFirstandLastPositionofElementinSortedArray.java") | Medium | `Array`, `Binary Search` | [:page_facing_up:](../../docs/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md "docs/34.%20Find%20First%20and%20Last%20Position%20of%20Element%20in%20Sorted%20Array%20%E5%9C%A8%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9F%A5%E6%89%BE%E5%85%83%E7%B4%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%92%8C%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E4%BD%8D%E7%BD%AE.md") |
 | [<span id="problem-35">35</span>](#problem-35 "#35") | [Search Insert Position](https://leetcode.com/problems/search-insert-position/ "https://leetcode.com/problems/search-insert-position/") | [Java](../../java/src/35.%20SearchInsertPosition.java "java/src/35.%20SearchInsertPosition.java") [Python3](../../py3/35.py "py3/35.py") [C++](../../cpp/src/35.cpp "cpp/src/35.cpp") | Easy | `Array`, `Binary Search` | [:page_facing_up:](../../docs/35.%20Search%20Insert%20Position.md "docs/35.%20Search%20Insert%20Position.md") |
-| [<span id="problem-50">50</span>](#problem-50 "#50") | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/ "https://leetcode-cn.com/problems/powx-n/") | [Java](../../java/src/50.%20Powxn.java "java/src/50.%20Powxn.java") | Medium | `Math`, `Binary Search` | [:page_facing_up:](../../docs/50.%20Pow%28x%2C%20n%29.md "docs/50.%20Pow%28x%2C%20n%29.md") |
 | [<span id="problem-69">69</span>](#problem-69 "#69") | [Sqrt(x) x<br>的平方根](https://leetcode-cn.com/problems/sqrtx/ "https://leetcode-cn.com/problems/sqrtx/") | [Java](../../java/src/69.%20Sqrtx.java "java/src/69.%20Sqrtx.java") [Python3](../../py3/69.py "py3/69.py") | Easy | `Math`, `Binary Search` | [:page_facing_up:](../../docs/69.%20Sqrt%28x%29%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md "docs/69.%20Sqrt%28x%29%20x%E7%9A%84%E5%B9%B3%E6%96%B9%E6%A0%B9.md") |
 | [<span id="problem-154">154</span>](#problem-154 "#154") | [Find Minimum in Rotated Sorted Array II <br>寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/ "https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/") |  [Go](../../go/src/154.go "go/src/154.go") | Hard | `Array`, `Binary Search` | [:page_facing_up:](../../docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.md "docs/154.%20Find%20Minimum%20in%20Rotated%20Sorted%20Array%20II%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%20II.md") |
 | [<span id="problem-162">162</span>](#problem-162 "#162") | [Find Peak Element <br>寻找峰值](https://leetcode-cn.com/problems/find-peak-element/ "https://leetcode-cn.com/problems/find-peak-element/") | [Java](../../java/src/162.%20FindPeakElement.java "java/src/162.%20FindPeakElement.java") | Medium | `Array`, `Binary Search` | [:page_facing_up:](../../docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md "docs/162.%20Find%20Peak%20Element%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC.md") |
@@ -30,16 +29,16 @@
 
 ## Statistics
 
-- Total solved problems : 18
-- Total docs : 18
+- Total solved problems : 17
+- Total docs : 17
 
 Group by solution language:
-- Total solutions via Java : 11
+- Total solutions via Java : 10
 - Total solutions via Go : 9
 - Total solutions via Python3 : 3
 - Total solutions via C++ : 1
 
 Group by difficulty:
 - Easy: 8
-- Medium: 9
+- Medium: 8
 - Hard: 1

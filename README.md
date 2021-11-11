@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-11 13:11:40.598967 UTC
+> Last updated: 2021-11-11 14:10:11.690900 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -49,7 +49,7 @@ LeetCode 练习仓库。
 | [<span id="problem-46">46</span>](#problem-46 "#46") | [Permutations <br>全排列](https://leetcode-cn.com/problems/permutations/ "https://leetcode-cn.com/problems/permutations/") | [Java](java/src/46.%20Permutations.java "java/src/46.%20Permutations.java") [Python3](py3/46.py "py3/46.py") | Medium | `Backtracking` | [:page_facing_up:](docs/46.%20Permutations%20%E5%85%A8%E6%8E%92%E5%88%97.md "docs/46.%20Permutations%20%E5%85%A8%E6%8E%92%E5%88%97.md") |
 | [<span id="problem-48">48</span>](#problem-48 "#48") | [Rotate Image <br>旋转图像](https://leetcode-cn.com/problems/rotate-image/ "https://leetcode-cn.com/problems/rotate-image/") | [Java](java/src/48.%20RotateImage.java "java/src/48.%20RotateImage.java") [Python3](py3/48.py "py3/48.py") | Medium | `Array` | [:page_facing_up:](docs/48.%20Rotate%20Image%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md "docs/48.%20Rotate%20Image%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F.md") |
 | [<span id="problem-49">49</span>](#problem-49 "#49") | [Group Anagrams <br>字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/ "https://leetcode-cn.com/problems/group-anagrams/") | [Java](java/src/49.%20GroupAnagrams.java "java/src/49.%20GroupAnagrams.java") | Medium | `Hash Table`, `String` | [:page_facing_up:](docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md "docs/49.%20Group%20Anagrams%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84.md") |
-| [<span id="problem-50">50</span>](#problem-50 "#50") | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/ "https://leetcode-cn.com/problems/powx-n/") | [Java](java/src/50.%20Powxn.java "java/src/50.%20Powxn.java") | Medium | `Math`, `Binary Search` | [:page_facing_up:](docs/50.%20Pow%28x%2C%20n%29.md "docs/50.%20Pow%28x%2C%20n%29.md") |
+| [<span id="problem-50">50</span>](#problem-50 "#50") | [Pow(x, n)](https://leetcode-cn.com/problems/powx-n/ "https://leetcode-cn.com/problems/powx-n/") | [Java](java/src/50.%20Powxn.java "java/src/50.%20Powxn.java") [Go](go/src/50.go "go/src/50.go") | Medium | `Recursion`, `Math` | [:page_facing_up:](docs/50.%20Pow%28x%2C%20n%29.md "docs/50.%20Pow%28x%2C%20n%29.md") |
 | [<span id="problem-53">53</span>](#problem-53 "#53") | [Maximum Subarray <br>最大子序和](https://leetcode-cn.com/problems/maximum-subarray/description/ "https://leetcode-cn.com/problems/maximum-subarray/description/") | [Java](java/src/53.%20MaximumSubarray.java "java/src/53.%20MaximumSubarray.java") [Go](go/src/53.go "go/src/53.go") [Python3](py3/53.py "py3/53.py") [C++](cpp/src/53.cpp "cpp/src/53.cpp") | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md "docs/53.%20Maximum%20Subarray%20%E6%9C%80%E5%A4%A7%E5%AD%90%E5%BA%8F%E5%92%8C.md") |
 | [<span id="problem-54">54</span>](#problem-54 "#54") | [Spiral Matrix <br>螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/ "https://leetcode-cn.com/problems/spiral-matrix/") |  [Go](go/src/54.go "go/src/54.go") | Medium | `Array`, `Matrix`, `Simulation` | [:page_facing_up:](docs/54.%20Spiral%20Matrix%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.md "docs/54.%20Spiral%20Matrix%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5.md") |
 | [<span id="problem-55">55</span>](#problem-55 "#55") | [Jump Game <br>跳跃游戏](https://leetcode-cn.com/problems/jump-game/ "https://leetcode-cn.com/problems/jump-game/") | [Java](java/src/55.%20JumpGame.java "java/src/55.%20JumpGame.java") | Medium | `Greedy`, `Array` | [:page_facing_up:](docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md "docs/55.%20Jump%20Game%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F.md") |
@@ -163,6 +163,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-12">剑指 Offer 12</span>](#problem-剑指-Offer-12 "#剑指 Offer 12") | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_12.go "go/src/%E5%89%91%E6%8C%87_Offer_12.go") | Medium | `Array`, `Backtracking`, `Matrix` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
 | [<span id="problem-剑指-Offer-13">剑指 Offer 13</span>](#problem-剑指-Offer-13 "#剑指 Offer 13") | [机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/ "https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_13.go "go/src/%E5%89%91%E6%8C%87_Offer_13.go") | Medium | `Depth-First Search`, `Breadth-First Search`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md "docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md") |
 | [<span id="problem-剑指-Offer-15">剑指 Offer 15</span>](#problem-剑指-Offer-15 "#剑指 Offer 15") | [二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/ "https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_15.go "go/src/%E5%89%91%E6%8C%87_Offer_15.go") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md") |
+| [<span id="problem-剑指-Offer-16">剑指 Offer 16</span>](#problem-剑指-Offer-16 "#剑指 Offer 16") | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/ "https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_16.go "go/src/%E5%89%91%E6%8C%87_Offer_16.go") | Medium | `Recursion`, `Math` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md "docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md") |
 | [<span id="problem-剑指-Offer-21">剑指 Offer 21</span>](#problem-剑指-Offer-21 "#剑指 Offer 21") | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/ "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_21.go "go/src/%E5%89%91%E6%8C%87_Offer_21.go") | Easy | `Array`, `Two Pointers`, `Sorting` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md "docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md") |
 | [<span id="problem-剑指-Offer-24">剑指 Offer 24</span>](#problem-剑指-Offer-24 "#剑指 Offer 24") | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/ "https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_24.go "go/src/%E5%89%91%E6%8C%87_Offer_24.go") | Easy | `Recursion`, `Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md") |
 | [<span id="problem-剑指-Offer-25">剑指 Offer 25</span>](#problem-剑指-Offer-25 "#剑指 Offer 25") | [合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/ "https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_25.go "go/src/%E5%89%91%E6%8C%87_Offer_25.go") | Easy | `Recursion`, `Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2025.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2025.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md") |
@@ -242,19 +243,19 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 186
+- Total solved problems : 187
 - Total related topics: 34
-- Total docs : 166
+- Total docs : 167
 
 Group by solution language:
 - Total solutions via Java : 96
-- Total solutions via Go : 86
+- Total solutions via Go : 88
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 90
-- Medium: 72
+- Medium: 73
 - Hard: 4
 
 ## License
