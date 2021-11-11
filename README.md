@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-11 14:10:11.690900 UTC
+> Last updated: 2021-11-11 15:13:38.285762 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -175,6 +175,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-32---I">剑指 Offer 32 - I</span>](#problem-剑指-Offer-32---I "#剑指 Offer 32 - I") | [从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_32_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_32_-_I.go") | Medium | `Tree`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20I.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20I.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-32---II">剑指 Offer 32 - II</span>](#problem-剑指-Offer-32---II "#剑指 Offer 32 - II") | [从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/ "https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_32_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_32_-_II.go") | Easy | `Tree`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20II.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20II.md "docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20II.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20II.md") |
 | [<span id="problem-剑指-Offer-32---III">剑指 Offer 32 - III</span>](#problem-剑指-Offer-32---III "#剑指 Offer 32 - III") | [从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/ "https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_32_-_III.go "go/src/%E5%89%91%E6%8C%87_Offer_32_-_III.go") | Medium | `Tree`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20III.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20III.md "docs/%E5%89%91%E6%8C%87%20Offer%2032%20-%20III.%20%E4%BB%8E%E4%B8%8A%E5%88%B0%E4%B8%8B%E6%89%93%E5%8D%B0%E4%BA%8C%E5%8F%89%E6%A0%91%20III.md") |
+| [<span id="problem-剑指-Offer-33">剑指 Offer 33</span>](#problem-剑指-Offer-33 "#剑指 Offer 33") | [二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_33.go "go/src/%E5%89%91%E6%8C%87_Offer_33.go") | Medium | `Stack`, `Tree`, `Binary Search Tree`, `Recursion`, `Binary Tree`, `Monotonic Stack` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2033.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2033.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-34">剑指 Offer 34</span>](#problem-剑指-Offer-34 "#剑指 Offer 34") | [二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_34.go "go/src/%E5%89%91%E6%8C%87_Offer_34.go") | Medium | `Tree`, `Depth-First Search`, `Backtracking`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
 | [<span id="problem-剑指-Offer-35">剑指 Offer 35</span>](#problem-剑指-Offer-35 "#剑指 Offer 35") | [复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/ "https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_35.go "go/src/%E5%89%91%E6%8C%87_Offer_35.go") | Medium | `Hash Table`, `Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2035.%20%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.md "docs/%E5%89%91%E6%8C%87%20Offer%2035.%20%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.md") |
 | [<span id="problem-剑指-Offer-36">剑指 Offer 36</span>](#problem-剑指-Offer-36 "#剑指 Offer 36") | [二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/") | [Java](java/src/%E5%89%91%E6%8C%87_Offer_36.java "java/src/%E5%89%91%E6%8C%87_Offer_36.java") | Medium | `Stack`, `Tree`, `Depth-First Search`, `Binary Search Tree`, `Linked List`, `Binary Tree`, `Doubly-Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2036.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2036.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md") |
@@ -229,6 +230,7 @@ LeetCode 练习仓库。
 - [Math](./docs/topics/Math.md)
 - [Matrix](./docs/topics/Matrix.md)
 - [Memoization](./docs/topics/Memoization.md)
+- [Monotonic Stack](./docs/topics/Monotonic%20Stack.md)
 - [Queue](./docs/topics/Queue.md)
 - [Quickselect](./docs/topics/Quickselect.md)
 - [Recursion](./docs/topics/Recursion.md)
@@ -243,19 +245,19 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 187
-- Total related topics: 34
-- Total docs : 167
+- Total solved problems : 188
+- Total related topics: 35
+- Total docs : 168
 
 Group by solution language:
 - Total solutions via Java : 96
-- Total solutions via Go : 88
+- Total solutions via Go : 89
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 90
-- Medium: 73
+- Medium: 74
 - Hard: 4
 
 ## License

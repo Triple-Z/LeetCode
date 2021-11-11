@@ -14,21 +14,22 @@
 | [<span id="problem-剑指-Offer-16">剑指 Offer 16</span>](#problem-剑指-Offer-16 "#剑指 Offer 16") | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/ "https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_16.go "go/src/%E5%89%91%E6%8C%87_Offer_16.go") | Medium | `Recursion`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md "docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md") |
 | [<span id="problem-剑指-Offer-24">剑指 Offer 24</span>](#problem-剑指-Offer-24 "#剑指 Offer 24") | [反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/ "https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_24.go "go/src/%E5%89%91%E6%8C%87_Offer_24.go") | Easy | `Recursion`, `Linked List` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2024.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md") |
 | [<span id="problem-剑指-Offer-25">剑指 Offer 25</span>](#problem-剑指-Offer-25 "#剑指 Offer 25") | [合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/ "https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_25.go "go/src/%E5%89%91%E6%8C%87_Offer_25.go") | Easy | `Recursion`, `Linked List` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2025.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2025.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%8E%92%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.md") |
+| [<span id="problem-剑指-Offer-33">剑指 Offer 33</span>](#problem-剑指-Offer-33 "#剑指 Offer 33") | [二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_33.go "go/src/%E5%89%91%E6%8C%87_Offer_33.go") | Medium | `Stack`, `Tree`, `Binary Search Tree`, `Recursion`, `Binary Tree`, `Monotonic Stack` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2033.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2033.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-62">剑指 Offer 62</span>](#problem-剑指-Offer-62 "#剑指 Offer 62") | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_62.go "go/src/%E5%89%91%E6%8C%87_Offer_62.go") | Easy | `Recursion`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 
 
 ## Statistics
 
-- Total solved problems : 7
-- Total docs : 7
+- Total solved problems : 8
+- Total docs : 8
 
 Group by solution language:
 - Total solutions via Java : 2
-- Total solutions via Go : 6
+- Total solutions via Go : 7
 - Total solutions via Python3 : 0
 - Total solutions via C++ : 0
 
 Group by difficulty:
 - Easy: 5
-- Medium: 2
+- Medium: 3
 - Hard: 0
