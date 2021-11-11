@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Depth-First Search](#depth-first-search)
-    - [Go](#go)
-  - [Breadth-First Search](#breadth-first-search)
-    - [Lang](#lang)
 
 ## Description
 
@@ -38,46 +34,4 @@
 
 ## Solution
 
-### Depth-First Search
-
-树的最大深度为两子树的最大深度加上自身深度，因此可以使用深度优先搜索，终止条件则为当前节点为空，则深度为零。此方法时间复杂度为 O(n)，空间复杂度为 O(n)。
-
-#### Go
-
-- 执行用时: 4 ms
-- 内存消耗: 4.2 MB
-
-```go
-/**
- * Definition for a binary tree node.
- * type TreeNode struct {
- *     Val int
- *     Left *TreeNode
- *     Right *TreeNode
- * }
- */
-func maxDepth(root *TreeNode) int {
-    if root == nil {
-        return 0
-    }
-
-    return max(maxDepth(root.Left), maxDepth(root.Right)) + 1
-}
-
-func max(a, b int) int {
-    if a > b {
-        return a
-    }
-    return b
-}
-```
-
-### Breadth-First Search
-
-TODO: BFS
-
-#### Lang
-
-```lang
-2nd solution code goes here.
-```
+见 [104 题题解](104.%20Maximum%20Depth%20of%20Binary%20Tree%20二叉树的最大深度.md#Solution)。

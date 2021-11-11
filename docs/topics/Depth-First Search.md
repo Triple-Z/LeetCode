@@ -12,6 +12,7 @@
 | [<span id="problem-101">101</span>](#problem-101 "#101") | [Symmetric Tree <br>对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/ "https://leetcode-cn.com/problems/symmetric-tree/") | [Java](../../java/src/101.%20SymmetricTree.java "java/src/101.%20SymmetricTree.java") [Go](../../go/src/101.go "go/src/101.go") [Python3](../../py3/101.py "py3/101.py") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search` | [:page_facing_up:](../../docs/101.%20Symmetric%20Tree%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/101.%20Symmetric%20Tree%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-104">104</span>](#problem-104 "#104") | [Maximum Depth of Binary Tree <br>二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/ "https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/") | [Java](../../java/src/104.%20MaximumDepthOfBinaryTree.java "java/src/104.%20MaximumDepthOfBinaryTree.java") [Go](../../go/src/104.go "go/src/104.go") [Python3](../../py3/104.py "py3/104.py") | Easy | `Tree`, `Depth-First Search` | [:page_facing_up:](../../docs/104.%20Maximum%20Depth%20of%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md "docs/104.%20Maximum%20Depth%20of%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6.md") |
 | [<span id="problem-108">108</span>](#problem-108 "#108") | [Convert Sorted Array to Binary Search Tree <br>将有序数组转换为二叉树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/ "https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/") | [Java](../../java/src/108.%20ConvertSortedArrayToBinarySearchTree.java "java/src/108.%20ConvertSortedArrayToBinarySearchTree.java") [Go](../../go/src/108.go "go/src/108.go") | Easy | `Tree`, `Depth-First Search` | [:page_facing_up:](../../docs/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/108.%20Convert%20Sorted%20Array%20to%20Binary%20Search%20Tree%20%E5%B0%86%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E8%BD%AC%E6%8D%A2%E4%B8%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
+| [<span id="problem-110">110</span>](#problem-110 "#110") | [Balanced Binary Tree <br>平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/ "https://leetcode-cn.com/problems/balanced-binary-tree/") |  [Go](../../go/src/110.go "go/src/110.go") | Easy | `Tree`, `Depth-First Search`, `Binary Tree` | [:page_facing_up:](../../docs/110.%20Balanced%20Binary%20Tree%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/110.%20Balanced%20Binary%20Tree%20%E5%B9%B3%E8%A1%A1%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-113">113</span>](#problem-113 "#113") | [Path Sum II <br>路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/ "https://leetcode-cn.com/problems/path-sum-ii/") |  [Go](../../go/src/113.go "go/src/113.go") | Medium | `Tree`, `Depth-First Search`, `Backtracking`, `Binary Tree` | [:page_facing_up:](../../docs/113.%20Path%20Sum%20II%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II.md "docs/113.%20Path%20Sum%20II%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II.md") |
 | [<span id="problem-114">114</span>](#problem-114 "#114") | [Flatten Binary Tree to Linked List <br>二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/ "https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/") | [Java](../../java/src/114.%20FlattenBinaryTreetoLinkedList.java "java/src/114.%20FlattenBinaryTreetoLinkedList.java") | Medium | `Tree`, `Depth-First Search` | [:page_facing_up:](../../docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%B1%95%E5%BC%80%E4%B8%BA%E9%93%BE%E8%A1%A8.md "docs/114.%20Flatten%20Binary%20Tree%20to%20Linked%20List%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%B1%95%E5%BC%80%E4%B8%BA%E9%93%BE%E8%A1%A8.md") |
 | [<span id="problem-116">116</span>](#problem-116 "#116") | [Populating Next Right Pointers in Each Node <br>填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/ "https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/") | [Java](../../java/src/116.%20PopulatingNextRightPointersinEachNode.java "java/src/116.%20PopulatingNextRightPointersinEachNode.java") | Medium | `Tree`, `Depth-First Search` | [:page_facing_up:](../../docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88.md "docs/116.%20Populating%20Next%20Right%20Pointers%20in%20Each%20Node%20%E5%A1%AB%E5%85%85%E6%AF%8F%E4%B8%AA%E8%8A%82%E7%82%B9%E7%9A%84%E4%B8%8B%E4%B8%80%E4%B8%AA%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E6%8C%87%E9%92%88.md") |
@@ -34,16 +35,16 @@
 
 ## Statistics
 
-- Total solved problems : 22
-- Total docs : 22
+- Total solved problems : 23
+- Total docs : 23
 
 Group by solution language:
 - Total solutions via Java : 10
-- Total solutions via Go : 18
+- Total solutions via Go : 19
 - Total solutions via Python3 : 4
 - Total solutions via C++ : 0
 
 Group by difficulty:
-- Easy: 12
+- Easy: 13
 - Medium: 10
 - Hard: 0
