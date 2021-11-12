@@ -7,10 +7,6 @@
 
 - [Description](#description)
 - [Solution](#solution)
-  - [Iteration](#iteration)
-    - [Go](#go)
-  - [Brian-Kernighan Algorithm](#brian-kernighan-algorithm)
-    - [Go](#go-1)
 
 ## Description
 
@@ -48,52 +44,4 @@
 
 ## Solution
 
-### Iteration
-
-获取第 `i` 位比特的方法：`num & (1 << i)` 。
-
-遍历 32 位比特，若第 `i` 位比特为 `1` ，则累加得出结果。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 1.9 MB
-
-```go
-func hammingWeight(num uint32) int {
-    ans := 0
-    for i := 0; i < 32; i++ {
-        if num & (1 << i) != 0 {
-            // Ith bit is ONE
-            ans++
-        }
-    }
-
-    return ans
-}
-```
-
-### Brian-Kernighan Algorithm
-
-Brian-Kernighan 算法：对于任意的数字 n，其和 n-1 进行 *位与* 操作后得到的结果会将 n 中的 *最后一个* 1 变为 0 。如下图所示。
-
-![image.png](assets/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0/abfd6109e7482d70d20cb8fc1d632f90eacf1b5e89dfecb2e523da1bcb562f66-image.png)
-
-时间复杂度为 O(1)，空间复杂度为 O(1)。
-
-#### Go
-
-- 执行用时: 0 ms
-- 内存消耗: 1.9 MB
-
-```go
-func hammingWeight(num uint32) int {
-    ans := 0
-    for num != 0 {
-        num &= num - 1
-        ans++
-    }
-
-    return ans
-}
-```
+见 [191 题题解](./191.%20Number%20of%201%20Bits%20位1的个数.md#Solution).

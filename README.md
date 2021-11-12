@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-11 16:40:31.841157 UTC
+> Last updated: 2021-11-12 11:24:01.880414 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -99,7 +99,7 @@ LeetCode 练习仓库。
 | [<span id="problem-172">172</span>](#problem-172 "#172") | [Factorial Trailing Zeroes <br>阶乘后的零](https://leetcode-cn.com/problems/factorial-trailing-zeroes/ "https://leetcode-cn.com/problems/factorial-trailing-zeroes/") | [Java](java/src/172.%20FactorialTrailingZeroes.java "java/src/172.%20FactorialTrailingZeroes.java") | Easy | `Math` | [:page_facing_up:](docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md "docs/172.%20Factorial%20Trailing%20Zeroes%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6.md") |
 | [<span id="problem-189">189</span>](#problem-189 "#189") | [Rotate Array <br>旋转数组](https://leetcode-cn.com/problems/rotate-array/ "https://leetcode-cn.com/problems/rotate-array/") |  [Go](go/src/189.go "go/src/189.go") [Python3](py3/189.py "py3/189.py") | Medium | `Array` | [:page_facing_up:](docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md "docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-190">190</span>](#problem-190 "#190") | [Reverse Bits <br>颠倒二进制位](https://leetcode-cn.com/problems/reverse-bits/description/ "https://leetcode-cn.com/problems/reverse-bits/description/") | [Java](java/src/190.%20ReverseBits.java "java/src/190.%20ReverseBits.java") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md "docs/190.%20Reverse%20Bits%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D.md") |
-| [<span id="problem-191">191</span>](#problem-191 "#191") | [Number of 1 Bits <br>位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/ "https://leetcode-cn.com/problems/number-of-1-bits/") | [Java](java/src/191.%20Numberof1Bits.java "java/src/191.%20Numberof1Bits.java") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md "docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md") |
+| [<span id="problem-191">191</span>](#problem-191 "#191") | [Number of 1 Bits <br>位1的个数](https://leetcode-cn.com/problems/number-of-1-bits/ "https://leetcode-cn.com/problems/number-of-1-bits/") | [Java](java/src/191.%20Numberof1Bits.java "java/src/191.%20Numberof1Bits.java") [Go](go/src/191.go "go/src/191.go") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md "docs/191.%20Number%20of%201%20Bits%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0.md") |
 | [<span id="problem-198">198</span>](#problem-198 "#198") | [House Robber <br>打家劫舍](https://leetcode-cn.com/problems/house-robber/ "https://leetcode-cn.com/problems/house-robber/") | [Java](java/src/198.%20HouseRobber.java "java/src/198.%20HouseRobber.java") [Python3](py3/198.py "py3/198.py") | Easy | `Dynamic Programming` | [:page_facing_up:](docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md "docs/198.%20House%20Robber%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D.md") |
 | [<span id="problem-200">200</span>](#problem-200 "#200") | [Number of Islands <br>岛屿数量](https://leetcode-cn.com/problems/number-of-islands/ "https://leetcode-cn.com/problems/number-of-islands/") | [Java](java/src/200.%20NumberofIslands.java "java/src/200.%20NumberofIslands.java") | Medium | `Depth-First Search`, `Breadth-First Search`, `Union Find` | [:page_facing_up:](docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md "docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md") |
 | [<span id="problem-202">202</span>](#problem-202 "#202") | [Happy Number <br>快乐数](https://leetcode-cn.com/problems/happy-number/ "https://leetcode-cn.com/problems/happy-number/") | [Java](java/src/202.%20HappyNumber.java "java/src/202.%20HappyNumber.java") | Easy | `Hash Table`, `Math` | [:page_facing_up:](docs/202.%20Happy%20Number%20%E5%BF%AB%E4%B9%90%E6%95%B0.md "docs/202.%20Happy%20Number%20%E5%BF%AB%E4%B9%90%E6%95%B0.md") |
@@ -253,7 +253,7 @@ LeetCode 练习仓库。
 
 Group by solution language:
 - Total solutions via Java : 96
-- Total solutions via Go : 91
+- Total solutions via Go : 92
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
