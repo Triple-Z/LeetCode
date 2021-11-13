@@ -75,7 +75,12 @@ func lastRemaining(n int, m int) int {
 
 ### Math
 
-这题描述的其实就是[约瑟夫环问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)，较为详细的数学推导可见这篇[知乎文章](https://zhuanlan.zhihu.com/p/121159246)，基本与《剑指 Offer》书中推导相符，不过更加详细，包括 `% n` 是由分队推导得来也有一定阐述。
+这题描述的其实就是[约瑟夫环问题](https://zh.wikipedia.org/wiki/%E7%BA%A6%E7%91%9F%E5%A4%AB%E6%96%AF%E9%97%AE%E9%A2%98)，较为详细的数学推导可见这篇[知乎文章](https://zhuanlan.zhihu.com/p/121159246)，基本与《剑指 Offer》书中推导相符，不过更加详细，包括 `% n` 是由分段函数归纳推导得来也有一定阐述。
+
+> @南城文 写的[题解](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/solution/si-bu-he-xin-gong-shi-qing-song-nong-don-3vln/)，特别是其中 `f(n, m) = f'(n-1, m)` 的映射，能令人更容易理解整个推导过程。其推导过程如下：
+> 
+> ![](https://pic.leetcode-cn.com/1622207345-bKYeRl-Screenshot%20from%202021-05-28%2021-08-29.png)
+
 
 设 $f(n, m)$ 为 n 个数字，每 m 个删除一次后最后得到的结果。最后的递推式为：
 
