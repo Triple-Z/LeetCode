@@ -41,6 +41,7 @@
 | [<span id="problem-169">169</span>](#problem-169 "#169") | [Majority Element <br>多数元素](https://leetcode-cn.com/problems/majority-element/ "https://leetcode-cn.com/problems/majority-element/") | [Java](../../java/src/169.%20MajorityElement.java "java/src/169.%20MajorityElement.java") [Go](../../go/src/169.go "go/src/169.go") [Python3](../../py3/169.py "py3/169.py") | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](../../docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md "docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md") |
 | [<span id="problem-189">189</span>](#problem-189 "#189") | [Rotate Array <br>旋转数组](https://leetcode-cn.com/problems/rotate-array/ "https://leetcode-cn.com/problems/rotate-array/") |  [Go](../../go/src/189.go "go/src/189.go") [Python3](../../py3/189.py "py3/189.py") | Medium | `Array` | [:page_facing_up:](../../docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md "docs/189.%20Rotate%20Array%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-217">217</span>](#problem-217 "#217") | [Contains Duplicate <br>存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/ "https://leetcode-cn.com/problems/contains-duplicate/") |  [Python3](../../py3/217.py "py3/217.py") | Easy | `Array`, `Hash Table`, `Sorting` | [:page_facing_up:](../../docs/217.%20Contains%20Duplicate%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md "docs/217.%20Contains%20Duplicate%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0.md") |
+| [<span id="problem-239">239</span>](#problem-239 "#239") | [Sliding Window Maximum <br>滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/ "https://leetcode-cn.com/problems/sliding-window-maximum/") |  [Go](../../go/src/239.go "go/src/239.go") | Hard | `Queue`, `Array`, `Sliding Window`, `Monotonic Queue`, `Heap` | [:page_facing_up:](../../docs/239.%20Sliding%20Window%20Maximum%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md "docs/239.%20Sliding%20Window%20Maximum%20%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3%E6%9C%80%E5%A4%A7%E5%80%BC.md") |
 | [<span id="problem-268">268</span>](#problem-268 "#268") | [Missing Number <br>缺失数字](https://leetcode-cn.com/problems/missing-number/ "https://leetcode-cn.com/problems/missing-number/") | [Java](../../java/src/268.%20MissingNumber.java "java/src/268.%20MissingNumber.java") | Easy | `Bit Manipulation`, `Array`, `Math` | [:page_facing_up:](../../docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md "docs/268.%20Missing%20Number%20%E7%BC%BA%E5%A4%B1%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-283">283</span>](#problem-283 "#283") | [Move Zeroes <br>移动零](https://leetcode-cn.com/problems/move-zeroes/ "https://leetcode-cn.com/problems/move-zeroes/") |  [Python3](../../py3/283.py "py3/283.py") | Easy | `Array`, `Two Pointers` | [:page_facing_up:](../../docs/283.%20Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md "docs/283.%20Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md") |
 | [<span id="problem-380">380</span>](#problem-380 "#380") | [Insert Delete GetRandom O(1) <br>常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/ "https://leetcode-cn.com/problems/insert-delete-getrandom-o1/") | [Java](../../java/src/380.%20InsertDeleteGetRandomO1.java "java/src/380.%20InsertDeleteGetRandomO1.java") | Medium | `Design`, `Array`, `Hash Table` | [:page_facing_up:](../../docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md "docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md") |
@@ -71,16 +72,16 @@
 
 ## Statistics
 
-- Total solved problems : 59
-- Total docs : 59
+- Total solved problems : 60
+- Total docs : 60
 
 Group by solution language:
 - Total solutions via Java : 25
-- Total solutions via Go : 32
+- Total solutions via Go : 33
 - Total solutions via Python3 : 12
 - Total solutions via C++ : 16
 
 Group by difficulty:
 - Easy: 26
 - Medium: 31
-- Hard: 2
+- Hard: 3
