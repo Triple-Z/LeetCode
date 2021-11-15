@@ -16,20 +16,21 @@
 | [<span id="problem-剑指-Offer-09">剑指 Offer 09</span>](#problem-剑指-Offer-09 "#剑指 Offer 09") | [用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/ "https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_09.go "go/src/%E5%89%91%E6%8C%87_Offer_09.go") | Easy | `Stack`, `Design`, `Queue` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2009.%20%E7%94%A8%E4%B8%A4%E4%B8%AA%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-30">剑指 Offer 30</span>](#problem-剑指-Offer-30 "#剑指 Offer 30") | [包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/ "https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_30.go "go/src/%E5%89%91%E6%8C%87_Offer_30.go") | Easy | `Stack`, `Design` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md "docs/%E5%89%91%E6%8C%87%20Offer%2030.%20%E5%8C%85%E5%90%ABmin%E5%87%BD%E6%95%B0%E7%9A%84%E6%A0%88.md") |
 | [<span id="problem-剑指-Offer-41">剑指 Offer 41</span>](#problem-剑指-Offer-41 "#剑指 Offer 41") | [数据流中的中位数](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/ "https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_41.go "go/src/%E5%89%91%E6%8C%87_Offer_41.go") | Hard | `Design`, `Two Pointers`, `Data Stream`, `Sorting`, `Heap` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2041.%20%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2041.%20%E6%95%B0%E6%8D%AE%E6%B5%81%E4%B8%AD%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md") |
+| [<span id="problem-剑指-Offer-59---II">剑指 Offer 59 - II</span>](#problem-剑指-Offer-59---II "#剑指 Offer 59 - II") | [队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/ "https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_59_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_59_-_II.go") | Medium | `Design`, `Queue`, `Monotonic Queue` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2059%20-%20II.%20%E9%98%9F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md "docs/%E5%89%91%E6%8C%87%20Offer%2059%20-%20II.%20%E9%98%9F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC.md") |
 
 
 ## Statistics
 
-- Total solved problems : 8
-- Total docs : 8
+- Total solved problems : 9
+- Total docs : 9
 
 Group by solution language:
 - Total solutions via Java : 4
-- Total solutions via Go : 4
+- Total solutions via Go : 5
 - Total solutions via Python3 : 1
 - Total solutions via C++ : 0
 
 Group by difficulty:
 - Easy: 3
-- Medium: 3
+- Medium: 4
 - Hard: 2
