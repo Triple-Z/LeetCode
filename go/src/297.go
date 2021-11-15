@@ -29,9 +29,9 @@ func (this *Codec) serialize(root *TreeNode) string {
 
 	for len(queue) > 0 {
 		node := queue[0]
+		queue = queue[1:]
 		if node.Val == NULL_VAL {
 			elements = append(elements, NULL_STR)
-			queue = queue[1:]
 			continue
 		}
 
@@ -52,7 +52,6 @@ func (this *Codec) serialize(root *TreeNode) string {
 		}
 
 		elements = append(elements, strconv.Itoa(node.Val))
-		queue = queue[1:]
 	}
 
 	return "[" + strings.Join(elements, ",") + "]"
@@ -64,7 +63,6 @@ func (this *Codec) deserialize(data string) *TreeNode {
 	data = data[1 : len(data)-1] // remove the "[]"
 	elements := strings.Split(data, ",")
 
-	// fmt.Println(len(elements))
 	if len(elements) < 3 {
 		return nil
 	}

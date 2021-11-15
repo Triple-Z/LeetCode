@@ -26,6 +26,7 @@
 | [<span id="problem-387">387</span>](#problem-387 "#387") | [First Unique Character in a String <br>字符串中第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/ "https://leetcode-cn.com/problems/first-unique-character-in-a-string/") | [Java](../../java/src/387.%20FirstUniqueCharacterInAString.java "java/src/387.%20FirstUniqueCharacterInAString.java") [Go](../../go/src/387.go "go/src/387.go") [Python3](../../py3/387.py "py3/387.py") | Easy | `Hash Table`, `String` | [:page_facing_up:](../../docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md "docs/387.%20First%20Unique%20Character%20in%20a%20String%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%94%AF%E4%B8%80%E5%AD%97%E7%AC%A6.md") |
 | [<span id="problem-剑指-Offer-05">剑指 Offer 05</span>](#problem-剑指-Offer-05 "#剑指 Offer 05") | [替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/ "https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_05.go "go/src/%E5%89%91%E6%8C%87_Offer_05.go") | Easy | `String` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2005.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md "docs/%E5%89%91%E6%8C%87%20Offer%2005.%20%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md") |
 | [<span id="problem-剑指-Offer-20">剑指 Offer 20</span>](#problem-剑指-Offer-20 "#剑指 Offer 20") | [表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_20.go "go/src/%E5%89%91%E6%8C%87_Offer_20.go") | Medium | `String` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2020.%20%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2020.%20%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
+| [<span id="problem-剑指-Offer-37">剑指 Offer 37</span>](#problem-剑指-Offer-37 "#剑指 Offer 37") | [序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/") | [Java](../../java/src/%E5%89%91%E6%8C%87_Offer_37.java "java/src/%E5%89%91%E6%8C%87_Offer_37.java") | Hard | `Tree`, `Depth-First Search`, `B Breadth-First Search`, `Design`, `String`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-45">剑指 Offer 45</span>](#problem-剑指-Offer-45 "#剑指 Offer 45") | [把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/ "https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_45.go "go/src/%E5%89%91%E6%8C%87_Offer_45.go") | Medium | `Greedy`, `String`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2045.%20%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2045.%20%E6%8A%8A%E6%95%B0%E7%BB%84%E6%8E%92%E6%88%90%E6%9C%80%E5%B0%8F%E7%9A%84%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-46">剑指 Offer 46</span>](#problem-剑指-Offer-46 "#剑指 Offer 46") | [把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_46.go "go/src/%E5%89%91%E6%8C%87_Offer_46.go") | Medium | `String`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2046.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2046.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
 | [<span id="problem-剑指-Offer-48">剑指 Offer 48</span>](#problem-剑指-Offer-48 "#剑指 Offer 48") | [最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_48.go "go/src/%E5%89%91%E6%8C%87_Offer_48.go") | Medium | `Hash Table`, `String`, `Sliding Window` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2048.%20%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2048.%20%E6%9C%80%E9%95%BF%E4%B8%8D%E5%90%AB%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E7%9A%84%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
@@ -37,11 +38,11 @@
 
 ## Statistics
 
-- Total solved problems : 25
-- Total docs : 25
+- Total solved problems : 26
+- Total docs : 26
 
 Group by solution language:
-- Total solutions via Java : 15
+- Total solutions via Java : 16
 - Total solutions via Go : 16
 - Total solutions via Python3 : 8
 - Total solutions via C++ : 0
@@ -49,4 +50,4 @@ Group by solution language:
 Group by difficulty:
 - Easy: 12
 - Medium: 12
-- Hard: 1
+- Hard: 2
