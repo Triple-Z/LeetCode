@@ -18,6 +18,8 @@
 
 示例：
 
+![](https://assets.leetcode.com/uploads/2020/09/15/serdeser.jpg)
+
 ```
 输入：root = [1,2,3,null,null,4,5]
 输出：[1,2,3,null,null,4,5]
