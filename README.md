@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-15 12:46:18.825889 UTC
+> Last updated: 2021-11-15 15:58:36.404638 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -121,7 +121,7 @@ LeetCode 练习仓库。
 | [<span id="problem-278">278</span>](#problem-278 "#278") | [First Bad Version <br>第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/ "https://leetcode-cn.com/problems/first-bad-version/") | [Java](java/src/278.%20FirstBadVersion.java "java/src/278.%20FirstBadVersion.java") [Go](go/src/278.go "go/src/278.go") | Easy | `Binary Search` | [:page_facing_up:](docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md "docs/278.%20First%20Bad%20Version%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC.md") |
 | [<span id="problem-283">283</span>](#problem-283 "#283") | [Move Zeroes <br>移动零](https://leetcode-cn.com/problems/move-zeroes/ "https://leetcode-cn.com/problems/move-zeroes/") |  [Python3](py3/283.py "py3/283.py") | Easy | `Array`, `Two Pointers` | [:page_facing_up:](docs/283.%20Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md "docs/283.%20Move%20Zeroes%20%E7%A7%BB%E5%8A%A8%E9%9B%B6.md") |
 | [<span id="problem-295">295</span>](#problem-295 "#295") | [Find Median from Data Stream <br>数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/ "https://leetcode-cn.com/problems/find-median-from-data-stream/") |  [Go](go/src/295.go "go/src/295.go") | Hard | `Design`, `Two Pointers`, `Data Stream`, `Sorting`, `Heap` | [:page_facing_up:](docs/295.%20Find%20Median%20from%20Data%20Stream%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md "docs/295.%20Find%20Median%20from%20Data%20Stream%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md") |
-| [<span id="problem-297">297</span>](#problem-297 "#297") | [Serialize and Deserialize Binary Tree <br>二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/ "https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/") | [Java](java/src/297.%20SerializeandDeserializeBinaryTree.java "java/src/297.%20SerializeandDeserializeBinaryTree.java") | Medium | `Tree`, `Design` | [:page_facing_up:](docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md "docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md") |
+| [<span id="problem-297">297</span>](#problem-297 "#297") | [Serialize and Deserialize Binary Tree <br>二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/ "https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/") | [Java](java/src/297.%20SerializeandDeserializeBinaryTree.java "java/src/297.%20SerializeandDeserializeBinaryTree.java") [Go](go/src/297.go "go/src/297.go") | Hard | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Design`, `String`, `Binary Tree` | [:page_facing_up:](docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md "docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md") |
 | [<span id="problem-300">300</span>](#problem-300 "#300") | [Longest Increasing Subsequence <br>最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/ "https://leetcode-cn.com/problems/longest-increasing-subsequence/") | [Java](java/src/300.%20LongestIncreasingSubsequence.java "java/src/300.%20LongestIncreasingSubsequence.java") | Medium | `Binary Search`, `Dynamic Programming` | [:page_facing_up:](docs/300.%20Longest%20Increasing%20Subsequence%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md "docs/300.%20Longest%20Increasing%20Subsequence%20%E6%9C%80%E9%95%BF%E4%B8%8A%E5%8D%87%E5%AD%90%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-322">322</span>](#problem-322 "#322") | [Coin Change <br>零钱兑换](https://leetcode-cn.com/problems/coin-change/ "https://leetcode-cn.com/problems/coin-change/") | [Java](java/src/322.%20CoinChange.java "java/src/322.%20CoinChange.java") | Medium | `Dynamic Programming` | [:page_facing_up:](docs/322.%20Coin%20Change%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.md "docs/322.%20Coin%20Change%20%E9%9B%B6%E9%92%B1%E5%85%91%E6%8D%A2.md") |
 | [<span id="problem-326">326</span>](#problem-326 "#326") | [Power of Three 3<br>的幂](https://leetcode-cn.com/problems/power-of-three/description/ "https://leetcode-cn.com/problems/power-of-three/description/") | [Java](java/src/326.%20PowerofThree.java "java/src/326.%20PowerofThree.java") | Easy | `Math` | [:page_facing_up:](docs/326.%20Power%20of%20Three%203%E7%9A%84%E5%B9%82.md "docs/326.%20Power%20of%20Three%203%E7%9A%84%E5%B9%82.md") |
@@ -268,14 +268,14 @@ LeetCode 练习仓库。
 
 Group by solution language:
 - Total solutions via Java : 96
-- Total solutions via Go : 106
+- Total solutions via Go : 107
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 91
-- Medium: 85
-- Hard: 6
+- Medium: 84
+- Hard: 7
 
 ## License
 

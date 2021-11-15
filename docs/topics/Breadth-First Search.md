@@ -13,6 +13,7 @@
 | [<span id="problem-103">103</span>](#problem-103 "#103") | [Binary Tree Zigzag Level Order Traversal <br>二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/ "https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/") | [Java](../../java/src/103.%20BinaryTreeZigzagLevelOrderTraversal.java "java/src/103.%20BinaryTreeZigzagLevelOrderTraversal.java") | Medium | `Stack`, `Tree`, `Breadth-First Search` | [:page_facing_up:](../../docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.md "docs/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.md") |
 | [<span id="problem-200">200</span>](#problem-200 "#200") | [Number of Islands <br>岛屿数量](https://leetcode-cn.com/problems/number-of-islands/ "https://leetcode-cn.com/problems/number-of-islands/") | [Java](../../java/src/200.%20NumberofIslands.java "java/src/200.%20NumberofIslands.java") | Medium | `Depth-First Search`, `Breadth-First Search`, `Union Find` | [:page_facing_up:](../../docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md "docs/200.%20Number%20of%20Islands%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F.md") |
 | [<span id="problem-226">226</span>](#problem-226 "#226") | [Invert Binary Tree <br>翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/ "https://leetcode-cn.com/problems/invert-binary-tree/") |  [Go](../../go/src/226.go "go/src/226.go") [Python3](../../py3/226.py "py3/226.py") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](../../docs/226.%20Invert%20Binary%20Tree%20%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/226.%20Invert%20Binary%20Tree%20%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
+| [<span id="problem-297">297</span>](#problem-297 "#297") | [Serialize and Deserialize Binary Tree <br>二叉树的序列化与反序列化](https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/ "https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/") | [Java](../../java/src/297.%20SerializeandDeserializeBinaryTree.java "java/src/297.%20SerializeandDeserializeBinaryTree.java") [Go](../../go/src/297.go "go/src/297.go") | Hard | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Design`, `String`, `Binary Tree` | [:page_facing_up:](../../docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md "docs/297.%20Serialize%20and%20Deserialize%20Binary%20Tree%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96%E4%B8%8E%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96.md") |
 | [<span id="problem-剑指-Offer-13">剑指 Offer 13</span>](#problem-剑指-Offer-13 "#剑指 Offer 13") | [机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/ "https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_13.go "go/src/%E5%89%91%E6%8C%87_Offer_13.go") | Medium | `Depth-First Search`, `Breadth-First Search`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md "docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md") |
 | [<span id="problem-剑指-Offer-27">剑指 Offer 27</span>](#problem-剑指-Offer-27 "#剑指 Offer 27") | [二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_27.go "go/src/%E5%89%91%E6%8C%87_Offer_27.go") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2027.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F.md "docs/%E5%89%91%E6%8C%87%20Offer%2027.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%95%9C%E5%83%8F.md") |
 | [<span id="problem-剑指-Offer-28">剑指 Offer 28</span>](#problem-剑指-Offer-28 "#剑指 Offer 28") | [对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_28.go "go/src/%E5%89%91%E6%8C%87_Offer_28.go") | Easy | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2028.%20%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2028.%20%E5%AF%B9%E7%A7%B0%E7%9A%84%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
@@ -24,16 +25,16 @@
 
 ## Statistics
 
-- Total solved problems : 12
-- Total docs : 12
+- Total solved problems : 13
+- Total docs : 13
 
 Group by solution language:
-- Total solutions via Java : 4
-- Total solutions via Go : 10
+- Total solutions via Java : 5
+- Total solutions via Go : 11
 - Total solutions via Python3 : 2
 - Total solutions via C++ : 0
 
 Group by difficulty:
 - Easy: 6
 - Medium: 6
-- Hard: 0
+- Hard: 1
