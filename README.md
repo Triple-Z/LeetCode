@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-16 15:05:03.063436 UTC
+> Last updated: 2021-11-16 15:09:51.879409 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -187,7 +187,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-34">剑指 Offer 34</span>](#problem-剑指-Offer-34 "#剑指 Offer 34") | [二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_34.go "go/src/%E5%89%91%E6%8C%87_Offer_34.go") | Medium | `Tree`, `Depth-First Search`, `Backtracking`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
 | [<span id="problem-剑指-Offer-35">剑指 Offer 35</span>](#problem-剑指-Offer-35 "#剑指 Offer 35") | [复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/ "https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_35.go "go/src/%E5%89%91%E6%8C%87_Offer_35.go") | Medium | `Hash Table`, `Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2035.%20%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.md "docs/%E5%89%91%E6%8C%87%20Offer%2035.%20%E5%A4%8D%E6%9D%82%E9%93%BE%E8%A1%A8%E7%9A%84%E5%A4%8D%E5%88%B6.md") |
 | [<span id="problem-剑指-Offer-36">剑指 Offer 36</span>](#problem-剑指-Offer-36 "#剑指 Offer 36") | [二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/ "https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/") | [Java](java/src/%E5%89%91%E6%8C%87_Offer_36.java "java/src/%E5%89%91%E6%8C%87_Offer_36.java") | Medium | `Stack`, `Tree`, `Depth-First Search`, `Binary Search Tree`, `Linked List`, `Binary Tree`, `Doubly-Linked List` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2036.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md "docs/%E5%89%91%E6%8C%87%20Offer%2036.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%8E%E5%8F%8C%E5%90%91%E9%93%BE%E8%A1%A8.md") |
-| [<span id="problem-剑指-Offer-37">剑指 Offer 37</span>](#problem-剑指-Offer-37 "#剑指 Offer 37") | [序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/") | [Java](java/src/%E5%89%91%E6%8C%87_Offer_37.java "java/src/%E5%89%91%E6%8C%87_Offer_37.java") | Hard | `Tree`, `Depth-First Search`, `B Breadth-First Search`, `Design`, `String`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
+| [<span id="problem-剑指-Offer-37">剑指 Offer 37</span>](#problem-剑指-Offer-37 "#剑指 Offer 37") | [序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/") | [Java](java/src/%E5%89%91%E6%8C%87_Offer_37.java "java/src/%E5%89%91%E6%8C%87_Offer_37.java") | Hard | `Tree`, `Depth-First Search`, `Breadth-First Search`, `Design`, `String`, `Binary Tree` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2037.%20%E5%BA%8F%E5%88%97%E5%8C%96%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-38">剑指 Offer 38</span>](#problem-剑指-Offer-38 "#剑指 Offer 38") | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/ "https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_38.go "go/src/%E5%89%91%E6%8C%87_Offer_38.go") | Medium | `String`, `Backtracking` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2038.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2038.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-39">剑指 Offer 39</span>](#problem-剑指-Offer-39 "#剑指 Offer 39") | [数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_39.go "go/src/%E5%89%91%E6%8C%87_Offer_39.go") | Easy | `Array`, `Hash Table`, `Divide and Conquer`, `Counting`, `Sorting` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-40">剑指 Offer 40</span>](#problem-剑指-Offer-40 "#剑指 Offer 40") | [最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/ "https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_40.go "go/src/%E5%89%91%E6%8C%87_Offer_40.go") | Easy | `Array`, `Divide and Conquer`, `Quickselect`, `Sorting`, `Heap` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2040.%20%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2040.%20%E6%9C%80%E5%B0%8F%E7%9A%84k%E4%B8%AA%E6%95%B0.md") |
@@ -225,7 +225,6 @@ LeetCode 练习仓库。
 
 ## Topics
 - [Array](./docs/topics/Array.md)
-- [B Breadth-First Search](./docs/topics/B%20Breadth-First%20Search.md)
 - [Backtracking](./docs/topics/Backtracking.md)
 - [Binary Search](./docs/topics/Binary%20Search.md)
 - [Binary Search Tree](./docs/topics/Binary%20Search%20Tree.md)
@@ -267,7 +266,7 @@ LeetCode 练习仓库。
 ## Statistics
 
 - Total solved problems : 205
-- Total related topics: 39
+- Total related topics: 38
 - Total docs : 186
 
 Group by solution language:

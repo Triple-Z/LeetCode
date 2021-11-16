@@ -2,7 +2,7 @@
 # 剑指 Offer 37.  序列化二叉树
 
 - Difficulty: Hard
-- Topics: `Tree`, `Depth-First Search`, `B Breadth-First Search`, `Design`, `String`, `Binary Tree`
+- Topics: `Tree`, `Depth-First Search`, `Breadth-First Search`, `Design`, `String`, `Binary Tree`
 - Link: https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/
 
 - [Description](#description)
