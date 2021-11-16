@@ -16,20 +16,21 @@
 | [<span id="problem-113">113</span>](#problem-113 "#113") | [Path Sum II <br>路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/ "https://leetcode-cn.com/problems/path-sum-ii/") |  [Go](../../go/src/113.go "go/src/113.go") | Medium | `Tree`, `Depth-First Search`, `Backtracking`, `Binary Tree` | [:page_facing_up:](../../docs/113.%20Path%20Sum%20II%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II.md "docs/113.%20Path%20Sum%20II%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II.md") |
 | [<span id="problem-剑指-Offer-12">剑指 Offer 12</span>](#problem-剑指-Offer-12 "#剑指 Offer 12") | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_12.go "go/src/%E5%89%91%E6%8C%87_Offer_12.go") | Medium | `Array`, `Backtracking`, `Matrix` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
 | [<span id="problem-剑指-Offer-34">剑指 Offer 34</span>](#problem-剑指-Offer-34 "#剑指 Offer 34") | [二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_34.go "go/src/%E5%89%91%E6%8C%87_Offer_34.go") | Medium | `Tree`, `Depth-First Search`, `Backtracking`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2034.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%92%8C%E4%B8%BA%E6%9F%90%E4%B8%80%E5%80%BC%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
+| [<span id="problem-剑指-Offer-38">剑指 Offer 38</span>](#problem-剑指-Offer-38 "#剑指 Offer 38") | [字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/ "https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_38.go "go/src/%E5%89%91%E6%8C%87_Offer_38.go") | Medium | `String`, `Backtracking` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2038.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2038.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%8E%92%E5%88%97.md") |
 
 
 ## Statistics
 
-- Total solved problems : 8
-- Total docs : 8
+- Total solved problems : 9
+- Total docs : 9
 
 Group by solution language:
 - Total solutions via Java : 5
-- Total solutions via Go : 4
+- Total solutions via Go : 5
 - Total solutions via Python3 : 2
 - Total solutions via C++ : 0
 
 Group by difficulty:
 - Easy: 0
-- Medium: 8
+- Medium: 9
 - Hard: 0
