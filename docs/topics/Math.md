@@ -34,22 +34,23 @@
 | [<span id="problem-剑指-Offer-53---II">剑指 Offer 53 - II</span>](#problem-剑指-Offer-53---II "#剑指 Offer 53 - II") | [0<br>～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_53_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_53_-_II.go") | Easy | `Bit Manipulation`, `Array`, `Hash Table`, `Math`, `Binary Search` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2053%20-%20II.%200%EF%BD%9En-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2053%20-%20II.%200%EF%BD%9En-1%E4%B8%AD%E7%BC%BA%E5%A4%B1%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-57---II">剑指 Offer 57 - II</span>](#problem-剑指-Offer-57---II "#剑指 Offer 57 - II") | [和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/ "https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_57_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_57_-_II.go") | Easy | `Math`, `Two Pointers`, `Enumeration` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2057%20-%20II.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2057%20-%20II.%20%E5%92%8C%E4%B8%BAs%E7%9A%84%E8%BF%9E%E7%BB%AD%E6%AD%A3%E6%95%B0%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-58---II">剑指 Offer 58 - II</span>](#problem-剑指-Offer-58---II "#剑指 Offer 58 - II") | [左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_58_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_58_-_II.go") | Easy | `Math`, `Two Pointers`, `String` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2058%20-%20II.%20%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
+| [<span id="problem-剑指-Offer-60">剑指 Offer 60</span>](#problem-剑指-Offer-60 "#剑指 Offer 60") | [n<br>个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/ "https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_60.go "go/src/%E5%89%91%E6%8C%87_Offer_60.go") | Medium | `Math`, `Dynamic Programming`, `Probability and Statistics` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2060.%20n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2060.%20n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-62">剑指 Offer 62</span>](#problem-剑指-Offer-62 "#剑指 Offer 62") | [圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_62.go "go/src/%E5%89%91%E6%8C%87_Offer_62.go") | Easy | `Recursion`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2062.%20%E5%9C%86%E5%9C%88%E4%B8%AD%E6%9C%80%E5%90%8E%E5%89%A9%E4%B8%8B%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-65">剑指 Offer 65</span>](#problem-剑指-Offer-65 "#剑指 Offer 65") | [不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/ "https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_65.go "go/src/%E5%89%91%E6%8C%87_Offer_65.go") | Easy | `Bit Manipulation`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2065.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md "docs/%E5%89%91%E6%8C%87%20Offer%2065.%20%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95.md") |
 
 
 ## Statistics
 
-- Total solved problems : 28
-- Total docs : 28
+- Total solved problems : 29
+- Total docs : 29
 
 Group by solution language:
 - Total solutions via Java : 15
-- Total solutions via Go : 15
+- Total solutions via Go : 16
 - Total solutions via Python3 : 5
 - Total solutions via C++ : 1
 
 Group by difficulty:
 - Easy: 18
-- Medium: 10
+- Medium: 11
 - Hard: 0

@@ -29,21 +29,22 @@
 | [<span id="problem-剑指-Offer-46">剑指 Offer 46</span>](#problem-剑指-Offer-46 "#剑指 Offer 46") | [把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_46.go "go/src/%E5%89%91%E6%8C%87_Offer_46.go") | Medium | `String`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2046.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2046.%20%E6%8A%8A%E6%95%B0%E5%AD%97%E7%BF%BB%E8%AF%91%E6%88%90%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
 | [<span id="problem-剑指-Offer-47">剑指 Offer 47</span>](#problem-剑指-Offer-47 "#剑指 Offer 47") | [礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/ "https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_47.go "go/src/%E5%89%91%E6%8C%87_Offer_47.go") | Medium | `Array`, `Dynamic Programming`, `Matrix` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2047.%20%E7%A4%BC%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC.md "docs/%E5%89%91%E6%8C%87%20Offer%2047.%20%E7%A4%BC%E7%89%A9%E7%9A%84%E6%9C%80%E5%A4%A7%E4%BB%B7%E5%80%BC.md") |
 | [<span id="problem-剑指-Offer-49">剑指 Offer 49</span>](#problem-剑指-Offer-49 "#剑指 Offer 49") | [丑数](https://leetcode-cn.com/problems/chou-shu-lcof/ "https://leetcode-cn.com/problems/chou-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_49.go "go/src/%E5%89%91%E6%8C%87_Offer_49.go") | Medium | `Hash Table`, `Math`, `Dynamic Programming`, `Heap` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2049.%20%E4%B8%91%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2049.%20%E4%B8%91%E6%95%B0.md") |
+| [<span id="problem-剑指-Offer-60">剑指 Offer 60</span>](#problem-剑指-Offer-60 "#剑指 Offer 60") | [n<br>个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/ "https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_60.go "go/src/%E5%89%91%E6%8C%87_Offer_60.go") | Medium | `Math`, `Dynamic Programming`, `Probability and Statistics` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2060.%20n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2060.%20n%E4%B8%AA%E9%AA%B0%E5%AD%90%E7%9A%84%E7%82%B9%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-63">剑指 Offer 63</span>](#problem-剑指-Offer-63 "#剑指 Offer 63") | [股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/ "https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_63.go "go/src/%E5%89%91%E6%8C%87_Offer_63.go") | Medium | `Array`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2063.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md "docs/%E5%89%91%E6%8C%87%20Offer%2063.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E5%A4%A7%E5%88%A9%E6%B6%A6.md") |
 
 
 ## Statistics
 
-- Total solved problems : 22
-- Total docs : 22
+- Total solved problems : 23
+- Total docs : 23
 
 Group by solution language:
 - Total solutions via Java : 8
-- Total solutions via Go : 16
+- Total solutions via Go : 17
 - Total solutions via Python3 : 6
 - Total solutions via C++ : 3
 
 Group by difficulty:
 - Easy: 7
-- Medium: 12
+- Medium: 13
 - Hard: 3
