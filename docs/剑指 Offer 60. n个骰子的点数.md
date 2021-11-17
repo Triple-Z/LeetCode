@@ -40,6 +40,8 @@ TODO：以为自己懂了，其实没懂。
 
 https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/solution/jian-zhi-offer-60-n-ge-tou-zi-de-dian-sh-z36d/
 
+概率 DP：https://oi-wiki.org/dp/probability/
+
 #### Go
 
 > FIXME: 翻译的剑指 Offer 中给出的答案。

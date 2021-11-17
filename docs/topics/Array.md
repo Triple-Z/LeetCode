@@ -53,6 +53,7 @@
 | [<span id="problem-剑指-Offer-07">剑指 Offer 07</span>](#problem-剑指-Offer-07 "#剑指 Offer 07") | [重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_07.go "go/src/%E5%89%91%E6%8C%87_Offer_07.go") | Medium | `Tree`, `Array`, `Hash Table`, `Divide and Conquer`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-11">剑指 Offer 11</span>](#problem-剑指-Offer-11 "#剑指 Offer 11") | [旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/ "https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_11.go "go/src/%E5%89%91%E6%8C%87_Offer_11.go") | Easy | `Array`, `Binary Search` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2011.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2011.%20%E6%97%8B%E8%BD%AC%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-12">剑指 Offer 12</span>](#problem-剑指-Offer-12 "#剑指 Offer 12") | [矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/ "https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_12.go "go/src/%E5%89%91%E6%8C%87_Offer_12.go") | Medium | `Array`, `Backtracking`, `Matrix` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md "docs/%E5%89%91%E6%8C%87%20Offer%2012.%20%E7%9F%A9%E9%98%B5%E4%B8%AD%E7%9A%84%E8%B7%AF%E5%BE%84.md") |
+| [<span id="problem-剑指-Offer-17">剑指 Offer 17</span>](#problem-剑指-Offer-17 "#剑指 Offer 17") | [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ "https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_17.go "go/src/%E5%89%91%E6%8C%87_Offer_17.go") | Easy | `Array`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-21">剑指 Offer 21</span>](#problem-剑指-Offer-21 "#剑指 Offer 21") | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/ "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_21.go "go/src/%E5%89%91%E6%8C%87_Offer_21.go") | Easy | `Array`, `Two Pointers`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md "docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md") |
 | [<span id="problem-剑指-Offer-29">剑指 Offer 29</span>](#problem-剑指-Offer-29 "#剑指 Offer 29") | [顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/ "https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_29.go "go/src/%E5%89%91%E6%8C%87_Offer_29.go") | Easy | `Array`, `Matrix`, `Simulation` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2029.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.md "docs/%E5%89%91%E6%8C%87%20Offer%2029.%20%E9%A1%BA%E6%97%B6%E9%92%88%E6%89%93%E5%8D%B0%E7%9F%A9%E9%98%B5.md") |
 | [<span id="problem-剑指-Offer-31">剑指 Offer 31</span>](#problem-剑指-Offer-31 "#剑指 Offer 31") | [栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/ "https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_31.go "go/src/%E5%89%91%E6%8C%87_Offer_31.go") | Medium | `Stack`, `Array`, `Simulation` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2031.%20%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2031.%20%E6%A0%88%E7%9A%84%E5%8E%8B%E5%85%A5%E3%80%81%E5%BC%B9%E5%87%BA%E5%BA%8F%E5%88%97.md") |
@@ -72,16 +73,16 @@
 
 ## Statistics
 
-- Total solved problems : 60
-- Total docs : 60
+- Total solved problems : 61
+- Total docs : 61
 
 Group by solution language:
 - Total solutions via Java : 25
-- Total solutions via Go : 33
+- Total solutions via Go : 34
 - Total solutions via Python3 : 12
 - Total solutions via C++ : 16
 
 Group by difficulty:
-- Easy: 26
+- Easy: 27
 - Medium: 31
 - Hard: 3

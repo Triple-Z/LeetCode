@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2021-11-17 14:18:18.882171 UTC
+> Last updated: 2021-11-17 14:41:18.298608 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -170,6 +170,7 @@ LeetCode 练习仓库。
 | [<span id="problem-剑指-Offer-14---I">剑指 Offer 14 - I</span>](#problem-剑指-Offer-14---I "#剑指 Offer 14 - I") | [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/ "https://leetcode-cn.com/problems/jian-sheng-zi-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go") | Medium | `Math`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md "docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md") |
 | [<span id="problem-剑指-Offer-15">剑指 Offer 15</span>](#problem-剑指-Offer-15 "#剑指 Offer 15") | [二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/ "https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_15.go "go/src/%E5%89%91%E6%8C%87_Offer_15.go") | Easy | `Bit Manipulation` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2015.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-16">剑指 Offer 16</span>](#problem-剑指-Offer-16 "#剑指 Offer 16") | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/ "https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_16.go "go/src/%E5%89%91%E6%8C%87_Offer_16.go") | Medium | `Recursion`, `Math` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md "docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md") |
+| [<span id="problem-剑指-Offer-17">剑指 Offer 17</span>](#problem-剑指-Offer-17 "#剑指 Offer 17") | [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ "https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_17.go "go/src/%E5%89%91%E6%8C%87_Offer_17.go") | Easy | `Array`, `Math` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md") |
 | [<span id="problem-剑指-Offer-19">剑指 Offer 19</span>](#problem-剑指-Offer-19 "#剑指 Offer 19") | [正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/ "https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_19.go "go/src/%E5%89%91%E6%8C%87_Offer_19.go") | Hard | `Recursion`, `String`, `Dynamic Programming` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2019.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md "docs/%E5%89%91%E6%8C%87%20Offer%2019.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md") |
 | [<span id="problem-剑指-Offer-20">剑指 Offer 20</span>](#problem-剑指-Offer-20 "#剑指 Offer 20") | [表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/ "https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_20.go "go/src/%E5%89%91%E6%8C%87_Offer_20.go") | Medium | `String` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2020.%20%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md "docs/%E5%89%91%E6%8C%87%20Offer%2020.%20%E8%A1%A8%E7%A4%BA%E6%95%B0%E5%80%BC%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2.md") |
 | [<span id="problem-剑指-Offer-21">剑指 Offer 21</span>](#problem-剑指-Offer-21 "#剑指 Offer 21") | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/ "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/") |  [Go](go/src/%E5%89%91%E6%8C%87_Offer_21.go "go/src/%E5%89%91%E6%8C%87_Offer_21.go") | Easy | `Array`, `Two Pointers`, `Sorting` | [:page_facing_up:](docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md "docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md") |
@@ -269,18 +270,18 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 208
+- Total solved problems : 209
 - Total related topics: 39
-- Total docs : 189
+- Total docs : 190
 
 Group by solution language:
 - Total solutions via Java : 97
-- Total solutions via Go : 113
+- Total solutions via Go : 114
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
-- Easy: 91
+- Easy: 92
 - Medium: 88
 - Hard: 10
 
