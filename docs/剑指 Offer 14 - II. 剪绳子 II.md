@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# 剑指 Offer 14- II.  剪绳子 II
+# 剑指 Offer 14 - II.  剪绳子 II
 
 - Difficulty: Medium
 - Topics: `Math`, `Dynamic Programming`
