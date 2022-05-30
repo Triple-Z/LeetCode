@@ -28,6 +28,7 @@
 | [<span id="problem-412">412</span>](#problem-412 "#412") | [Fizz Buzz](https://leetcode-cn.com/problems/fizz-buzz/ "https://leetcode-cn.com/problems/fizz-buzz/") | [Java](../../java/src/412.%20FizzBuzz.java "java/src/412.%20FizzBuzz.java") [Go](../../go/src/412.go "go/src/412.go") | Easy | `Math` | [:page_facing_up:](../../docs/412.%20Fizz%20Buzz.md "docs/412.%20Fizz%20Buzz.md") |
 | [<span id="problem-剑指-Offer-10---I">剑指 Offer 10 - I</span>](#problem-剑指-Offer-10---I "#剑指 Offer 10 - I") | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/ "https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-10---II">剑指 Offer 10 - II</span>](#problem-剑指-Offer-10---II "#剑指 Offer 10 - II") | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/ "https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md") |
+| [<span id="problem-剑指-Offer-14---II">剑指 Offer 14 - II</span>](#problem-剑指-Offer-14---II "#剑指 Offer 14 - II") | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/ "https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_14_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_14_-_II.go") | Medium | `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md "docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md") |
 | [<span id="problem-剑指-Offer-14---I">剑指 Offer 14 - I</span>](#problem-剑指-Offer-14---I "#剑指 Offer 14 - I") | [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/ "https://leetcode-cn.com/problems/jian-sheng-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go") | Medium | `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md "docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md") |
 | [<span id="problem-剑指-Offer-16">剑指 Offer 16</span>](#problem-剑指-Offer-16 "#剑指 Offer 16") | [数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/ "https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_16.go "go/src/%E5%89%91%E6%8C%87_Offer_16.go") | Medium | `Recursion`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md "docs/%E5%89%91%E6%8C%87%20Offer%2016.%20%E6%95%B0%E5%80%BC%E7%9A%84%E6%95%B4%E6%95%B0%E6%AC%A1%E6%96%B9.md") |
 | [<span id="problem-剑指-Offer-17">剑指 Offer 17</span>](#problem-剑指-Offer-17 "#剑指 Offer 17") | [打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/ "https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_17.go "go/src/%E5%89%91%E6%8C%87_Offer_17.go") | Easy | `Array`, `Math` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md "docs/%E5%89%91%E6%8C%87%20Offer%2017.%20%E6%89%93%E5%8D%B0%E4%BB%8E1%E5%88%B0%E6%9C%80%E5%A4%A7%E7%9A%84n%E4%BD%8D%E6%95%B0.md") |
@@ -42,16 +43,16 @@
 
 ## Statistics
 
-- Total solved problems : 30
-- Total docs : 30
+- Total solved problems : 31
+- Total docs : 31
 
 Group by solution language:
 - Total solutions via Java : 15
-- Total solutions via Go : 17
+- Total solutions via Go : 18
 - Total solutions via Python3 : 5
 - Total solutions via C++ : 1
 
 Group by difficulty:
 - Easy: 19
-- Medium: 11
+- Medium: 12
 - Hard: 0

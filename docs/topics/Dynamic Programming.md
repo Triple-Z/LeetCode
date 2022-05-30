@@ -23,6 +23,7 @@
 | [<span id="problem-剑指-Offer-10---I">剑指 Offer 10 - I</span>](#problem-剑指-Offer-10---I "#剑指 Offer 10 - I") | [斐波那契数列](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/ "https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_I.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20I.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-10---II">剑指 Offer 10 - II</span>](#problem-剑指-Offer-10---II "#剑指 Offer 10 - II") | [青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/ "https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_10_-_II.go") | Easy | `Memoization`, `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md "docs/%E5%89%91%E6%8C%87%20Offer%2010%20-%20II.%20%E9%9D%92%E8%9B%99%E8%B7%B3%E5%8F%B0%E9%98%B6%E9%97%AE%E9%A2%98.md") |
 | [<span id="problem-剑指-Offer-13">剑指 Offer 13</span>](#problem-剑指-Offer-13 "#剑指 Offer 13") | [机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/ "https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_13.go "go/src/%E5%89%91%E6%8C%87_Offer_13.go") | Medium | `Depth-First Search`, `Breadth-First Search`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md "docs/%E5%89%91%E6%8C%87%20Offer%2013.%20%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%9A%84%E8%BF%90%E5%8A%A8%E8%8C%83%E5%9B%B4.md") |
+| [<span id="problem-剑指-Offer-14---II">剑指 Offer 14 - II</span>](#problem-剑指-Offer-14---II "#剑指 Offer 14 - II") | [剪绳子 II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/ "https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_14_-_II.go "go/src/%E5%89%91%E6%8C%87_Offer_14_-_II.go") | Medium | `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md "docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20II.%20%E5%89%AA%E7%BB%B3%E5%AD%90%20II.md") |
 | [<span id="problem-剑指-Offer-14---I">剑指 Offer 14 - I</span>](#problem-剑指-Offer-14---I "#剑指 Offer 14 - I") | [剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/ "https://leetcode-cn.com/problems/jian-sheng-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go "go/src/%E5%89%91%E6%8C%87_Offer_14_-_I.go") | Medium | `Math`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md "docs/%E5%89%91%E6%8C%87%20Offer%2014%20-%20I.%20%E5%89%AA%E7%BB%B3%E5%AD%90.md") |
 | [<span id="problem-剑指-Offer-19">剑指 Offer 19</span>](#problem-剑指-Offer-19 "#剑指 Offer 19") | [正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/ "https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_19.go "go/src/%E5%89%91%E6%8C%87_Offer_19.go") | Hard | `Recursion`, `String`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2019.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md "docs/%E5%89%91%E6%8C%87%20Offer%2019.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D.md") |
 | [<span id="problem-剑指-Offer-42">剑指 Offer 42</span>](#problem-剑指-Offer-42 "#剑指 Offer 42") | [连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/ "https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_42.go "go/src/%E5%89%91%E6%8C%87_Offer_42.go") | Easy | `Array`, `Divide and Conquer`, `Dynamic Programming` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2042.%20%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md "docs/%E5%89%91%E6%8C%87%20Offer%2042.%20%E8%BF%9E%E7%BB%AD%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C.md") |
@@ -35,16 +36,16 @@
 
 ## Statistics
 
-- Total solved problems : 23
-- Total docs : 23
+- Total solved problems : 24
+- Total docs : 24
 
 Group by solution language:
 - Total solutions via Java : 8
-- Total solutions via Go : 17
+- Total solutions via Go : 18
 - Total solutions via Python3 : 6
 - Total solutions via C++ : 3
 
 Group by difficulty:
 - Easy: 7
-- Medium: 13
+- Medium: 14
 - Hard: 3
