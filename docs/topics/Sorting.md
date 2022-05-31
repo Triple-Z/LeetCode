@@ -14,6 +14,7 @@
 | [<span id="problem-242">242</span>](#problem-242 "#242") | [Valid Anagram <br>有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/ "https://leetcode-cn.com/problems/valid-anagram/") | [Java](../../java/src/242.%20ValidAnagram.java "java/src/242.%20ValidAnagram.java") | Easy | `Sorting`, `Hash Table` | [:page_facing_up:](../../docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md "docs/242.%20Valid%20Anagram%20%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md") |
 | [<span id="problem-295">295</span>](#problem-295 "#295") | [Find Median from Data Stream <br>数据流的中位数](https://leetcode-cn.com/problems/find-median-from-data-stream/ "https://leetcode-cn.com/problems/find-median-from-data-stream/") |  [Go](../../go/src/295.go "go/src/295.go") | Hard | `Design`, `Two Pointers`, `Data Stream`, `Sorting`, `Heap` | [:page_facing_up:](../../docs/295.%20Find%20Median%20from%20Data%20Stream%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md "docs/295.%20Find%20Median%20from%20Data%20Stream%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%9A%84%E4%B8%AD%E4%BD%8D%E6%95%B0.md") |
 | [<span id="problem-350">350</span>](#problem-350 "#350") | [Intersection of Two Arrays II <br>两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/ "https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/") |  [Go](../../go/src/350.go "go/src/350.go") [Python3](../../py3/350.py "py3/350.py") | Easy | `Sorting`, `Hash Table`, `Two Pointers`, `Binary Search` | [:page_facing_up:](../../docs/350.%20Intersection%20of%20Two%20Arrays%20II%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md "docs/350.%20Intersection%20of%20Two%20Arrays%20II%20%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E7%9A%84%E4%BA%A4%E9%9B%86%20II.md") |
+| [<span id="problem-912">912</span>](#problem-912 "#912") | [Sort an Array <br>排序数组](https://leetcode.cn/problems/sort-an-array/ "https://leetcode.cn/problems/sort-an-array/") |  [Go](../../go/src/912.go "go/src/912.go") | Medium | `Array`, `Divide and Conquer`, `Bucket Sort`, `Counting Sort`, `Radix Sort`, `Sorting`, `Heap`, `Merge Sort` | [:page_facing_up:](../../docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-剑指-Offer-03">剑指 Offer 03</span>](#problem-剑指-Offer-03 "#剑指 Offer 03") | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_03.go "go/src/%E5%89%91%E6%8C%87_Offer_03.go") | Easy | `Array`, `Hash Table`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-21">剑指 Offer 21</span>](#problem-剑指-Offer-21 "#剑指 Offer 21") | [调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/ "https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_21.go "go/src/%E5%89%91%E6%8C%87_Offer_21.go") | Easy | `Array`, `Two Pointers`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md "docs/%E5%89%91%E6%8C%87%20Offer%2021.%20%E8%B0%83%E6%95%B4%E6%95%B0%E7%BB%84%E9%A1%BA%E5%BA%8F%E4%BD%BF%E5%A5%87%E6%95%B0%E4%BD%8D%E4%BA%8E%E5%81%B6%E6%95%B0%E5%89%8D%E9%9D%A2.md") |
 | [<span id="problem-剑指-Offer-39">剑指 Offer 39</span>](#problem-剑指-Offer-39 "#剑指 Offer 39") | [数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_39.go "go/src/%E5%89%91%E6%8C%87_Offer_39.go") | Easy | `Array`, `Hash Table`, `Divide and Conquer`, `Counting`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md") |
@@ -25,16 +26,16 @@
 
 ## Statistics
 
-- Total solved problems : 13
-- Total docs : 13
+- Total solved problems : 14
+- Total docs : 14
 
 Group by solution language:
 - Total solutions via Java : 3
-- Total solutions via Go : 9
+- Total solutions via Go : 10
 - Total solutions via Python3 : 2
 - Total solutions via C++ : 0
 
 Group by difficulty:
 - Easy: 8
-- Medium: 3
+- Medium: 4
 - Hard: 2

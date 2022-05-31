@@ -3,7 +3,7 @@
 
 LeetCode 练习仓库。
 
-> Last updated: 2022-05-30 16:08:08.862226 UTC
+> Last updated: 2022-05-31 15:41:30.968211 UTC
 >
 > Run `make update` to update this file, or just make a Git commit (if the `pre-commit` hooks are installed).
 
@@ -159,6 +159,7 @@ LeetCode 练习仓库。
 | [<span id="problem-814">814</span>](#problem-814 "#814") | [Binary Tree Pruning <br>二叉树剪枝](https://leetcode.cn/problems/binary-tree-pruning/ "https://leetcode.cn/problems/binary-tree-pruning/") |  [Go](go/src/814.go "go/src/814.go") | Medium | `Tree`, `Depth-First Search`, `Binary Tree` | [:page_facing_up:](docs/814.%20Binary%20Tree%20Pruning%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%AA%E6%9E%9D.md "docs/814.%20Binary%20Tree%20Pruning%20%E4%BA%8C%E5%8F%89%E6%A0%91%E5%89%AA%E6%9E%9D.md") |
 | [<span id="problem-832">832</span>](#problem-832 "#832") |  |  [C++](cpp/src/832.cpp "cpp/src/832.cpp") |  |  |  |
 | [<span id="problem-905">905</span>](#problem-905 "#905") |  |  [C++](cpp/src/905.cpp "cpp/src/905.cpp") |  |  |  |
+| [<span id="problem-912">912</span>](#problem-912 "#912") | [Sort an Array <br>排序数组](https://leetcode.cn/problems/sort-an-array/ "https://leetcode.cn/problems/sort-an-array/") |  [Go](go/src/912.go "go/src/912.go") | Medium | `Array`, `Divide and Conquer`, `Bucket Sort`, `Counting Sort`, `Radix Sort`, `Sorting`, `Heap`, `Merge Sort` | [:page_facing_up:](docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-946">946</span>](#problem-946 "#946") | [Validate Stack Sequences <br>验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/ "https://leetcode-cn.com/problems/validate-stack-sequences/") |  [Go](go/src/946.go "go/src/946.go") | Medium | `Stack`, `Array`, `Simulation` | [:page_facing_up:](docs/946.%20Validate%20Stack%20Sequences%20%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.md "docs/946.%20Validate%20Stack%20Sequences%20%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-1114">1114</span>](#problem-1114 "#1114") | [Print in Order <br>按序打印](https://leetcode-cn.com/problems/print-in-order/ "https://leetcode-cn.com/problems/print-in-order/") | [Java](java/src/1114.%20PrintInOrder.java "java/src/1114.%20PrintInOrder.java") | Easy | `Concurrency` | [:page_facing_up:](docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md "docs/1114.%20Print%20in%20Order%20%E6%8C%89%E5%BA%8F%E6%89%93%E5%8D%B0.md") |
 | [<span id="problem-1137">1137</span>](#problem-1137 "#1137") | [N-th Tribonacci Number <br>第 N 个泰波那契数](https://leetcode-cn.com/problems/n-th-tribonacci-number/ "https://leetcode-cn.com/problems/n-th-tribonacci-number/") | [Java](java/src/1137.%20NthTribonacciNumber.java "java/src/1137.%20NthTribonacciNumber.java") | Easy | `Recursion` | [:page_facing_up:](docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md "docs/1137.%20N-th%20Tribonacci%20Number%20%E7%AC%AC%20N%20%E4%B8%AA%E6%B3%B0%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0.md") |
@@ -244,8 +245,10 @@ LeetCode 练习仓库。
 - [Brainteaser](./docs/topics/Brainteaser.md)
 - [Breadth-First Search](./docs/topics/Breadth-First%20Search.md)
 - [Breadth-first Search](./docs/topics/Breadth-first%20Search.md)
+- [Bucket Sort](./docs/topics/Bucket%20Sort.md)
 - [Concurrency](./docs/topics/Concurrency.md)
 - [Counting](./docs/topics/Counting.md)
+- [Counting Sort](./docs/topics/Counting%20Sort.md)
 - [Data Stream](./docs/topics/Data%20Stream.md)
 - [Depth-First Search](./docs/topics/Depth-First%20Search.md)
 - [Depth-first Search](./docs/topics/Depth-first%20Search.md)
@@ -261,12 +264,14 @@ LeetCode 练习仓库。
 - [Math](./docs/topics/Math.md)
 - [Matrix](./docs/topics/Matrix.md)
 - [Memoization](./docs/topics/Memoization.md)
+- [Merge Sort](./docs/topics/Merge%20Sort.md)
 - [Monotonic Queue](./docs/topics/Monotonic%20Queue.md)
 - [Monotonic Stack](./docs/topics/Monotonic%20Stack.md)
 - [Prefix Sum](./docs/topics/Prefix%20Sum.md)
 - [Probability and Statistics](./docs/topics/Probability%20and%20Statistics.md)
 - [Queue](./docs/topics/Queue.md)
 - [Quickselect](./docs/topics/Quickselect.md)
+- [Radix Sort](./docs/topics/Radix%20Sort.md)
 - [Recursion](./docs/topics/Recursion.md)
 - [Simulation](./docs/topics/Simulation.md)
 - [Sliding Window](./docs/topics/Sliding%20Window.md)
@@ -283,19 +288,19 @@ LeetCode 练习仓库。
 
 ## Statistics
 
-- Total solved problems : 215
-- Total related topics: 41
-- Total docs : 197
+- Total solved problems : 216
+- Total related topics: 45
+- Total docs : 198
 
 Group by solution language:
 - Total solutions via Java : 97
-- Total solutions via Go : 122
+- Total solutions via Go : 123
 - Total solutions via Python3 : 60
 - Total solutions via C++ : 18
 
 Group by difficulty:
 - Easy: 94
-- Medium: 93
+- Medium: 94
 - Hard: 10
 
 ## License

@@ -13,6 +13,7 @@
 | [<span id="problem-169">169</span>](#problem-169 "#169") | [Majority Element <br>多数元素](https://leetcode-cn.com/problems/majority-element/ "https://leetcode-cn.com/problems/majority-element/") | [Java](../../java/src/169.%20MajorityElement.java "java/src/169.%20MajorityElement.java") [Go](../../go/src/169.go "go/src/169.go") [Python3](../../py3/169.py "py3/169.py") | Easy | `Bit Manipulation`, `Array`, `Divide and Conquer` | [:page_facing_up:](../../docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md "docs/169.%20Majority%20Element%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0.md") |
 | [<span id="problem-215">215</span>](#problem-215 "#215") | [Kth Largest Element in an Array <br>数组中的第K个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/ "https://leetcode-cn.com/problems/kth-largest-element-in-an-array/") | [Java](../../java/src/215.%20KthLargestElementinanArray.java "java/src/215.%20KthLargestElementinanArray.java") | Medium | `Heap`, `Divide and Conquer` | [:page_facing_up:](../../docs/215.%20Kth%20Largest%20Element%20in%20an%20Array%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0.md "docs/215.%20Kth%20Largest%20Element%20in%20an%20Array%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0.md") |
 | [<span id="problem-240">240</span>](#problem-240 "#240") | [Search a 2D Matrix II <br>搜索二维矩阵 II](https://leetcode-cn.com/problems/search-a-2d-matrix-ii/ "https://leetcode-cn.com/problems/search-a-2d-matrix-ii/") | [Java](../../java/src/240.%20Searcha2DMatrixII.java "java/src/240.%20Searcha2DMatrixII.java") [Go](../../go/src/240.go "go/src/240.go") | Medium | `Binary Search`, `Divide and Conquer` | [:page_facing_up:](../../docs/240.%20Search%20a%202D%20Matrix%20II%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%20II.md "docs/240.%20Search%20a%202D%20Matrix%20II%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%20II.md") |
+| [<span id="problem-912">912</span>](#problem-912 "#912") | [Sort an Array <br>排序数组](https://leetcode.cn/problems/sort-an-array/ "https://leetcode.cn/problems/sort-an-array/") |  [Go](../../go/src/912.go "go/src/912.go") | Medium | `Array`, `Divide and Conquer`, `Bucket Sort`, `Counting Sort`, `Radix Sort`, `Sorting`, `Heap`, `Merge Sort` | [:page_facing_up:](../../docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-剑指-Offer-04">剑指 Offer 04</span>](#problem-剑指-Offer-04 "#剑指 Offer 04") | [二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/ "https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_04.go "go/src/%E5%89%91%E6%8C%87_Offer_04.go") | Medium | `Array`, `Binary Search`, `Divide and Conquer`, `Matrix` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md "docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md") |
 | [<span id="problem-剑指-Offer-07">剑指 Offer 07</span>](#problem-剑指-Offer-07 "#剑指 Offer 07") | [重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/ "https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_07.go "go/src/%E5%89%91%E6%8C%87_Offer_07.go") | Medium | `Tree`, `Array`, `Hash Table`, `Divide and Conquer`, `Binary Tree` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md "docs/%E5%89%91%E6%8C%87%20Offer%2007.%20%E9%87%8D%E5%BB%BA%E4%BA%8C%E5%8F%89%E6%A0%91.md") |
 | [<span id="problem-剑指-Offer-39">剑指 Offer 39</span>](#problem-剑指-Offer-39 "#剑指 Offer 39") | [数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_39.go "go/src/%E5%89%91%E6%8C%87_Offer_39.go") | Easy | `Array`, `Hash Table`, `Divide and Conquer`, `Counting`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2039.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E5%87%BA%E7%8E%B0%E6%AC%A1%E6%95%B0%E8%B6%85%E8%BF%87%E4%B8%80%E5%8D%8A%E7%9A%84%E6%95%B0%E5%AD%97.md") |
@@ -22,16 +23,16 @@
 
 ## Statistics
 
-- Total solved problems : 10
-- Total docs : 10
+- Total solved problems : 11
+- Total docs : 11
 
 Group by solution language:
 - Total solutions via Java : 5
-- Total solutions via Go : 8
+- Total solutions via Go : 9
 - Total solutions via Python3 : 2
 - Total solutions via C++ : 1
 
 Group by difficulty:
 - Easy: 5
-- Medium: 5
+- Medium: 6
 - Hard: 0

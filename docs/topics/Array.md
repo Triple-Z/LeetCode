@@ -48,6 +48,7 @@
 | [<span id="problem-380">380</span>](#problem-380 "#380") | [Insert Delete GetRandom O(1) <br>常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/ "https://leetcode-cn.com/problems/insert-delete-getrandom-o1/") | [Java](../../java/src/380.%20InsertDeleteGetRandomO1.java "java/src/380.%20InsertDeleteGetRandomO1.java") | Medium | `Design`, `Array`, `Hash Table` | [:page_facing_up:](../../docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md "docs/380.%20Insert%20Delete%20GetRandom%20O%281%29%20%E5%B8%B8%E6%95%B0%E6%97%B6%E9%97%B4%E6%8F%92%E5%85%A5%E3%80%81%E5%88%A0%E9%99%A4%E5%92%8C%E8%8E%B7%E5%8F%96%E9%9A%8F%E6%9C%BA%E5%85%83%E7%B4%A0.md") |
 | [<span id="problem-621">621</span>](#problem-621 "#621") | [Task Scheduler <br>任务调度器](https://leetcode-cn.com/problems/task-scheduler/ "https://leetcode-cn.com/problems/task-scheduler/") | [Java](../../java/src/621.%20TaskScheduler.java "java/src/621.%20TaskScheduler.java") | Medium | `Greedy`, `Queue`, `Array` | [:page_facing_up:](../../docs/621.%20Task%20Scheduler%20%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E5%99%A8.md "docs/621.%20Task%20Scheduler%20%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E5%99%A8.md") |
 | [<span id="problem-697">697</span>](#problem-697 "#697") | [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/submissions/ "https://leetcode.com/problems/degree-of-an-array/submissions/") |  [C++](../../cpp/src/697.cpp "cpp/src/697.cpp") | Easy | `Array` | [:page_facing_up:](../../docs/697.%20Degree%20of%20an%20Array.md "docs/697.%20Degree%20of%20an%20Array.md") |
+| [<span id="problem-912">912</span>](#problem-912 "#912") | [Sort an Array <br>排序数组](https://leetcode.cn/problems/sort-an-array/ "https://leetcode.cn/problems/sort-an-array/") |  [Go](../../go/src/912.go "go/src/912.go") | Medium | `Array`, `Divide and Conquer`, `Bucket Sort`, `Counting Sort`, `Radix Sort`, `Sorting`, `Heap`, `Merge Sort` | [:page_facing_up:](../../docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md "docs/912.%20Sort%20an%20Array%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84.md") |
 | [<span id="problem-946">946</span>](#problem-946 "#946") | [Validate Stack Sequences <br>验证栈序列](https://leetcode-cn.com/problems/validate-stack-sequences/ "https://leetcode-cn.com/problems/validate-stack-sequences/") |  [Go](../../go/src/946.go "go/src/946.go") | Medium | `Stack`, `Array`, `Simulation` | [:page_facing_up:](../../docs/946.%20Validate%20Stack%20Sequences%20%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.md "docs/946.%20Validate%20Stack%20Sequences%20%E9%AA%8C%E8%AF%81%E6%A0%88%E5%BA%8F%E5%88%97.md") |
 | [<span id="problem-剑指-Offer-03">剑指 Offer 03</span>](#problem-剑指-Offer-03 "#剑指 Offer 03") | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/ "https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_03.go "go/src/%E5%89%91%E6%8C%87_Offer_03.go") | Easy | `Array`, `Hash Table`, `Sorting` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md "docs/%E5%89%91%E6%8C%87%20Offer%2003.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E9%87%8D%E5%A4%8D%E7%9A%84%E6%95%B0%E5%AD%97.md") |
 | [<span id="problem-剑指-Offer-04">剑指 Offer 04</span>](#problem-剑指-Offer-04 "#剑指 Offer 04") | [二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/ "https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/") |  [Go](../../go/src/%E5%89%91%E6%8C%87_Offer_04.go "go/src/%E5%89%91%E6%8C%87_Offer_04.go") | Medium | `Array`, `Binary Search`, `Divide and Conquer`, `Matrix` | [:page_facing_up:](../../docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md "docs/%E5%89%91%E6%8C%87%20Offer%2004.%20%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%A5%E6%89%BE.md") |
@@ -74,16 +75,16 @@
 
 ## Statistics
 
-- Total solved problems : 62
-- Total docs : 62
+- Total solved problems : 63
+- Total docs : 63
 
 Group by solution language:
 - Total solutions via Java : 25
-- Total solutions via Go : 35
+- Total solutions via Go : 36
 - Total solutions via Python3 : 12
 - Total solutions via C++ : 16
 
 Group by difficulty:
 - Easy: 27
-- Medium: 32
+- Medium: 33
 - Hard: 3
